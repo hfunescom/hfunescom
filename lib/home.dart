@@ -1,16 +1,18 @@
 import 'package:flutter/material.dart';
-import 'package:hfunescom/carrousel.dart';
+import 'package:hfunescom/paginas/cardviews.dart';
+import 'package:hfunescom/paginas/carrousel.dart';
 
-class MyHomePage extends StatefulWidget {
-  MyHomePage({Key key, this.title}) : super(key: key);
+class HomePage extends StatefulWidget {
+  HomePage({Key key, this.title}) : super(key: key);
 
   final String title;
 
   @override
-  _MyHomePageState createState() => _MyHomePageState();
+  _HomePageState createState() => _HomePageState();
 }
 
-class _MyHomePageState extends State<MyHomePage> {
+class _HomePageState extends State<HomePage> {
+  /*
   int _counter = 0;
 
   void _incrementCounter() {
@@ -18,31 +20,29 @@ class _MyHomePageState extends State<MyHomePage> {
       _counter++;
     });
   }
-
+*/
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text(widget.title),
-      ),
-      body:
-      //Center(child:
-      Column(
-          //mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            /*
-            Text(
-              'You have pushed the button this many times:',
+        body: Column(
+          children: [
+            Center(
+              child: SizedBox(
+                width: 1000,
+                height: 550,
+                child: CarouselPortadaStatefulWidget(),
+              ),
             ),
-            Text(
-              '$_counter',
-              style: Theme.of(context).textTheme.display1,
-            ),
-            */
-            CarouselPortadaStatelessWidget()
+            SizedBox(height: 50),
+            Center(
+              child: SizedBox(
+                width: 1000,
+                height: 250,
+                child: CardviewsStatelessWidget()
+              ),
+            )
           ],
-        ),
-      //)
+        )
     );
   }
 }
