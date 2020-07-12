@@ -1,21 +1,28 @@
 import 'package:flutter/material.dart';
-import 'package:hfunescom/home.dart';
+import 'package:google_fonts/google_fonts.dart';
+import 'package:my_portfolio/dashboard.dart';
+import 'package:my_portfolio/utilities/loader.dart';
 
-void main() => runApp(MyApp());
+void main() {
+  runApp(MyApp());
+}
 
 class MyApp extends StatelessWidget {
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Hernán Javier Funes',
+      title: 'Himanshu Shrama | Portfolio',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        textTheme: GoogleFonts.spaceMonoTextTheme(
+          Theme.of(context).textTheme,
+        )
       ),
-      home: Scaffold(
-          appBar: AppBar(title: Text('HFunes.com')),
-          body: HomePage()
-      )
+      initialRoute: '/loader',
+      routes: {
+        '/main': (context)=>Dashboard(),
+        '/loader': (context)=> Loader(),
+      }
     );
   }
 }
