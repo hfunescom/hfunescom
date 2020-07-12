@@ -11,18 +11,16 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Himanshu Shrama | Portfolio',
-      debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        textTheme: GoogleFonts.spaceMonoTextTheme(
+        title: 'HFunes.com',
+        debugShowCheckedModeBanner: false,
+        theme: ThemeData(
+            textTheme: GoogleFonts.spaceMonoTextTheme(
           Theme.of(context).textTheme,
-        )
-      ),
-      initialRoute: '/loader',
-      routes: {
-        '/main': (context)=>Dashboard(),
-        '/loader': (context)=> Loader(),
-      }
-    );
+        )),
+        initialRoute: '/loader',
+        routes: {
+          '/main': (context) => Dashboard(),
+          '/loader': (context) => Loader(),
+        });
   }
 }

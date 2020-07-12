@@ -63,10 +63,10 @@ class _LargeChildState extends State<LargeChild> {
     homeList=[
       Me_LS(),
       AboutMe_LS(),
-      Skills_LS(),
+      //Skills_LS(),
       Experience_LS(),
-      Project_LS(),
-      Article_LS(),
+      //Project_LS(),
+      //Article_LS(),
       Footer_LS(),
     ];
   }

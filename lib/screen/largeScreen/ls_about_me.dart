@@ -14,7 +14,7 @@ class AboutMe_LS extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              "ABOUT ME",
+              "Acerca de mí",
               style: TextStyle(
                 fontWeight: FontWeight.bold,
                 color: ProfileTheme.cardHeadingColor,
@@ -31,7 +31,7 @@ class AboutMe_LS extends StatelessWidget {
             Container(
               width: width*0.5,
               child: Text(
-                "Focused Computer Science major (9.84 CGPA) currently attending Chitkara University, with a aim to leverage a proven knowledge of competitive programming with C/C++ & Java, Flutter Application Development, and web designing skills. I am a content writer at IEEE CIET Branch, Open Source enthusiast and I also like to working on Alexa Skill and Google Assistant App development.\nI am a quick learner and frequently praised as hard-working by my peers",
+                "Mi nombre es Hernán Javier Funes y soy Desarrollador de Software. Si bien actualmente me encuentro dando mis primeros pasos como Arquitecto de Software, la mayor parte de mi vida la dediqué al desarrollo de Web y Mobile Apps.",
                 textAlign: TextAlign.justify,
                 style: TextStyle(
                   fontSize: 18.0,

@@ -110,7 +110,7 @@ class Footer_LS extends StatelessWidget {
                         size: 30,
                       ),
                       Text(
-                        " WITH ",
+                        "Sitio web desarrollado en Flutter",
                         style: TextStyle(
                           letterSpacing: 1,
                           color: ProfileTheme.subHeadingColor,

@@ -16,9 +16,9 @@ class _Me_LSState extends State<Me_LS> with SingleTickerProviderStateMixin  {
   Animation _name;
   Animation _designation;
   Animation _welcomAnimation;
-  String hi ="Hey! I am";
-  String name = "HIMANSHU SHARMA";
-  String designation = "Flutter Developer";
+  String hi ="Hola Mundo!";
+  String name = "Mi nombre es Hernán Funes";
+  String designation = "Soy Full Stack Developer and Software Architect";
 
   @override
   void initState() {
@@ -113,7 +113,7 @@ class _Me_LSState extends State<Me_LS> with SingleTickerProviderStateMixin  {
                                   child: Padding(
                                     padding: const EdgeInsets.all(8.0),
                                     child: Text(
-                                      "WELCOME TO MY PROFILE",
+                                      "Bienvenido a mi sitio!",
                                       style: TextStyle(
                                         fontSize: 18,
                                         color: Colors.white
@@ -152,7 +152,8 @@ class _Me_LSState extends State<Me_LS> with SingleTickerProviderStateMixin  {
                           child: ClipRRect(
                             borderRadius: BorderRadius.circular(12.0),
                             child: Image.asset(
-                              'self.jfif',
+                              //'self.jfif',
+                              'me.jpg',
                               fit: BoxFit.cover,
                             ),
                           ),

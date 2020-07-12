@@ -10,7 +10,7 @@ class Experience_LS extends StatelessWidget {
         children: <Widget>[
           SizedBox(height:height*0.05),
           Text(
-            "EXPERIENCE",
+            "Proyectos",
             style: TextStyle(
               fontWeight: FontWeight.bold,
               color: Colors.white,
@@ -36,30 +36,31 @@ class Experience_LS extends StatelessWidget {
                     _experience(
                       context: context,
                       imgUrl: 'assets/experience/gssoc.png',
-                      name: 'GSSOC\'20 Participant',
+                      name: 'Desarrollo',
                       organisation: 'GIRLSCRIPT',
                       date: '03/20 to Present',
-                      description: 'Contributing to Open Source projects on GitHub as a participant of GSSOC 2020.'
+                      description: 'En los últimos tiempos me enfoqué en el desarrollo de soluciones web y mobile.'
                     ),
                     _experience(
                       context: context,
                       imgUrl: 'assets/experience/jwoc.jfif',
-                      name: 'JWOC Participant',
+                      name: 'Consultoría',
                       organisation: 'JGEC Winter Of Code',
                       date: '01/20 to 02/2020',
-                      description: 'Ranked 5th as a top contributor to Open Source projects on GitHub as a participant of JwoC (JGEC Winter of Code).'
+                      description: 'Como Arquitecto, proveo de soluciones lalala.'
                     ),
                     _experience(
                       context: context,
                       imgUrl: 'assets/experience/google.png',
-                      name: 'Build for Digital India Trainee',
+                      name: 'Productividad',
                       organisation: 'GOOGLE',
                       date: '10/19 to 01/2020',
-                      description: 'Got selected as a ChangeMaker and developed a mobile application using Flutter and Dart and with Firebase and Google Cloud Platform Places API, under Build For Digital India program.'
+                      description: 'La mejora continua y el LifeHacking es un tema que me apasiona. Te invito a conocer un poco más.'
                     ),
                   ],
-                ),
-                SizedBox(height: MediaQuery.of(context).size.height*0.01,),
+                )
+                /*
+                ,SizedBox(height: MediaQuery.of(context).size.height*0.01,),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   crossAxisAlignment: CrossAxisAlignment.start,
@@ -90,6 +91,7 @@ class Experience_LS extends StatelessWidget {
                     ),
                   ],
                 )
+                */
               ],
             ),
           ),
