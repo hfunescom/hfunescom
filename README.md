@@ -1,16 +1,29 @@
-# my_portfolio
+# Juned Siddiqui Resume Webapp
 
-A new Flutter project.
+A new Flutter web application that depicts the web portfolio in flutter created website.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is a starting point from which you can create simple web resume apps.
+Screenshots are below
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+For mobile view
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![alt text](https://github.com/juned77/JD-Resume/blob/master/screenshots/mobile_1.png)
+
+![alt text](https://github.com/juned77/JD-Resume/blob/master/screenshots/mobile_2.png)
+
+ https://github.com/juned77/JD-Resume/blob/master/screenshots/mobile_1.png
+ 
+ https://github.com/juned77/JD-Resume/blob/master/screenshots/mobile_2.png
+
+For Web view
+
+![alt text](https://github.com/juned77/JD-Resume/blob/master/screenshots/webview_1.png)
+![alt text](https://github.com/juned77/JD-Resume/blob/master/screenshots/webview_2.png)
+
+ https://github.com/juned77/JD-Resume/blob/master/screenshots/webview_1.png
+
+ https://github.com/juned77/JD-Resume/blob/master/screenshots/webview_2.png
+ 
