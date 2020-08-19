@@ -28,7 +28,7 @@ class _MobileScreenState extends State<MobileScreen> {
           width: double.maxFinite,
           decoration: BoxDecoration(
             image: DecorationImage(
-              image: AssetImage("assets/images/slide_1.jpg"),
+              image: AssetImage(FONDO_IMAGEN),
               fit: BoxFit.cover,
             ),
           ),
@@ -126,7 +126,7 @@ class _MobileScreenState extends State<MobileScreen> {
                 fontFamilyName: proxima,
                 textAlign: TextAlign.center,
                 textSize: 16,
-                text: 'Copyright © 2020 My Flutter Profile',
+                text: PIE_SITIO,
               ),
               SizedBox(
                 height: 20,

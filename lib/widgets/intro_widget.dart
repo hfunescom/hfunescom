@@ -15,7 +15,7 @@ class IntroWidget extends StatelessWidget {
       children: [
         TextWidget(
           fontFamilyName: proximaBold,
-          color: Color(0xff61AAF1),
+          color: Colors.white,
           textSize: 28,
           //text: 'Juned Siddiqui', BORRAR
           text: TITULO_1,

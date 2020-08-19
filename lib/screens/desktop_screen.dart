@@ -95,7 +95,7 @@ class _DesktopScreenState extends State<DesktopScreen> {
                     width: _queryData.size.width * 0.39,
                     padding: EdgeInsets.all(32),
                     decoration: BoxDecoration(
-                        color: Colors.white,
+                        color: Colors.lightBlue,
                         borderRadius: BorderRadius.all(Radius.circular(10))),
                     child: IntroWidget(),
                   ),
@@ -104,7 +104,7 @@ class _DesktopScreenState extends State<DesktopScreen> {
                   ),
                   Container(
                     decoration: BoxDecoration(
-                        color: Color(0xFF3366CC),
+                        color: Colors.lightBlue,
                         borderRadius: BorderRadius.all(Radius.circular(10))),
                     width: _queryData.size.width * 0.39,
                     padding: EdgeInsets.all(32),
@@ -129,7 +129,7 @@ class _DesktopScreenState extends State<DesktopScreen> {
                     width: _queryData.size.width * 0.49,
                     padding: EdgeInsets.all(32),
                     decoration: BoxDecoration(
-                        color: Color(0xFF3366CC),
+                        color: Colors.blue,
                         borderRadius: BorderRadius.all(Radius.circular(10))),
                     child: EducationWidget(),
                   ),
@@ -140,7 +140,7 @@ class _DesktopScreenState extends State<DesktopScreen> {
                     width: _queryData.size.width * 0.29,
                     padding: EdgeInsets.all(32),
                     decoration: BoxDecoration(
-                        color: Colors.white,
+                        color: Colors.blue,
                         borderRadius: BorderRadius.all(Radius.circular(10))),
                     child: LanguagesWidget(),
                   ),
@@ -163,7 +163,7 @@ class _DesktopScreenState extends State<DesktopScreen> {
                     width: _queryData.size.width * 0.29,
                     padding: EdgeInsets.all(32),
                     decoration: BoxDecoration(
-                        color: Colors.white,
+                        color: Colors.blueAccent,
                         borderRadius: BorderRadius.all(Radius.circular(10))),
                     child: ContactsWidget(),
                   ),
@@ -174,13 +174,59 @@ class _DesktopScreenState extends State<DesktopScreen> {
                     width: _queryData.size.width * 0.49,
                     padding: EdgeInsets.all(32),
                     decoration: BoxDecoration(
-                        color: Color(0xFF3366CC),
+                        color: Colors.blueAccent,
                         borderRadius: BorderRadius.all(Radius.circular(10))),
                     child: ExperienceWidget(),
                   ),
                   SizedBox(
                     width: _queryData.size.width * 0.10,
                   ),
+                ],
+              ),
+            ),
+            SizedBox(
+              height: _queryData.size.width * 0.02,
+            ),
+            IntrinsicHeight(
+              child: Row(
+                children: [
+                  SizedBox(
+                    width: _queryData.size.width * 0.10,
+                  ),
+                  Container(
+                    width: _queryData.size.width * 0.8,
+                    padding: EdgeInsets.all(32),
+                    decoration: BoxDecoration(
+                        color: Colors.blueGrey,
+                        borderRadius: BorderRadius.all(Radius.circular(10))),
+                    child: ExperienceWidget(),
+                  ),
+                  SizedBox(
+                    width: _queryData.size.width * 0.10,
+                  )
+                ],
+              ),
+            ),
+            SizedBox(
+              height: _queryData.size.width * 0.02,
+            ),
+            IntrinsicHeight(
+              child: Row(
+                children: [
+                  SizedBox(
+                    width: _queryData.size.width * 0.10,
+                  ),
+                  Container(
+                    width: _queryData.size.width * 0.8,
+                    padding: EdgeInsets.all(32),
+                    decoration: BoxDecoration(
+                        color: Colors.white,
+                        borderRadius: BorderRadius.all(Radius.circular(10))),
+                    child: ExperienceWidget(),
+                  ),
+                  SizedBox(
+                    width: _queryData.size.width * 0.10,
+                  )
                 ],
               ),
             ),
@@ -193,7 +239,7 @@ class _DesktopScreenState extends State<DesktopScreen> {
               fontFamilyName: proxima,
               textAlign: TextAlign.center,
               textSize: 16,
-              text: 'Copyright © 2020 My Flutter Profile',
+              text: PIE_SITIO,
             ),
             SizedBox(
               height: 70,
