@@ -95,7 +95,7 @@ class _DesktopScreenState extends State<DesktopScreen> {
                     width: _queryData.size.width * 0.39,
                     padding: EdgeInsets.all(32),
                     decoration: BoxDecoration(
-                        color: Colors.lightBlue,
+                        color: colorPrimary,
                         borderRadius: BorderRadius.all(Radius.circular(10))),
                     child: IntroWidget(),
                   ),
@@ -104,7 +104,7 @@ class _DesktopScreenState extends State<DesktopScreen> {
                   ),
                   Container(
                     decoration: BoxDecoration(
-                        color: Colors.lightBlue,
+                        color: colorPrimary,
                         borderRadius: BorderRadius.all(Radius.circular(10))),
                     width: _queryData.size.width * 0.39,
                     padding: EdgeInsets.all(32),
@@ -129,7 +129,7 @@ class _DesktopScreenState extends State<DesktopScreen> {
                     width: _queryData.size.width * 0.49,
                     padding: EdgeInsets.all(32),
                     decoration: BoxDecoration(
-                        color: Colors.blue,
+                        color: colorPrimaryDark,
                         borderRadius: BorderRadius.all(Radius.circular(10))),
                     child: EducationWidget(),
                   ),
@@ -140,7 +140,7 @@ class _DesktopScreenState extends State<DesktopScreen> {
                     width: _queryData.size.width * 0.29,
                     padding: EdgeInsets.all(32),
                     decoration: BoxDecoration(
-                        color: Colors.blue,
+                        color: colorPrimaryDark,
                         borderRadius: BorderRadius.all(Radius.circular(10))),
                     child: LanguagesWidget(),
                   ),
@@ -163,7 +163,7 @@ class _DesktopScreenState extends State<DesktopScreen> {
                     width: _queryData.size.width * 0.29,
                     padding: EdgeInsets.all(32),
                     decoration: BoxDecoration(
-                        color: Colors.blueAccent,
+                        color: colorPrimaryLight,
                         borderRadius: BorderRadius.all(Radius.circular(10))),
                     child: ContactsWidget(),
                   ),
@@ -174,7 +174,7 @@ class _DesktopScreenState extends State<DesktopScreen> {
                     width: _queryData.size.width * 0.49,
                     padding: EdgeInsets.all(32),
                     decoration: BoxDecoration(
-                        color: Colors.blueAccent,
+                        color: colorPrimaryLight,
                         borderRadius: BorderRadius.all(Radius.circular(10))),
                     child: ExperienceWidget(),
                   ),
@@ -197,7 +197,30 @@ class _DesktopScreenState extends State<DesktopScreen> {
                     width: _queryData.size.width * 0.8,
                     padding: EdgeInsets.all(32),
                     decoration: BoxDecoration(
-                        color: Colors.blueGrey,
+                        color: colorHiperLight,
+                        borderRadius: BorderRadius.all(Radius.circular(10))),
+                    child: ExperienceWidget(),
+                  ),
+                  SizedBox(
+                    width: _queryData.size.width * 0.10,
+                  )
+                ],
+              ),
+            ),
+            SizedBox(
+              height: _queryData.size.width * 0.02,
+            ),
+            IntrinsicHeight(
+              child: Row(
+                children: [
+                  SizedBox(
+                    width: _queryData.size.width * 0.10,
+                  ),
+                  Container(
+                    width: _queryData.size.width * 0.8,
+                    padding: EdgeInsets.all(32),
+                    decoration: BoxDecoration(
+                        color: colorMegaLight,
                         borderRadius: BorderRadius.all(Radius.circular(10))),
                     child: ExperienceWidget(),
                   ),
@@ -241,10 +264,12 @@ class _DesktopScreenState extends State<DesktopScreen> {
               textSize: 16,
               text: PIE_SITIO,
             ),
+            /*
             SizedBox(
               height: 70,
             ),
             SocialWidget(),
+            */
             SizedBox(
               height: 70,
             ),

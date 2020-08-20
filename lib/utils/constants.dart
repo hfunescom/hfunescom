@@ -38,7 +38,16 @@ const String CUERPO_7_1="";
 const String TITULO_8="Novedades";
 const String CUERPO_8_1="Twitter";
 const String PIE_SITIO="Copyright 2020";
-const String FONDO_IMAGEN="assets/images/bg_blue_cloud.jpg";
+const String FONDO_IMAGEN="assets/images/bg_blue_pc.jpg";
+
+//Colores
+const colorPrimary = const Color(0xff214984);
+const colorPrimaryDark = const Color(0xff002257);
+const colorPrimaryLight = const Color(0xff5674b4);
+const colorSuperLight = const Color(0xff88a2e6);
+const colorHiperLight = const Color(0xff8aa2cc);
+const colorMegaLight = const Color(0xffbbd3ff);
+const colorBlanco = const Color(0xffffffff);
 
 // screen sizes
 const double iPadProWidth = 1024.0;
