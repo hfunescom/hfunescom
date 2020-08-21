@@ -3,8 +3,8 @@ import 'package:jdwebapp/utils/constants.dart';
 import 'package:jdwebapp/widgets/text_widget.dart';
 
 
-class IntroWidget extends StatelessWidget {
-  const IntroWidget({
+class DesarrolloWidgetII extends StatelessWidget {
+  const DesarrolloWidgetII({
     Key key,
   }) : super(key: key);
 
@@ -18,7 +18,7 @@ class IntroWidget extends StatelessWidget {
           color: Colors.white,
           textSize: 28,
           //text: 'Juned Siddiqui', BORRAR
-          text: TITULO_DESARROLLO,
+          text: TITULO_ARQUITECTURA,
         ),
         TextWidget(
             padding: EdgeInsets.only(top: 10),

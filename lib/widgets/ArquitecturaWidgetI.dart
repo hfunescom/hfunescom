@@ -3,8 +3,8 @@ import 'package:jdwebapp/utils/constants.dart';
 import 'package:jdwebapp/widgets/text_widget.dart';
 
 
-class EducationWidget extends StatelessWidget {
-  const EducationWidget({
+class ArquitecturaWidgetI extends StatelessWidget {
+  const ArquitecturaWidgetI({
     Key key,
   }) : super(key: key);
 
@@ -18,7 +18,7 @@ class EducationWidget extends StatelessWidget {
           color: Colors.white,
           textSize: 28,
           //text: 'Education', BORRAR
-          text: TITULO_ARQUITECTURA
+          text: TITULO_DESARROLLO
         ),
         TextWidget(
           padding: EdgeInsets.only(top: 10),

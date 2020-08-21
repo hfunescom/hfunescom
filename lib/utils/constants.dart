@@ -5,7 +5,7 @@ const String proximaBold = 'Proxima_Bold';
 
 const String MENSAJE_BIENVENIDA="Hola Mundo! Soy Hernán!";
 const String PROFESION="Desarrollador y Arquitecto de Software";
-const String TITULO_1="Desarrollo";
+const String TITULO_DESARROLLO="Desarrollo";
 const String CUERPO_1="Como arquitecto de software...";
 const String PIE_1="Wiki";
 //const String TITULO_2="Desarrollo";
@@ -13,7 +13,7 @@ const String TITULO_2="";
 const String CUERPO_2_1="IoT";
 const String CUERPO_2_2="Mobile Apps";
 const String CUERPO_2_3="Web Apps";
-const String TITULO_3="Arquitectura";
+const String TITULO_ARQUITECTURA="Arquitectura";
 const String CUERPO_3="UNLaM";
 const String PIE_3="Ingeniería en Informática";
 //const String TITULO_4="Lenguajes y Frameworks";
