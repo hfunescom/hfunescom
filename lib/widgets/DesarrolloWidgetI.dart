@@ -18,7 +18,7 @@ class DesarrolloWidgetI extends StatelessWidget {
           color: Colors.white,
           textSize: 28,
           //text: 'Juned Siddiqui', BORRAR
-          text: TITULO_ARQUITECTURA,
+          text: TITULO_DESARROLLO,
         ),
         TextWidget(
             padding: EdgeInsets.only(top: 10),

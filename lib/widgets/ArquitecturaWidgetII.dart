@@ -15,7 +15,7 @@ class ArquitecturaWidgetII extends StatelessWidget {
       children: [
         TextWidget(
           //text: 'Languages', BORRAR
-          text: TITULO_4,
+          text: TITULO_ARQUITECTURA,
           fontFamilyName: proxima,
           textSize: 28,
           color: Colors.black,

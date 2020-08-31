@@ -18,7 +18,7 @@ class ArquitecturaWidgetI extends StatelessWidget {
           color: Colors.white,
           textSize: 28,
           //text: 'Education', BORRAR
-          text: TITULO_DESARROLLO
+          text: TITULO_ARQUITECTURA
         ),
         TextWidget(
           padding: EdgeInsets.only(top: 10),
