@@ -17,8 +17,6 @@ import 'package:jdwebapp/widgets/intro_widget.dart';
 import 'package:jdwebapp/widgets/skills_widget.dart';
 import 'package:jdwebapp/widgets/social_widget.dart';
 import 'package:jdwebapp/widgets/text_widget.dart';
-import 'package:flutter_html/flutter_html.dart';
-import 'package:html/dom.dart' as dom;
 
 class DesktopScreen extends StatefulWidget {
   @override
@@ -298,7 +296,7 @@ class _DesktopScreenState extends State<DesktopScreen> {
             ),
             */
             SizedBox(
-              height: 120,
+              height: 60,
             ),
             TextWidget(
               padding: EdgeInsets.only(top: 20),

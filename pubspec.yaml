@@ -23,8 +23,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_html: ^1.0.2
-
+  #buy_me_a_coffee_widget: ^1.0.0
+  #flutter_svg: 0.17.4
+  #flutter_html: ^1.0.2
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.3
