@@ -23,7 +23,7 @@ class EducationWidget extends StatelessWidget {
         TextWidget(
           padding: EdgeInsets.only(top: 10),
           //text: 'B. Tech.', BORRAR
-          text: CUERPO_3,
+          text: CUERPO_ARQUITECTURA_I_2,
           color: Color(0xff61AAF1),
           textSize: 30,
         ),
@@ -33,7 +33,7 @@ class EducationWidget extends StatelessWidget {
           fontFamilyName: proxima,
           textSize: 18,
           //text:'Vivekananda Institute of Technology     2012 - 2016',BORRAR
-            text: PIE_3
+            text: CUERPO_ARQUITECTURA_I_1
         ),
         /*
         TextWidget(

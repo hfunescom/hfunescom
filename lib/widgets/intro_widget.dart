@@ -18,18 +18,18 @@ class IntroWidget extends StatelessWidget {
           color: Colors.white,
           textSize: 28,
           //text: 'Juned Siddiqui', BORRAR
-          text: TITULO_DESARROLLO,
+          text: TITULO_DESARROLLO_I,
         ),
         TextWidget(
             padding: EdgeInsets.only(top: 10),
             //text: 'Smart Phone application developer', BORRAR
-            text: CUERPO_1,
+            text: CUERPO_DESARROLLO_I_1,
             fontFamilyName: proxima,
             textSize: 20),
         TextWidget(
           padding: EdgeInsets.only(top: 20),
           //text: 'This website developed in Flutter!', BORRAR
-          text: PIE_1,
+          text: CUERPO_DESARROLLO_I_2,
           textSize: 16,
         ),
       ],

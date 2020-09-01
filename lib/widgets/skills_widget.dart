@@ -14,7 +14,7 @@ class SkillsWidget extends StatelessWidget {
       children: [
         TextWidget(
           //text: 'Skills', BORRAR
-          text: TITULO_2,
+          text: TITULO_DESARROLLO_II,
           fontFamilyName: proxima,
           textSize: 28,
           color: Colors.white,
@@ -26,7 +26,7 @@ class SkillsWidget extends StatelessWidget {
             children: [
               TextWidget(
                 //text: 'Flutter', BORRAR
-                text: CUERPO_2_1,
+                text: CUERPO_DESARROLLO_II_1,
                 textSize: 16,
                 fontFamilyName: proxima,
                 color: Colors.white,
@@ -50,7 +50,7 @@ class SkillsWidget extends StatelessWidget {
             children: [
               TextWidget(
                 //text: 'Kotlin / Dart', BORRAR
-                text: CUERPO_2_2,
+                text: CUERPO_DESARROLLO_II_2,
                 textSize: 16,
                 fontFamilyName: proxima,
                 color: Colors.white,
@@ -74,7 +74,7 @@ class SkillsWidget extends StatelessWidget {
             children: [
               TextWidget(
                 //text: 'Android', BORRAR
-                text: CUERPO_2_3,
+                text: CUERPO_DESARROLLO_II_3,
                 textSize: 16,
                 fontFamilyName: proxima,
                 color: Colors.white,

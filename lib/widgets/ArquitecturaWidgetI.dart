@@ -14,18 +14,11 @@ class ArquitecturaWidgetI extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         TextWidget(
-          fontFamilyName: proxima,
-          color: Colors.white,
+          fontFamilyName: proximaBold,
+          color: colorGris,
           textSize: 28,
           //text: 'Education', BORRAR
           text: TITULO_ARQUITECTURA
-        ),
-        TextWidget(
-          padding: EdgeInsets.only(top: 10),
-          //text: 'B. Tech.', BORRAR
-          text: CUERPO_3,
-          color: Color(0xff61AAF1),
-          textSize: 30,
         ),
         TextWidget(
           padding: EdgeInsets.only(top: 20),
@@ -33,9 +26,16 @@ class ArquitecturaWidgetI extends StatelessWidget {
           fontFamilyName: proxima,
           textSize: 18,
           //text:'Vivekananda Institute of Technology     2012 - 2016',BORRAR
-            text: PIE_3
+            text: CUERPO_ARQUITECTURA_I_1
         ),
         /*
+        TextWidget(
+          padding: EdgeInsets.only(top: 10),
+          //text: 'B. Tech.', BORRAR
+          text: CUERPO_ARQUITECTURA_I_2,
+          color: Color(0xff61AAF1),
+          textSize: 30,
+        ),
         TextWidget(
           padding: EdgeInsets.only(top: 10),
           color: Colors.white,
