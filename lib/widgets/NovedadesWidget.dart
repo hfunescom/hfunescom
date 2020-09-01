@@ -15,10 +15,10 @@ class NovedadesWidget extends StatelessWidget {
       children: [
         TextWidget(
           fontFamilyName: proxima,
-          color: Colors.white,
+          color: colorCeleste,
           textSize: 28,
           //text: 'Experiences', BORRAR
-          text: TITULO_6,
+          text: NOVEDADES_TITULO,
         ),
         TextWidget(
           padding: EdgeInsets.only(top: 10),

@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:jdwebapp/utils/constants.dart';
 import 'package:jdwebapp/widgets/text_widget.dart';
 
-
 class ProductividadWidgetI extends StatelessWidget {
   const ProductividadWidgetI({
     Key key,
@@ -15,114 +14,23 @@ class ProductividadWidgetI extends StatelessWidget {
       children: [
         TextWidget(
           //text: 'Contact', BORRAR
-          text: TITULO_5,
-          fontFamilyName: proxima,
+          text: TITULO_PRODUCTIVIDAD_I,
+          fontFamilyName: proximaBold,
+          color: colorCeleste,
           textSize: 28,
-          color: Colors.black,
         ),
         SizedBox(
           height: 20,
         ),
-        Row(children: <Widget>[
-          Icon(Icons.place, size: 15),
-          SizedBox(
-            width: 10,
-          ),
-          Text(
-            //'36, Ahmed nagar ,delhi bypass road,\nJaipur 302003', BORRAR
-            CUERPO_5_1,
-            style: TextStyle(
-              fontFamily: proxima,
-              fontSize: 16,
-              color: Colors.black,
-            ),
-          )
-        ]),
-        SizedBox(
-          height: 10,
+        TextWidget(
+            padding: EdgeInsets.only(top: 10),
+            color: colorBlanco,
+            fontFamilyName: proxima,
+            textSize: 18,
+            //text:'Vivekananda Institute of Technology     2012 - 2016',BORRAR
+            text: CUERPO_PRODUCTIVIDAD_I_1,
         ),
-        Row(children: <Widget>[
-          Icon(
-            Icons.phone,
-            size: 15,
-          ),
-          SizedBox(
-            width: 10,
-          ),
-          Text(
-            //'95 29 238553', BORRAR
-            CUERPO_5_2,
-            style: TextStyle(
-              fontFamily: proxima,
-              fontSize: 16,
-              color: Colors.black,
-            ),
-          )
-        ]),
-        SizedBox(
-          height: 10,
-        ),
-        Row(children: <Widget>[
-          Icon(
-            Icons.mail,
-            size: 15,
-          ),
-          SizedBox(
-            width: 10,
-          ),
-          Text(
-            //'jndsddq14@gmail.com', BORRAR
-            CUERPO_5_3,
-            style: TextStyle(
-              fontFamily: proxima,
-              fontSize: 16,
-              color: Colors.black,
-            ),
-          )
-        ]),
-        SizedBox(
-          height: 10,
-        ),
-        Row(children: <Widget>[
-          Icon(
-            Icons.mail,
-            size: 15,
-          ),
-          SizedBox(
-            width: 10,
-          ),
-          Text(
-            CUERPO_5_4,
-            style: TextStyle(
-              fontFamily: proxima,
-              fontSize: 16,
-              color: Colors.black,
-            ),
-          )
-        ]),
-        SizedBox(
-          height: 10,
-        ),
-        Row(children: <Widget>[
-          Icon(
-            Icons.mail,
-            size: 15,
-          ),
-          SizedBox(
-            width: 10,
-          ),
-          Text(
-            //'jndsddq14@gmail.com', BORRAR
-            CUERPO_5_5,
-            style: TextStyle(
-              fontFamily: proxima,
-              fontSize: 16,
-              color: Colors.black,
-            ),
-          )
-        ]),
       ],
     );
   }
 }
-

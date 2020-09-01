@@ -15,7 +15,7 @@ class ContactsWidget extends StatelessWidget {
       children: [
         TextWidget(
           //text: 'Contact', BORRAR
-          text: TITULO_5,
+          text: TITULO_PRODUCTIVIDAD_I,
           fontFamilyName: proxima,
           textSize: 28,
           color: Colors.black,
@@ -30,7 +30,7 @@ class ContactsWidget extends StatelessWidget {
           ),
           Text(
             //'36, Ahmed nagar ,delhi bypass road,\nJaipur 302003', BORRAR
-            CUERPO_5_1,
+            REDES_SOCIALES_TW,
             style: TextStyle(
               fontFamily: proxima,
               fontSize: 16,
@@ -51,7 +51,7 @@ class ContactsWidget extends StatelessWidget {
           ),
           Text(
             //'95 29 238553', BORRAR
-            CUERPO_5_2,
+            REDES_SOCIALES_SO,
             style: TextStyle(
               fontFamily: proxima,
               fontSize: 16,
@@ -72,7 +72,7 @@ class ContactsWidget extends StatelessWidget {
           ),
           Text(
             //'jndsddq14@gmail.com', BORRAR
-            CUERPO_5_3,
+            REDES_SOCIALES_GH,
             style: TextStyle(
               fontFamily: proxima,
               fontSize: 16,
@@ -92,7 +92,7 @@ class ContactsWidget extends StatelessWidget {
             width: 10,
           ),
           Text(
-            CUERPO_5_4,
+            REDES_SOCIALES_IG,
             style: TextStyle(
               fontFamily: proxima,
               fontSize: 16,
@@ -113,7 +113,7 @@ class ContactsWidget extends StatelessWidget {
           ),
           Text(
             //'jndsddq14@gmail.com', BORRAR
-            CUERPO_5_5,
+            REDES_SOCIALES_MAIL,
             style: TextStyle(
               fontFamily: proxima,
               fontSize: 16,

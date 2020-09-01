@@ -94,7 +94,7 @@ class _DesktopScreenState extends State<DesktopScreen> {
               style: TextStyle(
                   color: colorPrimaryDark,
                   fontSize: 40,
-                  fontFamily: 'Proxima',
+                  fontFamily: proximaBold,
                   shadows: [
                     Shadow(
                       color: Colors.blue.shade900.withOpacity(_opacity),
@@ -110,7 +110,7 @@ class _DesktopScreenState extends State<DesktopScreen> {
               style: TextStyle(
                   color: Colors.white,
                   fontSize: 40,
-                  fontFamily: 'Proxima',
+                  fontFamily: proximaBold,
                   shadows: [
                     Shadow(
                       color: Colors.blue.shade900.withOpacity(_opacity),
@@ -239,29 +239,6 @@ class _DesktopScreenState extends State<DesktopScreen> {
                     width: _queryData.size.width * 0.8,
                     padding: EdgeInsets.all(32),
                     decoration: BoxDecoration(
-                        color: colorHiperLight,
-                        borderRadius: BorderRadius.all(Radius.circular(10))),
-                    child: ProfesionalWidget(),
-                  ),
-                  SizedBox(
-                    width: _queryData.size.width * 0.10,
-                  )
-                ],
-              ),
-            ),
-            SizedBox(
-              height: _queryData.size.width * 0.02,
-            ),
-            IntrinsicHeight(
-              child: Row(
-                children: [
-                  SizedBox(
-                    width: _queryData.size.width * 0.10,
-                  ),
-                  Container(
-                    width: _queryData.size.width * 0.8,
-                    padding: EdgeInsets.all(32),
-                    decoration: BoxDecoration(
                         color: colorMegaLight,
                         borderRadius: BorderRadius.all(Radius.circular(10))),
                     child: NovedadesWidget(),
@@ -285,7 +262,7 @@ class _DesktopScreenState extends State<DesktopScreen> {
                     width: _queryData.size.width * 0.8,
                     padding: EdgeInsets.all(32),
                     decoration: BoxDecoration(
-                        color: Colors.white,
+                        color: colorHiperLight,
                         borderRadius: BorderRadius.all(Radius.circular(10))),
                     child: RedesSocialesWidget(),
                   ),
@@ -295,8 +272,44 @@ class _DesktopScreenState extends State<DesktopScreen> {
                 ],
               ),
             ),
+            /*
+            SizedBox(
+              height: _queryData.size.width * 0.02,
+            ),
+            IntrinsicHeight(
+              child: Row(
+                children: [
+                  SizedBox(
+                    width: _queryData.size.width * 0.10,
+                  ),
+                  Container(
+                    width: _queryData.size.width * 0.8,
+                    padding: EdgeInsets.all(32),
+                    decoration: BoxDecoration(
+                        color: Colors.white,
+                        borderRadius: BorderRadius.all(Radius.circular(10))),
+                    child: ProfesionalWidget(),
+                  ),
+                  SizedBox(
+                    width: _queryData.size.width * 0.10,
+                  )
+                ],
+              ),
+            ),
+            */
             SizedBox(
               height: 120,
+            ),
+            TextWidget(
+              padding: EdgeInsets.only(top: 20),
+              color: Colors.white,
+              fontFamilyName: proxima,
+              textAlign: TextAlign.center,
+              textSize: 16,
+              text: PIE_SITIO_FRASE,
+            ),
+            SizedBox(
+              height: 10,
             ),
             TextWidget(
               padding: EdgeInsets.only(top: 20),

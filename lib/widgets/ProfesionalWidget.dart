@@ -18,7 +18,7 @@ class ProfesionalWidget extends StatelessWidget {
           color: Colors.white,
           textSize: 28,
           //text: 'Experiences', BORRAR
-          text: TITULO_6,
+          text: REDES_SOCIALES_TITULO,
         ),
         TextWidget(
           padding: EdgeInsets.only(top: 10),

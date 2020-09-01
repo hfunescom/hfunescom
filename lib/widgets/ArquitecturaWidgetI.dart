@@ -15,7 +15,7 @@ class ArquitecturaWidgetI extends StatelessWidget {
       children: [
         TextWidget(
           fontFamilyName: proximaBold,
-          color: colorGris,
+          color: colorCeleste,
           textSize: 28,
           //text: 'Education', BORRAR
           text: TITULO_ARQUITECTURA

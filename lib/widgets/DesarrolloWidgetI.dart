@@ -15,7 +15,7 @@ class DesarrolloWidgetI extends StatelessWidget {
       children: [
         TextWidget(
           fontFamilyName: proximaBold,
-          color: colorGris,
+          color: colorCeleste,
           textSize: 28,
           //text: 'Juned Siddiqui', BORRAR
           text: TITULO_DESARROLLO_I,

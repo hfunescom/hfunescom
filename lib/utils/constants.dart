@@ -24,21 +24,26 @@ const String CUERPO_ARQUITECTURA_II_2="mi Wiki.";
 const String CUERPO_ARQUITECTURA_II_3="";
 const String CUERPO_ARQUITECTURA_II_4="MySQL / SQL";
 //const String TITULO_5="Contacto";
-const String TITULO_5="Productividad";
-const String CUERPO_5_1="Twitter: @hfunescom";
-const String CUERPO_5_2="StackOverflow: @hfunes-com";
-const String CUERPO_5_3="GitHub: @hfunescom";
-const String CUERPO_5_4="Instagram: @elmerdeve (Travel Only)";
-const String CUERPO_5_5="contacto@hfunes.com";
+const String TITULO_PRODUCTIVIDAD_I="Productividad";
+const String CUERPO_PRODUCTIVIDAD_I_1="La mejora continua es un tema que me apasiona, tanto a nivel profesional como individual.";
+const String CUERPO_PRODUCTIVIDAD_II_1="Te invito a conocer un poco más.";
+const String CUERPO_PRODUCTIVIDAD_II_2="Acá te dejo una página con recursos.";
 //const String TITULO_6="Experiencia";
-const String TITULO_6="";
+const String REDES_SOCIALES_TITULO="Social";
+const String REDES_SOCIALES_TW="Twitter: @hfunescom";
+const String REDES_SOCIALES_SO="StackOverflow: @hfunes-com";
+const String REDES_SOCIALES_GH="GitHub: @hfunescom";
+const String REDES_SOCIALES_IG="Instagram: @elmerdeve (Travel Only)";
+const String REDES_SOCIALES_MAIL="contacto@hfunes.com";
+
 //const String CUERPO_6_1="Visitame en LinkedIn...";
 const String CUERPO_6_1="";
 const String TITULO_7="Académicos y Experiencia";
 const String CUERPO_7_1="";
-const String TITULO_8="Novedades";
-const String CUERPO_8_1="Twitter";
+const String NOVEDADES_TITULO="Novedades";
+const String NOVEDADES_CUERPO_I="Twitter";
 const String PIE_SITIO="Copyright 2020";
+const String PIE_SITIO_FRASE="Life is very short, and there’s no time for fussing and fighting my friend";
 const String FONDO_IMAGEN="assets/images/bg_blue_pc.jpg";
 
 //Colores
@@ -49,7 +54,7 @@ const colorSuperLight = const Color(0xff88a2e6);
 const colorHiperLight = const Color(0xff8aa2cc);
 const colorMegaLight = const Color(0xffbbd3ff);
 const colorBlanco = const Color(0xffffffff);
-const colorGris = const Color(0xff99FFFF);
+const colorCeleste = const Color(0xff99FFFF);
 
 // screen sizes
 const double iPadProWidth = 1024.0;
