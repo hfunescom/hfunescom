@@ -224,6 +224,7 @@ class _DesktopScreenState extends State<DesktopScreen> {
                 ],
               ),
             ),
+            /* NOVEDADES
             SizedBox(
               height: _queryData.size.width * 0.02,
             ),
@@ -247,6 +248,7 @@ class _DesktopScreenState extends State<DesktopScreen> {
                 ],
               ),
             ),
+            */
             SizedBox(
               height: _queryData.size.width * 0.02,
             ),
