@@ -19,8 +19,8 @@ const String CUERPO_ARQUITECTURA_I_1="Luego de más de 8 años Desarrollando Sof
 const String CUERPO_ARQUITECTURA_I_2="UNLaM";
 //const String TITULO_4="Lenguajes y Frameworks";
 const String TITULO_ARQUITECTURA_II ="";
-const String CUERPO_ARQUITECTURA_II_1="Para temas de Arquitectura, te invito a conocer mi wiki.";
-const String CUERPO_ARQUITECTURA_II_2="mi Wiki.";
+const String CUERPO_ARQUITECTURA_II_1="Para temas de Arquitectura.";
+const String CUERPO_ARQUITECTURA_II_2="Te invito a conocer mi wiki";
 const String CUERPO_ARQUITECTURA_II_3="";
 const String CUERPO_ARQUITECTURA_II_4="MySQL / SQL";
 //const String TITULO_5="Contacto";
@@ -47,6 +47,7 @@ const String PIE_SITIO_FRASE="Life is very short, and there’s no time for fuss
 const String FONDO_IMAGEN="assets/images/bg_blue_pc.jpg";
 const String BLOG_DESARROLLO="https://pedazosdecodigo.blogspot.com/";
 const String LINKEDIN="https://www.linkedin.com/in/hern%C3%A1n-javier-funes-a9605015/";
+const String WIKI="https://slimwiki.com/hfunes-com";
 
 //Colores
 const colorPrimary = const Color(0xff214984);
