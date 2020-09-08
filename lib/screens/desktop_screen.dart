@@ -260,12 +260,23 @@ class _DesktopScreenState extends State<DesktopScreen> {
                     width: _queryData.size.width * 0.10,
                   ),
                   Container(
-                    width: _queryData.size.width * 0.8,
+                    width: _queryData.size.width * 0.39,
                     padding: EdgeInsets.all(32),
                     decoration: BoxDecoration(
                         color: colorHiperLight,
                         borderRadius: BorderRadius.all(Radius.circular(10))),
                     child: RedesSocialesWidget(),
+                  ),
+                  SizedBox(
+                    width: _queryData.size.width * 0.02,
+                  ),
+                  Container(
+                    width: _queryData.size.width * 0.39,
+                    padding: EdgeInsets.all(32),
+                    decoration: BoxDecoration(
+                        color: colorMegaLight,
+                        borderRadius: BorderRadius.all(Radius.circular(10))),
+                    child: NovedadesWidget(),
                   ),
                   SizedBox(
                     width: _queryData.size.width * 0.10,
