@@ -315,7 +315,7 @@ class _DesktopScreenState extends State<DesktopScreen> {
                         borderRadius: BorderRadius.all(Radius.circular(10))),
                     child: BuyMeACoffeeWidget(
                       sponsorID: "lNSP2t9",
-                      theme: BlueTheme(),
+                      theme: TealTheme(),
                     ),
                   ),
                   SizedBox(
