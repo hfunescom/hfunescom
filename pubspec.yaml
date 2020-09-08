@@ -23,7 +23,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  #buy_me_a_coffee_widget: ^1.0.0
+  buy_me_a_coffee_widget: ^1.0.0
   #flutter_svg: 0.17.4
   #flutter_html: ^1.0.2
   web_browser: ^0.2.0
