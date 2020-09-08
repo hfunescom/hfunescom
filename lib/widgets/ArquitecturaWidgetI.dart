@@ -17,7 +17,6 @@ class ArquitecturaWidgetI extends StatelessWidget {
           fontFamilyName: proximaBold,
           color: colorCeleste,
           textSize: 28,
-          //text: 'Education', BORRAR
           text: TITULO_ARQUITECTURA
         ),
         TextWidget(
@@ -25,7 +24,6 @@ class ArquitecturaWidgetI extends StatelessWidget {
           color: Colors.white,
           fontFamilyName: proxima,
           textSize: 18,
-          //text:'Vivekananda Institute of Technology     2012 - 2016',BORRAR
             text: CUERPO_ARQUITECTURA_I_1
         ),
         /*

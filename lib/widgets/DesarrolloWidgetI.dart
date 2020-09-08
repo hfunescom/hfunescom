@@ -21,7 +21,7 @@ class DesarrolloWidgetI extends StatelessWidget {
           text: TITULO_DESARROLLO_I,
         ),
         TextWidget(
-            padding: EdgeInsets.only(top: 10),
+            padding: EdgeInsets.only(top: 10, bottom: 10),
             //text: 'Smart Phone application developer', BORRAR
             color: colorBlanco,
             text: CUERPO_DESARROLLO_I_1,
@@ -46,7 +46,7 @@ class DesarrolloWidgetI extends StatelessWidget {
               ),
               textAlign: TextAlign.start,
             ),
-            onTap: () => launch('https://www.linkedin.com/in/hern%C3%A1n-javier-funes-a9605015/')
+            onTap: () => launch(LINKEDIN)
         ),
       ],
     );

@@ -24,7 +24,6 @@ class ProductividadWidgetII extends StatelessWidget {
         */
         TextWidget(
           padding: EdgeInsets.only(top: 20),
-          //text: 'Smart phone Apps developer', BORRAR
           text: CUERPO_PRODUCTIVIDAD_II_1,
           fontFamilyName: proxima,
           color: colorBlanco,
@@ -35,7 +34,6 @@ class ProductividadWidgetII extends StatelessWidget {
           color: Colors.white,
           fontFamilyName: proxima,
           textSize: 18,
-          //text: 'Dotsquares pvt. ltd.     2017 December - Present',
           text: CUERPO_PRODUCTIVIDAD_II_2,
         ),
         /*

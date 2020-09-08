@@ -45,6 +45,8 @@ const String NOVEDADES_CUERPO_I="Twitter";
 const String PIE_SITIO="Copyright 2020";
 const String PIE_SITIO_FRASE="Life is very short, and there’s no time for fussing and fighting my friend";
 const String FONDO_IMAGEN="assets/images/bg_blue_pc.jpg";
+const String BLOG_DESARROLLO="https://pedazosdecodigo.blogspot.com/";
+const String LINKEDIN="https://www.linkedin.com/in/hern%C3%A1n-javier-funes-a9605015/";
 
 //Colores
 const colorPrimary = const Color(0xff214984);
