@@ -1,15 +1,15 @@
 import 'package:buy_me_a_coffee_widget/buy_me_a_coffee_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:jdwebapp/utils/constants.dart';
-import 'package:jdwebapp/widgets/text_widget.dart';
-import 'package:jdwebapp/widgets/web/ArquitecturaWidgetI.dart';
-import 'package:jdwebapp/widgets/web/ArquitecturaWidgetII.dart';
-import 'package:jdwebapp/widgets/web/DesarrolloWidgetI.dart';
-import 'package:jdwebapp/widgets/web/DesarrolloWidgetII.dart';
-import 'package:jdwebapp/widgets/web/NovedadesWidget.dart';
-import 'package:jdwebapp/widgets/web/ProductividadWidgetI.dart';
-import 'package:jdwebapp/widgets/web/ProductividadWidgetII.dart';
-import 'package:jdwebapp/widgets/web/RedesSocialesWidget.dart';
+import 'package:jdwebapp/widgets/ArquitecturaWidgetI.dart';
+import 'package:jdwebapp/widgets/ArquitecturaWidgetII.dart';
+import 'package:jdwebapp/widgets/DesarrolloWidgetI.dart';
+import 'package:jdwebapp/widgets/DesarrolloWidgetII.dart';
+import 'package:jdwebapp/widgets/NovedadesWidget.dart';
+import 'package:jdwebapp/widgets/ProductividadWidgetI.dart';
+import 'package:jdwebapp/widgets/ProductividadWidgetII.dart';
+import 'package:jdwebapp/widgets/RedesSocialesWidget.dart';
+import 'package:jdwebapp/widgets/TextWidget.dart';
 
 class DesktopScreen extends StatefulWidget {
   @override
@@ -269,31 +269,6 @@ class _DesktopScreenState extends State<DesktopScreen> {
                 ],
               ),
             ),
-            /*
-            SizedBox(
-              height: _queryData.size.width * 0.02,
-            ),
-            IntrinsicHeight(
-              child: Row(
-                children: [
-                  SizedBox(
-                    width: _queryData.size.width * 0.10,
-                  ),
-                  Container(
-                    width: _queryData.size.width * 0.8,
-                    padding: EdgeInsets.all(32),
-                    decoration: BoxDecoration(
-                        color: Colors.white,
-                        borderRadius: BorderRadius.all(Radius.circular(10))),
-                    child: ProfesionalWidget(),
-                  ),
-                  SizedBox(
-                    width: _queryData.size.width * 0.10,
-                  )
-                ],
-              ),
-            ),
-            */
             SizedBox(
               height: _queryData.size.width * 0.02,
             ),

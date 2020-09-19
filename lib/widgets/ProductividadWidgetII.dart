@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:jdwebapp/utils/constants.dart';
-import 'package:jdwebapp/widgets/text_widget.dart';
+import 'package:jdwebapp/widgets/TextWidget.dart';
 
 
-class ExperienceWidget extends StatelessWidget {
-  const ExperienceWidget({
+class ProductividadWidgetII extends StatelessWidget {
+  const ProductividadWidgetII({
     Key key,
   }) : super(key: key);
 
@@ -13,29 +13,30 @@ class ExperienceWidget extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
+        /*
         TextWidget(
           fontFamilyName: proxima,
           color: Colors.white,
           textSize: 28,
           //text: 'Experiences', BORRAR
-          text: REDES_SOCIALES_TITULO,
+          text: TITULO_6,
         ),
-        TextWidget(
-          padding: EdgeInsets.only(top: 10),
-          //text: 'Smart phone Apps developer', BORRAR
-          text: CUERPO_6_1,
-          color: Color(0xff61AAF1),
-          textSize: 30,
-        ),
-        /*
+        */
         TextWidget(
           padding: EdgeInsets.only(top: 20),
+          text: CUERPO_PRODUCTIVIDAD_II_1,
+          fontFamilyName: proxima,
+          color: colorBlanco,
+          textSize: 18,
+        ),
+        TextWidget(
+          padding: EdgeInsets.only(top: 30),
           color: Colors.white,
           fontFamilyName: proxima,
           textSize: 18,
-          //text: 'Dotsquares pvt. ltd.     2017 December - Present',
-          text: ,
+          text: CUERPO_PRODUCTIVIDAD_II_2,
         ),
+        /*
         TextWidget(
           padding: EdgeInsets.only(top: 10),
           color: Colors.white,

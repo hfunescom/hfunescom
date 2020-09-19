@@ -1,23 +1,16 @@
 import 'package:buy_me_a_coffee_widget/buy_me_a_coffee_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:jdwebapp/utils/constants.dart';
-import 'package:jdwebapp/widgets/web/ArquitecturaWidgetI.dart';
-import 'package:jdwebapp/widgets/web/ArquitecturaWidgetII.dart';
-import 'package:jdwebapp/widgets/web/DesarrolloWidgetI.dart';
-import 'package:jdwebapp/widgets/web/DesarrolloWidgetII.dart';
-import 'package:jdwebapp/widgets/web/EducationWidget.dart';
-import 'package:jdwebapp/widgets/web/ExperienceWidget.dart';
-import 'package:jdwebapp/widgets/web/LanguagesWidget.dart';
-import 'package:jdwebapp/widgets/contacts_widget.dart';
-import 'package:jdwebapp/widgets/holder_container.dart';
-import 'package:jdwebapp/widgets/intro_widget.dart';
-import 'package:jdwebapp/widgets/skills_widget.dart';
-import 'package:jdwebapp/widgets/social_widget.dart';
-import 'package:jdwebapp/widgets/text_widget.dart';
-import 'package:jdwebapp/widgets/web/NovedadesWidget.dart';
-import 'package:jdwebapp/widgets/web/ProductividadWidgetI.dart';
-import 'package:jdwebapp/widgets/web/ProductividadWidgetII.dart';
-import 'package:jdwebapp/widgets/web/RedesSocialesWidget.dart';
+import 'package:jdwebapp/widgets/ArquitecturaWidgetI.dart';
+import 'package:jdwebapp/widgets/ArquitecturaWidgetII.dart';
+import 'package:jdwebapp/widgets/DesarrolloWidgetI.dart';
+import 'package:jdwebapp/widgets/DesarrolloWidgetII.dart';
+import 'package:jdwebapp/widgets/HolderContainer.dart';
+import 'package:jdwebapp/widgets/NovedadesWidget.dart';
+import 'package:jdwebapp/widgets/ProductividadWidgetI.dart';
+import 'package:jdwebapp/widgets/ProductividadWidgetII.dart';
+import 'package:jdwebapp/widgets/RedesSocialesWidget.dart';
+import 'package:jdwebapp/widgets/TextWidget.dart';
 
 class MobileScreen extends StatefulWidget {
   @override

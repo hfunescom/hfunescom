@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:jdwebapp/utils/constants.dart';
-import 'package:jdwebapp/widgets/text_widget.dart';
+import 'package:jdwebapp/widgets/TextWidget.dart';
 
 
-class EducationWidget extends StatelessWidget {
-  const EducationWidget({
+class ArquitecturaWidgetI extends StatelessWidget {
+  const ArquitecturaWidgetI({
     Key key,
   }) : super(key: key);
 
@@ -14,12 +14,19 @@ class EducationWidget extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         TextWidget(
-          fontFamilyName: proxima,
-          color: Colors.white,
+          fontFamilyName: proximaBold,
+          color: colorCeleste,
           textSize: 28,
-          //text: 'Education', BORRAR
           text: TITULO_ARQUITECTURA
         ),
+        TextWidget(
+          padding: EdgeInsets.only(top: 20),
+          color: Colors.white,
+          fontFamilyName: proxima,
+          textSize: 18,
+            text: CUERPO_ARQUITECTURA_I_1
+        ),
+        /*
         TextWidget(
           padding: EdgeInsets.only(top: 10),
           //text: 'B. Tech.', BORRAR
@@ -27,15 +34,6 @@ class EducationWidget extends StatelessWidget {
           color: Color(0xff61AAF1),
           textSize: 30,
         ),
-        TextWidget(
-          padding: EdgeInsets.only(top: 20),
-          color: Colors.white,
-          fontFamilyName: proxima,
-          textSize: 18,
-          //text:'Vivekananda Institute of Technology     2012 - 2016',BORRAR
-            text: CUERPO_ARQUITECTURA_I_1
-        ),
-        /*
         TextWidget(
           padding: EdgeInsets.only(top: 10),
           color: Colors.white,

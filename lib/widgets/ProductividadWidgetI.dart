@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:jdwebapp/utils/constants.dart';
-import 'package:jdwebapp/widgets/text_widget.dart';
+import 'package:jdwebapp/widgets/TextWidget.dart';
 
 class ProductividadWidgetI extends StatelessWidget {
   const ProductividadWidgetI({

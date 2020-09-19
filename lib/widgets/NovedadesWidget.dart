@@ -1,6 +1,6 @@
 import 'package:jdwebapp/utils/constants.dart';
 import 'package:flutter/material.dart';
-import 'package:jdwebapp/widgets/text_widget.dart';
+import 'package:jdwebapp/widgets/TextWidget.dart';
 import 'package:tweet_ui/models/api/tweet.dart';
 import 'package:web_browser/web_browser.dart';
 import 'package:html2md/html2md.dart' as html2md;
