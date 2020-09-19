@@ -1,14 +1,23 @@
+import 'package:buy_me_a_coffee_widget/buy_me_a_coffee_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:jdwebapp/utils/constants.dart';
-import 'package:jdwebapp/widgets/EducationWidget.dart';
-import 'package:jdwebapp/widgets/ExperienceWidget.dart';
-import 'package:jdwebapp/widgets/LanguagesWidget.dart';
+import 'package:jdwebapp/widgets/web/ArquitecturaWidgetI.dart';
+import 'package:jdwebapp/widgets/web/ArquitecturaWidgetII.dart';
+import 'package:jdwebapp/widgets/web/DesarrolloWidgetI.dart';
+import 'package:jdwebapp/widgets/web/DesarrolloWidgetII.dart';
+import 'package:jdwebapp/widgets/web/EducationWidget.dart';
+import 'package:jdwebapp/widgets/web/ExperienceWidget.dart';
+import 'package:jdwebapp/widgets/web/LanguagesWidget.dart';
 import 'package:jdwebapp/widgets/contacts_widget.dart';
 import 'package:jdwebapp/widgets/holder_container.dart';
 import 'package:jdwebapp/widgets/intro_widget.dart';
 import 'package:jdwebapp/widgets/skills_widget.dart';
 import 'package:jdwebapp/widgets/social_widget.dart';
 import 'package:jdwebapp/widgets/text_widget.dart';
+import 'package:jdwebapp/widgets/web/NovedadesWidget.dart';
+import 'package:jdwebapp/widgets/web/ProductividadWidgetI.dart';
+import 'package:jdwebapp/widgets/web/ProductividadWidgetII.dart';
+import 'package:jdwebapp/widgets/web/RedesSocialesWidget.dart';
 
 class MobileScreen extends StatefulWidget {
   @override
@@ -52,7 +61,7 @@ class _MobileScreenState extends State<MobileScreen> {
                 style: TextStyle(
                     color: Color(0xff60BEEE),
                     fontSize: 40,
-                    fontFamily: 'Proxima',
+                    fontFamily: proximaBold,
                     shadows: [
                       Shadow(
                         color: Colors.blue.shade900.withOpacity(_opacity),
@@ -68,7 +77,7 @@ class _MobileScreenState extends State<MobileScreen> {
                 style: TextStyle(
                     color: Colors.white,
                     fontSize: 40,
-                    fontFamily: 'Proxima',
+                    fontFamily: proximaBold,
                     shadows: [
                       Shadow(
                         color: Colors.blue.shade900.withOpacity(_opacity),
@@ -82,40 +91,57 @@ class _MobileScreenState extends State<MobileScreen> {
                 height: 70,
               ),
               HolderContainer(
-                widget: IntroWidget(),
-                color: Colors.white,
+                widget: DesarrolloWidgetI(),
+                color: colorPrimary,
               ),
               SizedBox(
                 height: 20,
               ),
               HolderContainer(
-                widget: SkillsWidget(),
-                color: Color(0xFF3366CC),
+                widget: DesarrolloWidgetII(),
+                color: colorPrimary,
               ),
               SizedBox(
                 height: 20,
               ),
               HolderContainer(
-                widget: LanguagesWidget(),
-                color: Colors.white,
+                widget: ArquitecturaWidgetI(),
+                color: colorPrimaryDark,
               ),
               SizedBox(
                 height: 20,
               ),
               HolderContainer(
-                widget: EducationWidget(),
-                color: Color(0xFF3366CC),
+                widget: ArquitecturaWidgetII(),
+                color: colorPrimaryDark,
               ),
-              SizedBox(
-                height: 20,
-              ),
-              HolderContainer(widget: ContactsWidget(), color: Colors.white),
               SizedBox(
                 height: 20,
               ),
               HolderContainer(
-                widget: ExperienceWidget(),
-                color: Color(0xFF3366CC),
+                widget: ProductividadWidgetI(),
+                color: colorPrimaryLight,
+              ),
+              SizedBox(
+                height: 20,
+              ),
+              HolderContainer(
+                widget: ProductividadWidgetII(),
+                color: colorPrimaryLight,
+              ),
+              SizedBox(
+                height: 20,
+              ),
+              HolderContainer(
+                widget: RedesSocialesWidget(),
+                color: colorHiperLight,
+              ),
+              SizedBox(
+                height: 20,
+              ),
+              HolderContainer(
+                widget: NovedadesWidget(),
+                color: colorHiperLight,
               ),
               SizedBox(
                 height: 20,
@@ -131,10 +157,20 @@ class _MobileScreenState extends State<MobileScreen> {
               SizedBox(
                 height: 20,
               ),
-              SocialWidget(),
               SizedBox(
                 height: 20,
               ),
+              HolderContainer(
+                widget: BuyMeACoffeeWidget(
+                  sponsorID: "lNSP2t9",
+                  theme: TealTheme(),
+                ),
+                color: Colors.transparent,
+              ),
+              SizedBox(
+                height: 20,
+              ),
+//              SocialWidget(),
             ],
           )),
     );
