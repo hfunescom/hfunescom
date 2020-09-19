@@ -1,9 +1,11 @@
 import 'package:jdwebapp/utils/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:jdwebapp/widgets/text_widget.dart';
+import 'package:tweet_ui/models/api/tweet.dart';
 import 'package:web_browser/web_browser.dart';
 import 'package:html2md/html2md.dart' as html2md;
-import 'package:flutter_markdown/flutter_markdown.dart';
+import 'package:tweet_ui/tweet_ui.dart';
+
 //import 'package:flutter_svg/flutter_svg.dart';
 //import 'package:buy_me_a_coffee_widget/buy_me_a_coffee_widget.dart';
 
@@ -14,10 +16,9 @@ class NovedadesWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    //BuyMeACoffeeThemeData theme = BlueTheme();
-    const tweet =
-        "<a class='twitter-timeline' href='https://twitter.com/hfunescom?ref_src=twsrc%5Etfw'>Tweets by hfunescom</a> <script async src='https://platform.twitter.com/widgets.js' charset='utf-8'></script>";
-    String markdown = html2md.convert(tweet);
+
+    const jsonFromTwitterAPI = '{"id":"1278747501642657792","text":"Its been a year since Twitters Developer Labs launched.\n\nAs we build towards the next generation of the #TwitterAPI (coming VERY soon), see what weve learned and changed along the way. https://t.co/WvjuEWCa6G"}';
+
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
@@ -30,13 +31,15 @@ class NovedadesWidget extends StatelessWidget {
           text: NOVEDADES_TITULO,
         ),
         //TODO: Continuar desde acá. Ver cómo cargar el perfil de twitter.
-        new MarkdownBody(
-          data: markdown,
-        ),
+        /*
+        TweetView.fromTweet(Tweet.fromRawJson(jsonFromTwitterAPI
+            // {"created_at": "Mon Nov 12 13:00:38 +0000 2018", "id": 1061967001177018368, ...
+            )),
+        */
         TextWidget(
           padding: EdgeInsets.only(top: 50),
           //text: 'Smart phone Apps developer', BORRAR
-          text: "",
+          text: "Próximamente, novedades...",
           color: Color(0xff61AAF1),
           textSize: 30,
         ),

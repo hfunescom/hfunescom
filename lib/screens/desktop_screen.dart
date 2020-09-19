@@ -274,7 +274,7 @@ class _DesktopScreenState extends State<DesktopScreen> {
                     width: _queryData.size.width * 0.39,
                     padding: EdgeInsets.all(32),
                     decoration: BoxDecoration(
-                        color: colorMegaLight,
+                        color: colorHiperLight,
                         borderRadius: BorderRadius.all(Radius.circular(10))),
                     child: NovedadesWidget(),
                   ),
@@ -336,7 +336,7 @@ class _DesktopScreenState extends State<DesktopScreen> {
               ),
             ),
             SizedBox(
-              height: 60,
+              height: 50,
             ),
             TextWidget(
               padding: EdgeInsets.only(top: 20),
