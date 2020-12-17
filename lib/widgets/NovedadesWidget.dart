@@ -27,7 +27,6 @@ class NovedadesWidget extends StatelessWidget {
           fontFamilyName: proxima,
           color: colorCeleste,
           textSize: 28,
-          //text: 'Experiences', BORRAR
           text: NOVEDADES_TITULO,
         ),
         //TODO: Continuar desde acá. Ver cómo cargar el perfil de twitter.
@@ -38,10 +37,9 @@ class NovedadesWidget extends StatelessWidget {
         */
         TextWidget(
           padding: EdgeInsets.only(top: 50),
-          //text: 'Smart phone Apps developer', BORRAR
           text: "Próximamente, novedades...",
-          color: Color(0xff61AAF1),
-          textSize: 30,
+          color: colorBlanco,
+          textSize: 18,
         ),
         /*
         new Container(

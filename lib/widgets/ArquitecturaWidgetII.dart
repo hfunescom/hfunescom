@@ -40,7 +40,7 @@ class ArquitecturaWidgetII extends StatelessWidget {
               ),
               textAlign: TextAlign.start,
             ),
-            onTap: () => launch(WIKI)
+            onTap: () => launch(WIKI_PROXIMAMENTE)
         ),
 /*
         TextWidget(

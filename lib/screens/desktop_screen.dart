@@ -10,6 +10,7 @@ import 'package:jdwebapp/widgets/ProductividadWidgetI.dart';
 import 'package:jdwebapp/widgets/ProductividadWidgetII.dart';
 import 'package:jdwebapp/widgets/RedesSocialesWidget.dart';
 import 'package:jdwebapp/widgets/TextWidget.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class DesktopScreen extends StatefulWidget {
   @override
@@ -298,6 +299,7 @@ class _DesktopScreenState extends State<DesktopScreen> {
             SizedBox(
               height: 50,
             ),
+            /*
             TextWidget(
               padding: EdgeInsets.only(top: 20),
               color: Colors.white,
@@ -305,6 +307,18 @@ class _DesktopScreenState extends State<DesktopScreen> {
               textAlign: TextAlign.center,
               textSize: 16,
               text: PIE_SITIO_FRASE,
+            ),
+            */
+            InkWell(
+                child: Text(
+                  PIE_SITIO_FRASE,
+                  style: TextStyle(
+                      color: colorBlanco,
+                      fontSize: 14,
+                  ),
+                  textAlign: TextAlign.center,
+                ),
+                onTap: () => launch(PIE_SITIO_FRASE_LINK)
             ),
             SizedBox(
               height: 10,
