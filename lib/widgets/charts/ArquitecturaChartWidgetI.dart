@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:jdwebapp/utils/constants.dart';
-import 'TextWidget.dart';
+import '../TextWidget.dart';
 
-class ProductividadChartWidget extends StatelessWidget {
-  const ProductividadChartWidget({
+class ArquitecturaChartWidgetI extends StatelessWidget {
+  const ArquitecturaChartWidgetI({
     Key key,
   }) : super(key: key);
 
@@ -13,7 +13,7 @@ class ProductividadChartWidget extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         TextWidget(
-          text: PRODUCTIVIDAD_TITULO,
+          text: TITULO_ARQUITECTURA,
           fontFamilyName: proxima,
           textSize: 28,
           color: Colors.white,
@@ -24,21 +24,23 @@ class ProductividadChartWidget extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               TextWidget(
-                text: 'Getting Things Done(GTD)',
+                text: 'Cloud',
                 textSize: 16,
                 fontFamilyName: proxima,
                 color: Colors.white,
               ),
+              /*
               TextWidget(
-                text: '80%',
+                text: '70%',
                 textSize: 16,
                 color: Colors.white,
               ),
+              */
             ],
           ),
         ),
         LinearProgressIndicator(
-            value: 0.8,
+            value: 0.2,
             backgroundColor: Colors.white,
             valueColor: new AlwaysStoppedAnimation<Color>(Color(0xff204190))),
         Padding(
@@ -47,21 +49,23 @@ class ProductividadChartWidget extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               TextWidget(
-                text: 'Objectives and Key Results(OKR)',
+                text: 'On Premise',
                 textSize: 16,
                 fontFamilyName: proxima,
                 color: Colors.white,
               ),
+              /*
               TextWidget(
-                text: '20%',
+                text: '85%',
                 textSize: 16,
                 color: Colors.white,
               ),
+              */
             ],
           ),
         ),
         LinearProgressIndicator(
-            value: 0.2,
+            value: 0.8,
             backgroundColor: Colors.white,
             valueColor: new AlwaysStoppedAnimation<Color>(Color(0xff204190)))
       ],

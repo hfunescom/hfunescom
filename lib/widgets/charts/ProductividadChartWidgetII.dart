@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:jdwebapp/utils/constants.dart';
-import 'TextWidget.dart';
+import '../TextWidget.dart';
 
-class ArquitecturaChartWidgetI extends StatelessWidget {
-  const ArquitecturaChartWidgetI({
+class ProductividadChartWidgetII extends StatelessWidget {
+  const ProductividadChartWidgetII({
     Key key,
   }) : super(key: key);
 

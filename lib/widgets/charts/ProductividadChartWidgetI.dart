@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:jdwebapp/utils/constants.dart';
-import 'TextWidget.dart';
+import '../TextWidget.dart';
 
-class AcademicosChartWidget extends StatelessWidget {
-  const AcademicosChartWidget({
+class ProductividadChartWidgetI extends StatelessWidget {
+  const ProductividadChartWidgetI({
     Key key,
   }) : super(key: key);
 
@@ -13,7 +13,7 @@ class AcademicosChartWidget extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         TextWidget(
-          text: ACADEMICOS_TITULO,
+          text: TITULO_ARQUITECTURA,
           fontFamilyName: proxima,
           textSize: 28,
           color: Colors.white,
@@ -24,21 +24,23 @@ class AcademicosChartWidget extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               TextWidget(
-                text: 'Ingeniería en Informática',
+                text: 'Cloud',
                 textSize: 16,
                 fontFamilyName: proxima,
                 color: Colors.white,
               ),
+              /*
               TextWidget(
-                text: '95%',
+                text: '70%',
                 textSize: 16,
                 color: Colors.white,
               ),
+              */
             ],
           ),
         ),
         LinearProgressIndicator(
-            value: 0.91,
+            value: 0.2,
             backgroundColor: Colors.white,
             valueColor: new AlwaysStoppedAnimation<Color>(Color(0xff204190))),
         Padding(
@@ -47,21 +49,23 @@ class AcademicosChartWidget extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               TextWidget(
-                text: 'Técnico en Electrónica',
+                text: 'On Premise',
                 textSize: 16,
                 fontFamilyName: proxima,
                 color: Colors.white,
               ),
+              /*
               TextWidget(
-                text: '100%',
+                text: '85%',
                 textSize: 16,
                 color: Colors.white,
               ),
+              */
             ],
           ),
         ),
         LinearProgressIndicator(
-            value: 1.0,
+            value: 0.8,
             backgroundColor: Colors.white,
             valueColor: new AlwaysStoppedAnimation<Color>(Color(0xff204190)))
       ],

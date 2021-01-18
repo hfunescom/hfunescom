@@ -1,14 +1,14 @@
 import 'package:buy_me_a_coffee_widget/buy_me_a_coffee_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:jdwebapp/utils/constants.dart';
-import 'package:jdwebapp/widgets/ArquitecturaChartWidgetI.dart';
-import 'package:jdwebapp/widgets/ArquitecturaChartWidgetII.dart';
-import 'package:jdwebapp/widgets/DesarrolloChartWidgetI.dart';
-import 'package:jdwebapp/widgets/DesarrolloChartWidgetII.dart';
+import 'package:jdwebapp/widgets/charts/ArquitecturaChartWidgetI.dart';
+import 'package:jdwebapp/widgets/charts/ArquitecturaChartWidgetII.dart';
+import 'package:jdwebapp/widgets/charts/DesarrolloChartWidgetI.dart';
+import 'package:jdwebapp/widgets/charts/DesarrolloChartWidgetII.dart';
 import 'package:jdwebapp/widgets/NovedadesWidget.dart';
-import 'package:jdwebapp/widgets/ProductividadChartWidget.dart';
-import 'package:jdwebapp/widgets/ProductividadChartWidgetI.dart';
-import 'package:jdwebapp/widgets/ProductividadChartWidgetII.dart';
+import 'package:jdwebapp/widgets/charts/ProductividadChartWidget.dart';
+import 'package:jdwebapp/widgets/charts/ProductividadChartWidgetI.dart';
+import 'package:jdwebapp/widgets/charts/ProductividadChartWidgetII.dart';
 import 'package:jdwebapp/widgets/RedesSocialesWidget.dart';
 import 'package:jdwebapp/widgets/TextWidget.dart';
 import 'package:url_launcher/url_launcher.dart';
@@ -223,7 +223,7 @@ class _DesktopScreenState extends State<DesktopScreen> {
                     width: _queryData.size.width * 0.8,
                     padding: EdgeInsets.all(32),
                     decoration: BoxDecoration(
-                        color: colorMegaLight,
+                        color: colorPrimaryLight,
                         borderRadius: BorderRadius.all(Radius.circular(10))),
                     //child: NovedadesWidget(),
                     child: ProductividadChartWidget(),
@@ -245,13 +245,15 @@ class _DesktopScreenState extends State<DesktopScreen> {
                     width: _queryData.size.width * 0.10,
                   ),
                   Container(
-                    width: _queryData.size.width * 0.39,
+                    //width: _queryData.size.width * 0.39,
+                    width: _queryData.size.width * 0.8,
                     padding: EdgeInsets.all(32),
                     decoration: BoxDecoration(
                         color: colorHiperLight,
                         borderRadius: BorderRadius.all(Radius.circular(10))),
                     child: RedesSocialesWidget(),
                   ),
+                  /*
                   SizedBox(
                     width: _queryData.size.width * 0.02,
                   ),
@@ -263,6 +265,7 @@ class _DesktopScreenState extends State<DesktopScreen> {
                         borderRadius: BorderRadius.all(Radius.circular(10))),
                     child: NovedadesWidget(),
                   ),
+                  */
                   SizedBox(
                     width: _queryData.size.width * 0.10,
                   )

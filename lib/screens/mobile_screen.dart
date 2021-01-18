@@ -11,6 +11,11 @@ import 'package:jdwebapp/widgets/ProductividadWidgetI.dart';
 import 'package:jdwebapp/widgets/ProductividadWidgetII.dart';
 import 'package:jdwebapp/widgets/RedesSocialesWidget.dart';
 import 'package:jdwebapp/widgets/TextWidget.dart';
+import 'package:jdwebapp/widgets/charts/ArquitecturaChartWidgetI.dart';
+import 'package:jdwebapp/widgets/charts/ArquitecturaChartWidgetII.dart';
+import 'package:jdwebapp/widgets/charts/DesarrolloChartWidgetI.dart';
+import 'package:jdwebapp/widgets/charts/DesarrolloChartWidgetII.dart';
+import 'package:jdwebapp/widgets/charts/ProductividadChartWidget.dart';
 
 class MobileScreen extends StatefulWidget {
   @override
@@ -84,33 +89,46 @@ class _MobileScreenState extends State<MobileScreen> {
                 height: 70,
               ),
               HolderContainer(
-                widget: DesarrolloWidgetI(),
+                //widget: DesarrolloWidgetI(),
+                widget: ArquitecturaChartWidgetI(),
                 color: colorPrimary,
               ),
               SizedBox(
                 height: 20,
               ),
               HolderContainer(
-                widget: DesarrolloWidgetII(),
+                //widget: DesarrolloWidgetII(),
+                widget: ArquitecturaChartWidgetII(),
                 color: colorPrimary,
               ),
               SizedBox(
                 height: 20,
               ),
               HolderContainer(
-                widget: ArquitecturaWidgetI(),
+                //widget: ArquitecturaWidgetI(),
+                widget: DesarrolloChartWidgetI(),
                 color: colorPrimaryDark,
               ),
               SizedBox(
                 height: 20,
               ),
               HolderContainer(
-                widget: ArquitecturaWidgetII(),
+                //widget: ArquitecturaWidgetII(),
+                widget: DesarrolloChartWidgetII(),
                 color: colorPrimaryDark,
               ),
               SizedBox(
                 height: 20,
               ),
+              HolderContainer(
+                //widget: ArquitecturaWidgetII(),
+                widget: ProductividadChartWidget(),
+                color: colorPrimaryLight,
+              ),
+              SizedBox(
+                height: 20,
+              ),
+              /*
               HolderContainer(
                 widget: ProductividadWidgetI(),
                 color: colorPrimaryLight,
@@ -125,6 +143,7 @@ class _MobileScreenState extends State<MobileScreen> {
               SizedBox(
                 height: 20,
               ),
+              */
               HolderContainer(
                 widget: RedesSocialesWidget(),
                 color: colorHiperLight,
@@ -132,6 +151,7 @@ class _MobileScreenState extends State<MobileScreen> {
               SizedBox(
                 height: 20,
               ),
+              /*
               HolderContainer(
                 widget: NovedadesWidget(),
                 color: colorHiperLight,
@@ -139,6 +159,7 @@ class _MobileScreenState extends State<MobileScreen> {
               SizedBox(
                 height: 20,
               ),
+              */
               TextWidget(
                 padding: EdgeInsets.only(top: 20),
                 color: Colors.white,

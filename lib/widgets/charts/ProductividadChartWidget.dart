@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:jdwebapp/utils/constants.dart';
-import 'TextWidget.dart';
+import '../TextWidget.dart';
 
-class ArquitecturaChartWidgetII extends StatelessWidget {
-  const ArquitecturaChartWidgetII({
+class ProductividadChartWidget extends StatelessWidget {
+  const ProductividadChartWidget({
     Key key,
   }) : super(key: key);
 
@@ -12,32 +12,28 @@ class ArquitecturaChartWidgetII extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        /*
         TextWidget(
-          text: TITULO_ARQUITECTURA,
+          text: PRODUCTIVIDAD_TITULO,
           fontFamilyName: proxima,
           textSize: 28,
           color: Colors.white,
         ),
-        */
         Padding(
           padding: const EdgeInsets.only(top: 20, bottom: 5),
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               TextWidget(
-                text: 'Diseño',
+                text: 'Getting Things Done(GTD)',
                 textSize: 16,
                 fontFamilyName: proxima,
                 color: Colors.white,
               ),
-              /*
               TextWidget(
-                text: '70%',
+                text: '80%',
                 textSize: 16,
                 color: Colors.white,
               ),
-              */
             ],
           ),
         ),
@@ -51,48 +47,21 @@ class ArquitecturaChartWidgetII extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               TextWidget(
-                text: 'Comunicación',
+                text: 'Objectives and Key Results(OKR)',
                 textSize: 16,
                 fontFamilyName: proxima,
                 color: Colors.white,
               ),
-              /*
               TextWidget(
-                text: '85%',
+                text: '20%',
                 textSize: 16,
                 color: Colors.white,
               ),
-              */
             ],
           ),
         ),
         LinearProgressIndicator(
-            value: 0.9,
-            backgroundColor: Colors.white,
-            valueColor: new AlwaysStoppedAnimation<Color>(Color(0xff204190))),
-        Padding(
-          padding: const EdgeInsets.only(top: 20, bottom: 5),
-          child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: [
-              TextWidget(
-                text: 'Infraestructura',
-                textSize: 16,
-                fontFamilyName: proxima,
-                color: Colors.white,
-              ),
-              /*
-              TextWidget(
-                text: '95%',
-                textSize: 16,
-                color: Colors.white,
-              ),
-              */
-            ],
-          ),
-        ),
-        LinearProgressIndicator(
-            value: 0.7,
+            value: 0.2,
             backgroundColor: Colors.white,
             valueColor: new AlwaysStoppedAnimation<Color>(Color(0xff204190)))
       ],

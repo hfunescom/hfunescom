@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:jdwebapp/utils/constants.dart';
-import 'TextWidget.dart';
+import '../TextWidget.dart';
 
 class DesarrolloChartWidgetI extends StatelessWidget {
   const DesarrolloChartWidgetI({
