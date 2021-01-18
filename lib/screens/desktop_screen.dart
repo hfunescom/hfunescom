@@ -1,13 +1,14 @@
 import 'package:buy_me_a_coffee_widget/buy_me_a_coffee_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:jdwebapp/utils/constants.dart';
-import 'package:jdwebapp/widgets/ArquitecturaWidgetI.dart';
-import 'package:jdwebapp/widgets/ArquitecturaWidgetII.dart';
-import 'package:jdwebapp/widgets/DesarrolloWidgetI.dart';
-import 'package:jdwebapp/widgets/DesarrolloWidgetII.dart';
+import 'package:jdwebapp/widgets/ArquitecturaChartWidgetI.dart';
+import 'package:jdwebapp/widgets/ArquitecturaChartWidgetII.dart';
+import 'package:jdwebapp/widgets/DesarrolloChartWidgetI.dart';
+import 'package:jdwebapp/widgets/DesarrolloChartWidgetII.dart';
 import 'package:jdwebapp/widgets/NovedadesWidget.dart';
-import 'package:jdwebapp/widgets/ProductividadWidgetI.dart';
-import 'package:jdwebapp/widgets/ProductividadWidgetII.dart';
+import 'package:jdwebapp/widgets/ProductividadChartWidget.dart';
+import 'package:jdwebapp/widgets/ProductividadChartWidgetI.dart';
+import 'package:jdwebapp/widgets/ProductividadChartWidgetII.dart';
 import 'package:jdwebapp/widgets/RedesSocialesWidget.dart';
 import 'package:jdwebapp/widgets/TextWidget.dart';
 import 'package:url_launcher/url_launcher.dart';
@@ -56,7 +57,6 @@ class _DesktopScreenState extends State<DesktopScreen> {
                     decoration: BoxDecoration(
                         color: Colors.transparent,
                         borderRadius: BorderRadius.all(Radius.circular(10))),
-                    //child: IntroWidget(),
                   ),
                 ],
               ),
@@ -65,7 +65,6 @@ class _DesktopScreenState extends State<DesktopScreen> {
               height: 30,
             ),
             Image.asset(
-              //'assets/images/my_image.png',BORRAR
               'assets/images/me-circle.png',
               width: 200,
               height: 200,
@@ -74,7 +73,6 @@ class _DesktopScreenState extends State<DesktopScreen> {
               height: 30,
             ),
             Text(
-              //'Hi! I am Junaid', BORRAR
               MENSAJE_BIENVENIDA,
               style: TextStyle(
                   color: colorPrimaryDark,
@@ -90,7 +88,6 @@ class _DesktopScreenState extends State<DesktopScreen> {
               textAlign: TextAlign.center,
             ),
             Text(
-              //'Apps Developer', BORRAR
               PROFESION,
               style: TextStyle(
                   color: Colors.white,
@@ -120,8 +117,8 @@ class _DesktopScreenState extends State<DesktopScreen> {
                     decoration: BoxDecoration(
                         color: colorPrimary,
                         borderRadius: BorderRadius.all(Radius.circular(10))),
-                    //child: IntroWidget(),
-                    child: DesarrolloWidgetI(),
+                    //child: DesarrolloWidgetI(),
+                    child: ArquitecturaChartWidgetI(),
                   ),
                   SizedBox(
                     width: _queryData.size.width * 0.02,
@@ -132,8 +129,8 @@ class _DesktopScreenState extends State<DesktopScreen> {
                         borderRadius: BorderRadius.all(Radius.circular(10))),
                     width: _queryData.size.width * 0.39,
                     padding: EdgeInsets.all(32),
-                    child: DesarrolloWidgetII()
-                    //child: SkillsWidget(),
+                    //child: DesarrolloWidgetII()
+                    child: ArquitecturaChartWidgetII(),
                   ),
                   SizedBox(
                     width: _queryData.size.width * 0.10,
@@ -156,8 +153,8 @@ class _DesktopScreenState extends State<DesktopScreen> {
                     decoration: BoxDecoration(
                         color: colorPrimaryDark,
                         borderRadius: BorderRadius.all(Radius.circular(10))),
-                    //child: EducationWidget(),
-                    child: ArquitecturaWidgetI(),
+                    //child: ArquitecturaWidgetI(),
+                    child: DesarrolloChartWidgetI(),
                   ),
                   SizedBox(
                     width: _queryData.size.width * 0.02,
@@ -168,8 +165,8 @@ class _DesktopScreenState extends State<DesktopScreen> {
                     decoration: BoxDecoration(
                         color: colorPrimaryDark,
                         borderRadius: BorderRadius.all(Radius.circular(10))),
-                    //child: LanguagesWidget(),
-                    child: ArquitecturaWidgetII(),
+                    //child: ArquitecturaWidgetII(),
+                    child: DesarrolloChartWidgetII(),
                   ),
                   SizedBox(
                     width: _queryData.size.width * 0.10,
@@ -177,6 +174,7 @@ class _DesktopScreenState extends State<DesktopScreen> {
                 ],
               ),
             ),
+            /*
             SizedBox(
               height: _queryData.size.width * 0.02,
             ),
@@ -192,7 +190,7 @@ class _DesktopScreenState extends State<DesktopScreen> {
                     decoration: BoxDecoration(
                         color: colorPrimaryLight,
                         borderRadius: BorderRadius.all(Radius.circular(10))),
-                    child: ProductividadWidgetI(),
+                    child: ProductividadChartWidgetI(),
                   ),
                   SizedBox(
                     width: _queryData.size.width * 0.02,
@@ -203,7 +201,7 @@ class _DesktopScreenState extends State<DesktopScreen> {
                     decoration: BoxDecoration(
                         color: colorPrimaryLight,
                         borderRadius: BorderRadius.all(Radius.circular(10))),
-                    child: ProductividadWidgetII(),
+                    child: ProductividadChartWidgetII(),
                   ),
                   SizedBox(
                     width: _queryData.size.width * 0.10,
@@ -211,7 +209,7 @@ class _DesktopScreenState extends State<DesktopScreen> {
                 ],
               ),
             ),
-            /* NOVEDADES
+            */
             SizedBox(
               height: _queryData.size.width * 0.02,
             ),
@@ -227,7 +225,8 @@ class _DesktopScreenState extends State<DesktopScreen> {
                     decoration: BoxDecoration(
                         color: colorMegaLight,
                         borderRadius: BorderRadius.all(Radius.circular(10))),
-                    child: NovedadesWidget(),
+                    //child: NovedadesWidget(),
+                    child: ProductividadChartWidget(),
                   ),
                   SizedBox(
                     width: _queryData.size.width * 0.10,
@@ -235,7 +234,7 @@ class _DesktopScreenState extends State<DesktopScreen> {
                 ],
               ),
             ),
-            */
+
             SizedBox(
               height: _queryData.size.width * 0.02,
             ),

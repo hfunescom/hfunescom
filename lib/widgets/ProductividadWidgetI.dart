@@ -14,7 +14,7 @@ class ProductividadWidgetI extends StatelessWidget {
       children: [
         TextWidget(
           //text: 'Contact', BORRAR
-          text: TITULO_PRODUCTIVIDAD_I,
+          text: PRODUCTIVIDAD_TITULO,
           fontFamilyName: proximaBold,
           color: colorCeleste,
           textSize: 28,

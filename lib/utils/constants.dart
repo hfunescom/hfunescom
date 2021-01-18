@@ -24,6 +24,7 @@ const String CUERPO_ARQUITECTURA_II_2="Disponible desde enero de 2021 :)";
 const String CUERPO_ARQUITECTURA_II_3="";
 const String CUERPO_ARQUITECTURA_II_4="MySQL / SQL";
 //const String TITULO_5="Contacto";
+const String PRODUCTIVIDAD_TITULO="Productividad";
 const String TITULO_PRODUCTIVIDAD_I="Productividad";
 const String CUERPO_PRODUCTIVIDAD_I_1="La mejora continua es un tema que me apasiona, tanto a nivel profesional como individual.";
 const String CUERPO_PRODUCTIVIDAD_II_1="Recursos";
@@ -35,7 +36,8 @@ const String REDES_SOCIALES_SO="StackOverflow: @hfunes-com";
 const String REDES_SOCIALES_GH="GitHub: @hfunescom";
 const String REDES_SOCIALES_IG="Instagram: @elmerdeve (Travel Only)";
 const String REDES_SOCIALES_MAIL="contacto@hfunes.com";
-
+//const String TITULO_6="Experiencia";
+const String ACADEMICOS_TITULO="Académicos";
 //const String CUERPO_6_1="Visitame en LinkedIn...";
 const String CUERPO_6_1="";
 const String TITULO_7="Académicos y Experiencia";
