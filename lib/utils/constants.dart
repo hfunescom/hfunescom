@@ -36,6 +36,7 @@ const String REDES_SOCIALES_SO="StackOverflow: @hfunes-com";
 const String REDES_SOCIALES_GH="GitHub: @hfunescom";
 const String REDES_SOCIALES_IG="Instagram: @elmerdeve (Travel Only)";
 const String REDES_SOCIALES_MAIL="contacto@hfunes.com";
+const String REDES_SOCIALES_LINKEDIN="Linkedin: https://www.linkedin.com/in/hern%C3%A1n-javier-funes-a9605015/";
 //const String TITULO_6="Experiencia";
 const String ACADEMICOS_TITULO="Académicos";
 //const String CUERPO_6_1="Visitame en LinkedIn...";
