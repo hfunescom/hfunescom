@@ -12,4 +12,5 @@ jobs:
     #  contents: read
     #  packages: write
     steps:
-      - run: echo "Hola Mundo"
+    #  - run: echo "Hola Mundo"
+	uses: FirebaseExtended/action-hosting-deploy@v0
