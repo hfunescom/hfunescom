@@ -1,4 +1,4 @@
-name: Test Galicia Seguros
+name: Despliegue continuo
 
 on:
   push:
