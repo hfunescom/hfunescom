@@ -13,4 +13,6 @@ jobs:
     #  packages: write
     steps:
     #  - run: echo "Hola Mundo"
-	uses: FirebaseExtended/action-hosting-deploy@v0
+#	uses: FirebaseExtended/action-hosting-deploy@v0
+- name: Deploy to Firebase Hosting
+  uses: FirebaseExtended/action-hosting-deploy@v0
