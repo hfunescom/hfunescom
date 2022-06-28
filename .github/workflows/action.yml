@@ -2,7 +2,7 @@ name: Despliegue continuo
 
 on:
   push:
-    branches: [main, dev]
+    branches: [master]
     
 jobs:
   start-pipeline:
