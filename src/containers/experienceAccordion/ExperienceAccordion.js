@@ -9,7 +9,8 @@ function ExperienceAccordion(props) {
 
   return (
     <div className="experience-accord">
-      <ThemeProvider theme={theme.name === "light" ? LightTheme : DarkTheme}>
+      {/* <ThemeProvider theme={theme.name === "light" ? LightTheme : DarkTheme}> */}
+      <ThemeProvider theme={LightTheme}>
         <Accordion onChange={({ expanded }) => console.log(expanded)}>
           {props.sections.map((section) => {
             return (
