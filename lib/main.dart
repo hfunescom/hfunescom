@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'header.dart';
+import 'header/header.dart';
+import 'header/header_column.dart';
 import 'body/experience_section.dart';
 import 'body/education_section.dart';
 import 'body_column/skills_section.dart'; // Importar el componente SkillsSection
@@ -27,40 +28,54 @@ class MyHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Header(),
-      ),
-      body: Padding(
-        padding: EdgeInsets.all(16.0),
-        child: Row(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Expanded(
-              flex: 3,
-              child: Column(
+      body: SingleChildScrollView(
+        child: Container(
+          color: Colors.grey[200], // Fondo gris claro
+          padding: EdgeInsets.symmetric(vertical: 20.0, horizontal: 10.0),
+          child: Center(
+            child: Container(
+              width: 800, // Ancho de la hoja
+              decoration: BoxDecoration(
+                border:
+                    Border.all(color: Colors.black, width: 2.0), // Borde negro
+                borderRadius: BorderRadius.circular(8.0), // Bordes redondeados
+                color: Colors.white, // Fondo blanco
+              ),
+              padding: EdgeInsets.all(20.0),
+              child: Row(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  ExperienceSection(),
-                  SizedBox(height: 24.0),
-                  EducationSection(),
+                  Expanded(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Header(),
+                        SizedBox(height: 24.0),
+                        ExperienceSection(),
+                        SizedBox(height: 24.0),
+                        EducationSection(),
+                        SizedBox(height: 24.0),
+                      ],
+                    ),
+                  ),
+                  SizedBox(width: 24.0),
+                  Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      HeaderColumn(),
+                      SizedBox(height: 24.0),
+                      SkillsSection(),
+                      SizedBox(height: 24.0),
+                      ToolsSection(),
+                      SizedBox(height: 24.0),
+                      LanguagesSection(),
+                      SizedBox(height: 24.0),
+                    ],
+                  ),
                 ],
               ),
             ),
-            SizedBox(width: 16.0),
-            Expanded(
-              flex: 1,
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  SkillsSection(), // Usar el componente SkillsSection
-                  SizedBox(height: 24.0),
-                  ToolsSection(), // Usar el componente ToolsSection
-                  SizedBox(height: 24.0),
-                  LanguagesSection(), // Usar el componente LanguagesSection
-                ],
-              ),
-            ),
-          ],
+          ),
         ),
       ),
     );

@@ -10,7 +10,6 @@ class Header extends StatelessWidget {
         Text(
           'Hernán Javier Funes',
           style: TextStyle(
-            fontSize: 30.0,
             color: Color(0xFF2079c7),
           ),
         ),
@@ -18,7 +17,6 @@ class Header extends StatelessWidget {
         Text(
           'Ingeniero en Informática',
           style: TextStyle(
-            fontSize: 12.0,
             fontWeight: FontWeight.bold,
             color: Colors.black,
           ),

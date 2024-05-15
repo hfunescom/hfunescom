@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'education_item.dart';
 
 class EducationSection extends StatelessWidget {
   @override
@@ -7,22 +8,30 @@ class EducationSection extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Text(
-          'Educación:',
+          'Education:',
           style: TextStyle(
-            fontSize: 18.0,
             fontWeight: FontWeight.bold,
             color: Colors.black,
           ),
         ),
-        Text(
-          '- Título universitario en Informática',
-          style: TextStyle(fontSize: 18.0),
+        SizedBox(height: 12.0),
+        EducationItem(
+          institution: 'National University of La Matanza',
+          title: 'Bachelor of Computer Engineering',
+          period: '2009 - 2021',
         ),
-        Text(
-          '  Universidad ABC',
-          style: TextStyle(fontSize: 18.0),
+        SizedBox(height: 12.0),
+        EducationItem(
+          institution: 'National University of La Matanza',
+          title: 'University Technician in Software Development',
+          period: '2009 - 2019',
         ),
-        // Agrega más información educativa aquí...
+        SizedBox(height: 12.0),
+        EducationItem(
+          institution: 'Technical Education School Nº2 - Republic of Peru',
+          title: 'Electronics Technician',
+          period: '1999 - 2003',
+        ),
       ],
     );
   }

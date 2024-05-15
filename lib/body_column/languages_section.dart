@@ -9,18 +9,15 @@ class LanguagesSection extends StatelessWidget {
         Text(
           'Idiomas:',
           style: TextStyle(
-            fontSize: 18.0,
             fontWeight: FontWeight.bold,
             color: Colors.black,
           ),
         ),
         Text(
-          '- Español (nativo)',
-          style: TextStyle(fontSize: 18.0),
+          '- Native Spanish.',
         ),
         Text(
-          '- Inglés (avanzado)',
-          style: TextStyle(fontSize: 18.0),
+          '- English B1+ (Learning)',
         ),
         // Agrega más idiomas aquí...
       ],

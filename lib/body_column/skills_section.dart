@@ -7,22 +7,27 @@ class SkillsSection extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Text(
-          'Habilidades:',
+          'CORE SKILLS:',
           style: TextStyle(
-            fontSize: 18.0,
             fontWeight: FontWeight.bold,
             color: Colors.black,
           ),
         ),
         Text(
-          '- Flutter',
-          style: TextStyle(fontSize: 18.0),
+          '- Java EE',
         ),
         Text(
-          '- Dart',
-          style: TextStyle(fontSize: 18.0),
+          '- Android',
         ),
-        // Agrega más habilidades aquí...
+        Text(
+          '- SQL',
+        ),
+        Text(
+          '- JavaScript',
+        ),
+        Text(
+          '- Linux',
+        ),
       ],
     );
   }
