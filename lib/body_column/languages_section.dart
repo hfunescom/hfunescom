@@ -6,18 +6,22 @@ class LanguagesSection extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Text(
-          'Idiomas:',
+        const Text(
+          'LANGUAGES',
           style: TextStyle(
+            fontSize: 14,
             fontWeight: FontWeight.bold,
-            color: Colors.black,
+            color: Color(0xFF003366),
           ),
         ),
+        SizedBox(height: 24.0),
         Text(
-          '- Native Spanish.',
+          '• Native Spanish.',
+          style: const TextStyle(fontSize: 10, color: Colors.black),
         ),
         Text(
-          '- English B1+ (Learning)',
+          '• English B1+ (Learning)',
+          style: const TextStyle(fontSize: 10, color: Colors.black),
         ),
         // Agrega más idiomas aquí...
       ],

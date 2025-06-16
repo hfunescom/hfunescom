@@ -7,14 +7,15 @@ class ExperienceSection extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Text(
-          'Experience:',
+        const Text(
+          'EXPERIENCE',
           style: TextStyle(
+            fontSize: 14,
             fontWeight: FontWeight.bold,
-            color: Colors.black,
+            color: Color(0xFF003366),
           ),
         ),
-        SizedBox(height: 8.0),
+        SizedBox(height: 24.0),
         ExperienceItem(
           organization: 'ITTI Digital',
           title: 'Software Engineer',
