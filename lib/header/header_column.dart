@@ -7,11 +7,11 @@ class HeaderColumn extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Text(
-          'Gran Buenos Aires, Argentina',
+          'Buenos Aires, Argentina',
         ),
         SizedBox(height: 8),
         Text(
-          'gitlab.com/hfunescom',
+          'github.com/hfunescom',
         ),
         SizedBox(height: 16),
       ],
