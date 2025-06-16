@@ -7,14 +7,15 @@ class EducationSection extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Text(
-          'Education:',
+        const Text(
+          'EDUCATION',
           style: TextStyle(
+            fontSize: 14,
             fontWeight: FontWeight.bold,
-            color: Colors.black,
+            color: Color(0xFF003366),
           ),
         ),
-        SizedBox(height: 12.0),
+        SizedBox(height: 24.0),
         EducationItem(
           institution: 'National University of La Matanza',
           title: 'Bachelor of Computer Engineering',
