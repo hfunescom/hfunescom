@@ -17,7 +17,14 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Hernán Javier Funes',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        brightness: Brightness.light,
+        primarySwatch: Colors.teal,
+        visualDensity: VisualDensity.adaptivePlatformDensity,
+        textTheme: TextTheme(
+          headlineLarge: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+          headlineMedium: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+          bodyLarge: TextStyle(fontSize: 16),
+        ),
       ),
       home: MyHomePage(),
     );
