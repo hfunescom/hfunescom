@@ -1,4 +1,5 @@
 name: Build and Deploy Flutter Web to GitHub Pages
+run: flutter build web --base-href="/hfunescom/"
 
 on:
   push:
