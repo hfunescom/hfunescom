@@ -3,7 +3,7 @@ run: flutter build web --base-href="/hfunescom/"
 
 on:
   push:
-    branches: ["*"]  # para cualquier branch, o cambialo a [main] si querés limitarlo
+    branches: ["main"]
 
 jobs:
   build:
