@@ -1,24 +1,28 @@
 import 'package:flutter/material.dart';
-import 'header.dart';
 
 class Header extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
+      crossAxisAlignment: CrossAxisAlignment.center,
       children: [
         Text(
           'Hernán Javier Funes',
-          style: TextStyle(
-            color: Color(0xFF2079c7),
+          textAlign: TextAlign.center,
+          style: const TextStyle(
+            fontSize: 26,
+            fontWeight: FontWeight.bold,
+            color: Colors.black,
           ),
         ),
         SizedBox(height: 8.0),
         Text(
           'Ingeniero en Informática',
-          style: TextStyle(
+          textAlign: TextAlign.center,
+          style: const TextStyle(
+            fontSize: 16,
             fontWeight: FontWeight.bold,
-            color: Colors.black,
+            color: Color(0xFF4A4A4A),
           ),
         ),
       ],
