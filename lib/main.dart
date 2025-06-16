@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'header/header.dart';
 import 'header/header_column.dart';
+import 'body/summary_section.dart';
 import 'body/experience_section.dart';
 import 'body/education_section.dart';
 import 'body_column/skills_section.dart'; // Importar el componente SkillsSection
@@ -57,6 +58,8 @@ class MyHomePage extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Header(),
+                        SizedBox(height: 24.0),
+                        SummarySection(),
                         SizedBox(height: 24.0),
                         ExperienceSection(),
                         SizedBox(height: 24.0),
