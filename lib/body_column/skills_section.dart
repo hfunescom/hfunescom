@@ -6,27 +6,34 @@ class SkillsSection extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Text(
-          'CORE SKILLS:',
+        const Text(
+          'CORE SKILLS',
           style: TextStyle(
+            fontSize: 14,
             fontWeight: FontWeight.bold,
-            color: Colors.black,
+            color: Color(0xFF003366),
           ),
         ),
+        SizedBox(height: 24.0),
         Text(
-          '- Java EE',
+          '• Java EE',
+          style: const TextStyle(fontSize: 10, color: Colors.black),
         ),
         Text(
-          '- Android',
+          '• Android',
+          style: const TextStyle(fontSize: 10, color: Colors.black),
         ),
         Text(
-          '- SQL',
+          '• SQL',
+          style: const TextStyle(fontSize: 10, color: Colors.black),
         ),
         Text(
-          '- JavaScript',
+          '• JavaScript',
+          style: const TextStyle(fontSize: 10, color: Colors.black),
         ),
         Text(
-          '- Linux',
+          '• Linux',
+          style: const TextStyle(fontSize: 10, color: Colors.black),
         ),
       ],
     );

@@ -18,7 +18,8 @@ class EducationItem extends StatelessWidget {
       children: [
         Text(
           institution,
-          style: TextStyle(
+          style: const TextStyle(
+            fontSize: 12,
             fontWeight: FontWeight.bold,
             color: Colors.black,
           ),
@@ -26,15 +27,18 @@ class EducationItem extends StatelessWidget {
         SizedBox(height: 4.0),
         Text(
           title,
-          style: TextStyle(
-            fontWeight: FontWeight.bold,
+          style: const TextStyle(
+            fontSize: 11,
+            color: Colors.black,
           ),
         ),
         SizedBox(height: 4.0),
         Text(
           period,
-          style: TextStyle(
-            color: Colors.grey,
+          style: const TextStyle(
+            fontSize: 10,
+            color: Color(0xFF4A4A4A),
+            fontStyle: FontStyle.italic,
           ),
         ),
         SizedBox(height: 12.0),

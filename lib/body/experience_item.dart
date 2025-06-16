@@ -20,17 +20,38 @@ class ExperienceItem extends StatelessWidget {
       children: [
         Text(
           organization,
-          style: TextStyle(fontWeight: FontWeight.bold),
+          style: const TextStyle(
+            fontSize: 12,
+            fontWeight: FontWeight.bold,
+            color: Colors.black,
+          ),
         ),
         SizedBox(height: 4.0),
         Text(
           title,
-          style: TextStyle(fontWeight: FontWeight.bold),
+          style: const TextStyle(
+            fontSize: 11,
+            color: Colors.black,
+          ),
         ),
         SizedBox(height: 2.0),
-        Text(period),
+        Text(
+          period,
+          style: const TextStyle(
+            fontSize: 10,
+            color: Color(0xFF4A4A4A),
+            fontStyle: FontStyle.italic,
+          ),
+        ),
         SizedBox(height: 2.0),
-        Text(tasks),
+        Text(
+          tasks,
+          style: const TextStyle(
+            fontSize: 11,
+            color: Colors.black,
+            height: 1.3,
+          ),
+        ),
         SizedBox(height: 16.0),
       ],
     );
