@@ -7,10 +7,11 @@ class SummarySection extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Text(
-          'Summary:',
+          'SUMMARY:',
           style: TextStyle(
+            fontSize: 14,
             fontWeight: FontWeight.bold,
-            color: Colors.black,
+            color: Color(0xFF003366),
           ),
         ),
         SizedBox(height: 8.0),
