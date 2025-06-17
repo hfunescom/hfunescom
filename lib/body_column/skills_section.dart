@@ -16,23 +16,27 @@ class SkillsSection extends StatelessWidget {
         ),
         SizedBox(height: 24.0),
         Text(
-          '• Java EE',
+          '• Monolithic and Microservices Design and Implementation.',
           style: const TextStyle(fontSize: 10, color: Colors.black),
         ),
         Text(
-          '• Android',
+          '• Development Design Patterns.',
           style: const TextStyle(fontSize: 10, color: Colors.black),
         ),
         Text(
-          '• SQL',
+          '• Scalable Architecture Patterns.',
           style: const TextStyle(fontSize: 10, color: Colors.black),
         ),
         Text(
-          '• JavaScript',
+          '• Cloud Computing (AWS, Serverless, Docker).',
           style: const TextStyle(fontSize: 10, color: Colors.black),
         ),
         Text(
-          '• Linux',
+          '• System Integration (REST, SOAP, API Gateways).',
+          style: const TextStyle(fontSize: 10, color: Colors.black),
+        ),
+        Text(
+          '• Database Design and Optimization (Relational & NoSQL)',
           style: const TextStyle(fontSize: 10, color: Colors.black),
         ),
       ],
