@@ -6,7 +6,7 @@ class SummarySection extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Text(
+        SelectableText(
           'SUMMARY:',
           style: TextStyle(
             fontSize: 14,
@@ -15,9 +15,9 @@ class SummarySection extends StatelessWidget {
           ),
         ),
         SizedBox(height: 8.0),
-        const Text(
+        const SelectableText(
           '''Experienced Senior Software Developer with more than 12 years of expertise in
-developing and implementing scalable solutions. 
+developing and implementing scalable solutions.
 Driven by a passion for innovative software design and architecture, I am
 seeking opportunities to apply my skills in Senior technical roles, contributing
 to the strategic and technical success of forward-thinking projects.''',

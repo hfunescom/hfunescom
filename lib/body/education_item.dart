@@ -16,7 +16,7 @@ class EducationItem extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Text(
+        SelectableText(
           institution,
           style: const TextStyle(
             fontSize: 12,
@@ -25,7 +25,7 @@ class EducationItem extends StatelessWidget {
           ),
         ),
         SizedBox(height: 4.0),
-        Text(
+        SelectableText(
           title,
           style: const TextStyle(
             fontSize: 11,
@@ -33,7 +33,7 @@ class EducationItem extends StatelessWidget {
           ),
         ),
         SizedBox(height: 4.0),
-        Text(
+        SelectableText(
           period,
           style: const TextStyle(
             fontSize: 10,

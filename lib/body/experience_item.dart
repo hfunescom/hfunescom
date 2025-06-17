@@ -18,7 +18,7 @@ class ExperienceItem extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Text(
+        SelectableText(
           organization,
           style: const TextStyle(
             fontSize: 12,
@@ -27,7 +27,7 @@ class ExperienceItem extends StatelessWidget {
           ),
         ),
         SizedBox(height: 4.0),
-        Text(
+        SelectableText(
           title,
           style: const TextStyle(
             fontSize: 11,
@@ -35,7 +35,7 @@ class ExperienceItem extends StatelessWidget {
           ),
         ),
         SizedBox(height: 2.0),
-        Text(
+        SelectableText(
           period,
           style: const TextStyle(
             fontSize: 10,
@@ -44,7 +44,7 @@ class ExperienceItem extends StatelessWidget {
           ),
         ),
         SizedBox(height: 2.0),
-        Text(
+        SelectableText(
           tasks,
           style: const TextStyle(
             fontSize: 11,
