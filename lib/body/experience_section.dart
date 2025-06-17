@@ -7,7 +7,7 @@ class ExperienceSection extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        const Text(
+        const SelectableText(
           'EXPERIENCE',
           style: TextStyle(
             fontSize: 14,

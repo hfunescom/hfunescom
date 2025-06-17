@@ -8,7 +8,7 @@ class ToolsSection extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-        const Text(
+        const SelectableText(
           'TOOLS AND TECHNOLOGIES',
           style: TextStyle(
             fontSize: 14,
@@ -20,28 +20,28 @@ class ToolsSection extends StatelessWidget {
         Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text('-Programming languages',
+            SelectableText('-Programming languages',
                 style: TextStyle(fontSize: 10, fontWeight: FontWeight.bold)),
-            Text(
+            SelectableText(
                 'Java, Kotlin, JavaScript, HTML, Bootstrap, jQuery, Angular Js, Flutter, Android, Go.',
                 style: TextStyle(fontSize: 10)),
-            Text(
+            SelectableText(
                 'Development Frameworks and Tools Spring/SpringBoot, Apache Struts, Maven, Gradle, Hibernate, Ionic, Git, SVN.',
                 style: TextStyle(fontSize: 10)),
-            Text('-Databases',
+            SelectableText('-Databases',
                 style: TextStyle(fontSize: 10, fontWeight: FontWeight.bold)),
-            Text('MySQL, PostgreSQL, DynamoDB, SQLite, Redis.',
+            SelectableText('MySQL, PostgreSQL, DynamoDB, SQLite, Redis.',
                 style: TextStyle(fontSize: 10)),
-            Text('DevOps', style: TextStyle(fontSize: 10)),
-            Text(
+            SelectableText('DevOps', style: TextStyle(fontSize: 10)),
+            SelectableText(
                 'AWS, Docker, GitLab CI/CD, GitHub Actions, Jenkins, Apache Web Server, IIS, Apache Tomcat, Wildfly.',
                 style: TextStyle(fontSize: 10)),
-            Text('-Monitoring',
+            SelectableText('-Monitoring',
                 style: TextStyle(fontSize: 10, fontWeight: FontWeight.bold)),
-            Text('AWS Cloudwatch, New Relic.', style: TextStyle(fontSize: 10)),
-            Text('-Operating Systems',
+            SelectableText('AWS Cloudwatch, New Relic.', style: TextStyle(fontSize: 10)),
+            SelectableText('-Operating Systems',
                 style: TextStyle(fontSize: 10, fontWeight: FontWeight.bold)),
-            Text(
+            SelectableText(
                 'Linux / Linux server, Windows / Windows Server, MacOs, Bash, Windows PowerShell, Embedded Systems.',
                 style: TextStyle(fontSize: 10)),
           ],
