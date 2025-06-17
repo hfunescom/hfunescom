@@ -6,7 +6,7 @@ class Header extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.center,
       children: [
-        Text(
+        SelectableText(
           'Hernán Javier Funes',
           textAlign: TextAlign.center,
           style: const TextStyle(
@@ -16,7 +16,7 @@ class Header extends StatelessWidget {
           ),
         ),
         SizedBox(height: 8.0),
-        Text(
+        SelectableText(
           'Software Engineer | Software Architect | Technical Lead',
           textAlign: TextAlign.center,
           style: const TextStyle(

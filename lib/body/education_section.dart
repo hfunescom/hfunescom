@@ -7,7 +7,7 @@ class EducationSection extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        const Text(
+        const SelectableText(
           'EDUCATION',
           style: TextStyle(
             fontSize: 14,
