@@ -5,8 +5,8 @@ class HeaderColumn extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
-      children: const [
-        Text(
+      children: [
+        SelectableText(
           'Buenos Aires, Argentina',
           style: TextStyle(
             fontSize: 12,
@@ -14,7 +14,7 @@ class HeaderColumn extends StatelessWidget {
           ),
         ),
         SizedBox(height: 8),
-        Text(
+        SelectableText(
           'github.com/hfunescom',
           style: TextStyle(
             fontSize: 12,

@@ -6,7 +6,7 @@ class SkillsSection extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        const Text(
+        SelectableText(
           'CORE SKILLS',
           style: TextStyle(
             fontSize: 14,
@@ -15,27 +15,27 @@ class SkillsSection extends StatelessWidget {
           ),
         ),
         SizedBox(height: 24.0),
-        Text(
+        SelectableText(
           '• Monolithic and Microservices Design and Implementation.',
           style: const TextStyle(fontSize: 10, color: Colors.black),
         ),
-        Text(
+        SelectableText(
           '• Development Design Patterns.',
           style: const TextStyle(fontSize: 10, color: Colors.black),
         ),
-        Text(
+        SelectableText(
           '• Scalable Architecture Patterns.',
           style: const TextStyle(fontSize: 10, color: Colors.black),
         ),
-        Text(
+        SelectableText(
           '• Cloud Computing (AWS, Serverless, Docker).',
           style: const TextStyle(fontSize: 10, color: Colors.black),
         ),
-        Text(
+        SelectableText(
           '• System Integration (REST, SOAP, API Gateways).',
           style: const TextStyle(fontSize: 10, color: Colors.black),
         ),
-        Text(
+        SelectableText(
           '• Database Design and Optimization (Relational & NoSQL)',
           style: const TextStyle(fontSize: 10, color: Colors.black),
         ),
