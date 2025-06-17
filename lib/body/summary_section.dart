@@ -7,7 +7,7 @@ class SummarySection extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Text(
-          'SUMMARY:',
+          'SUMMARY',
           style: TextStyle(
             fontSize: 14,
             fontWeight: FontWeight.bold,
