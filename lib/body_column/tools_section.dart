@@ -3,9 +3,11 @@ import 'package:flutter/material.dart';
 class ToolsSection extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
+    return SizedBox(
+      width: 240.0,
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
         const Text(
           'TOOLS AND TECHNOLOGIES',
           style: TextStyle(
