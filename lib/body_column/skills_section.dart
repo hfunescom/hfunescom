@@ -3,9 +3,11 @@ import 'package:flutter/material.dart';
 class SkillsSection extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
+    return SizedBox(
+      width: 240.0,
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
         const SelectableText(
           'CORE SKILLS',
           style: TextStyle(
@@ -39,7 +41,8 @@ class SkillsSection extends StatelessWidget {
           '• Database Design and Optimization (Relational & NoSQL)',
           style: const TextStyle(fontSize: 10, color: Colors.black),
         ),
-      ],
+        ],
+      ),
     );
   }
 }
