@@ -21,7 +21,7 @@ class ExperienceItem extends StatelessWidget {
         Text(
           organization,
           style: const TextStyle(
-            fontSize: 12,
+            fontSize: 16,
             fontWeight: FontWeight.bold,
             color: Colors.black,
           ),
@@ -30,7 +30,7 @@ class ExperienceItem extends StatelessWidget {
         Text(
           title,
           style: const TextStyle(
-            fontSize: 11,
+            fontSize: 13,
             color: Colors.black,
           ),
         ),
@@ -38,7 +38,7 @@ class ExperienceItem extends StatelessWidget {
         Text(
           period,
           style: const TextStyle(
-            fontSize: 10,
+            fontSize: 12,
             color: Color(0xFF4A4A4A),
             fontStyle: FontStyle.italic,
           ),
@@ -47,7 +47,7 @@ class ExperienceItem extends StatelessWidget {
         Text(
           tasks,
           style: const TextStyle(
-            fontSize: 11,
+            fontSize: 12,
             color: Colors.black,
             height: 1.3,
           ),
