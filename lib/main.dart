@@ -38,63 +38,89 @@ class MyApp extends StatelessWidget {
 class MyHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: Container(
-          color: Colors.white,
-          padding: EdgeInsets.symmetric(vertical: 20.0, horizontal: 16.0),
-          child: Center(
+    return LayoutBuilder(
+      builder: (context, constraints) {
+        final isMobile = constraints.maxWidth < 600;
+        return Scaffold(
+          body: SingleChildScrollView(
             child: Container(
-              width: 1024, // Ancho de la hoja
-              decoration: BoxDecoration(
-                border:
-                    Border.all(color: Colors.black, width: 2.0), // Borde negro
-                borderRadius: BorderRadius.circular(8.0), // Bordes redondeados
-                color: Colors.white, // Fondo blanco
-              ),
-              padding: EdgeInsets.all(16.0),
-              child: Row(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Expanded(
-                    flex: 7,
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Header(),
-                        SizedBox(height: 24.0),
-                        SummarySection(),
-                        SizedBox(height: 24.0),
-                        ExperienceSection(),
-                        SizedBox(height: 24.0),
-                      ],
-                    ),
+              color: Colors.white,
+              padding: const EdgeInsets.symmetric(vertical: 20.0, horizontal: 16.0),
+              child: Center(
+                child: Container(
+                  width: isMobile ? double.infinity : 1024,
+                  decoration: BoxDecoration(
+                    border: Border.all(color: Colors.black, width: 2.0),
+                    borderRadius: BorderRadius.circular(8.0),
+                    color: Colors.white,
                   ),
-                  SizedBox(width: 24.0),
-                  Expanded(
-                    flex: 3,
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        HeaderColumn(),
-                        SizedBox(height: 24.0),
-                        SkillsSection(),
-                        SizedBox(height: 24.0),
-                        ToolsSection(),
-                        SizedBox(height: 24.0),
-                        LanguagesSection(),
-                        SizedBox(height: 24.0),
-                        EducationSection(),
-                        SizedBox(height: 24.0),
-                      ],
-                    ),
-                  ),
-                ],
+                  padding: const EdgeInsets.all(16.0),
+                  child: isMobile
+                      ? Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Header(),
+                            const SizedBox(height: 24.0),
+                            const HeaderColumn(),
+                            const SizedBox(height: 24.0),
+                            SummarySection(),
+                            const SizedBox(height: 24.0),
+                            ExperienceSection(),
+                            const SizedBox(height: 24.0),
+                            SkillsSection(),
+                            const SizedBox(height: 24.0),
+                            ToolsSection(),
+                            const SizedBox(height: 24.0),
+                            LanguagesSection(),
+                            const SizedBox(height: 24.0),
+                            EducationSection(),
+                            const SizedBox(height: 24.0),
+                          ],
+                        )
+                      : Row(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Expanded(
+                              flex: 7,
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  Header(),
+                                  const SizedBox(height: 24.0),
+                                  SummarySection(),
+                                  const SizedBox(height: 24.0),
+                                  ExperienceSection(),
+                                  const SizedBox(height: 24.0),
+                                ],
+                              ),
+                            ),
+                            const SizedBox(width: 24.0),
+                            Expanded(
+                              flex: 3,
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  const HeaderColumn(),
+                                  const SizedBox(height: 24.0),
+                                  SkillsSection(),
+                                  const SizedBox(height: 24.0),
+                                  ToolsSection(),
+                                  const SizedBox(height: 24.0),
+                                  LanguagesSection(),
+                                  const SizedBox(height: 24.0),
+                                  EducationSection(),
+                                  const SizedBox(height: 24.0),
+                                ],
+                              ),
+                            ),
+                          ],
+                        ),
+                ),
               ),
             ),
           ),
-        ),
-      ),
+        );
+      },
     );
   }
 }
