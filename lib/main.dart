@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'header/header.dart';
 import 'header/header_column.dart';
 import 'body/summary_section.dart';
@@ -20,14 +21,14 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         brightness: Brightness.light,
         primarySwatch: Colors.teal,
-        fontFamily: 'Segoe UI',
+        fontFamily: GoogleFonts.merriweather().fontFamily,
         scaffoldBackgroundColor: Colors.white,
         visualDensity: VisualDensity.adaptivePlatformDensity,
-        textTheme: const TextTheme(
+        textTheme: GoogleFonts.merriweatherTextTheme(const TextTheme(
           headlineLarge: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
           headlineMedium: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
           bodyLarge: TextStyle(fontSize: 16),
-        ),
+        )),
       ),
       home: MyHomePage(),
     );
