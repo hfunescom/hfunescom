@@ -17,14 +17,14 @@ class ExperienceSection extends StatelessWidget {
         ),
         SizedBox(height: 24.0),
         ExperienceItem(
-          organization: 'ITTI Digital |',
+          organization: 'ITTI Digital | ',
           title: 'Software Engineer',
           period: 'October 2023 - Present',
           tasks: 'Backend Java/Kotlin Development in Fraud Tribe.',
         ),
         SizedBox(height: 8.0),
         ExperienceItem(
-          organization: 'Grupo Iraola |',
+          organization: 'Grupo Iraola | ',
           title: 'Technical Lead',
           period: 'March 2023 - October 2023',
           tasks:
@@ -32,7 +32,7 @@ class ExperienceSection extends StatelessWidget {
         ),
         SizedBox(height: 8.0),
         ExperienceItem(
-          organization: 'Galicia Seguros |',
+          organization: 'Galicia Seguros | ',
           title: 'Technical Owner',
           period: 'May 2022 - March 2023',
           tasks:
@@ -61,7 +61,7 @@ class ExperienceSection extends StatelessWidget {
         ),
         SizedBox(height: 8.0),
         ExperienceItem(
-          organization: 'QMAX Energías renovables |',
+          organization: 'QMAX Energías renovables | ',
           title: 'Mobile App Developer',
           period: 'August 2018 - April 2020',
           tasks:
@@ -69,7 +69,7 @@ class ExperienceSection extends StatelessWidget {
         ),
         SizedBox(height: 8.0),
         ExperienceItem(
-          organization: 'hfunes.com |',
+          organization: 'hfunes.com | ',
           title: 'Freelance developer',
           period: 'August 2018 - December 2019',
           tasks:
@@ -77,7 +77,7 @@ class ExperienceSection extends StatelessWidget {
         ),
         SizedBox(height: 8.0),
         ExperienceItem(
-          organization: 'BarloventoTech |',
+          organization: 'BarloventoTech | ',
           title: '',
           period: '',
           tasks: '',
@@ -97,14 +97,14 @@ class ExperienceSection extends StatelessWidget {
         ),
         SizedBox(height: 8.0),
         ExperienceItem(
-          organization: 'MBSoft S.A. |',
+          organization: 'MBSoft S.A. | ',
           title: 'Full Stack Developer',
           period: 'March 2013 - March 2014',
           tasks: 'Java web ERP system development.',
         ),
         SizedBox(height: 8.0),
         ExperienceItem(
-          organization: 'Mirgor S.A. |',
+          organization: 'Mirgor S.A. | ',
           title: '',
           period: '',
           tasks: '',
