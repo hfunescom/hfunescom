@@ -22,6 +22,7 @@ class SkillsSection extends StatelessWidget {
               color: Colors.black,
               fontWeight: FontWeight.bold),
         ),
+        const SizedBox(height: 8.0),
         Text(
           '• Development Design Patterns.',
           style: const TextStyle(
@@ -29,6 +30,7 @@ class SkillsSection extends StatelessWidget {
               color: Colors.black,
               fontWeight: FontWeight.bold),
         ),
+        const SizedBox(height: 8.0),
         Text(
           '• Scalable Architecture Patterns.',
           style: const TextStyle(
@@ -36,6 +38,7 @@ class SkillsSection extends StatelessWidget {
               color: Colors.black,
               fontWeight: FontWeight.bold),
         ),
+        const SizedBox(height: 8.0),
         Text(
           '• Cloud Computing (AWS, Serverless, Docker).',
           style: const TextStyle(
@@ -43,6 +46,7 @@ class SkillsSection extends StatelessWidget {
               color: Colors.black,
               fontWeight: FontWeight.bold),
         ),
+        const SizedBox(height: 8.0),
         Text(
           '• System Integration (REST, SOAP, API Gateways).',
           style: const TextStyle(
@@ -50,6 +54,7 @@ class SkillsSection extends StatelessWidget {
               color: Colors.black,
               fontWeight: FontWeight.bold),
         ),
+        const SizedBox(height: 8.0),
         Text(
           '• Database Design and Optimization (Relational & NoSQL)',
           style: const TextStyle(
