@@ -1,49 +1,69 @@
 import 'package:flutter/material.dart';
 
-class ExperienceItem extends StatelessWidget {
-  final String organization;
+/// Represents a single role performed within an organization.
+class ExperienceRole {
   final String title;
   final String period;
   final String tasks;
 
-  const ExperienceItem({
-    required this.organization,
+  const ExperienceRole({
     required this.title,
     required this.period,
     required this.tasks,
+  });
+}
+
+/// Displays the experience for an organization. A company can have multiple
+/// [ExperienceRole]s, which avoids creating several [ExperienceItem]s with
+/// empty fields when more than one position was held.
+class ExperienceItem extends StatelessWidget {
+  final String organization;
+  final List<ExperienceRole> roles;
+
+  const ExperienceItem({
+    required this.organization,
+    required this.roles,
   });
 
   @override
   Widget build(BuildContext context) {
     final isMobile = MediaQuery.of(context).size.width < 600;
 
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Text(
+          organization,
+          style: const TextStyle(
+            fontSize: 16,
+            fontWeight: FontWeight.bold,
+            color: Colors.black,
+          ),
+        ),
+        const SizedBox(height: 4.0),
+        for (var role in roles) ...[
+          _buildRole(role, isMobile),
+        ]
+      ],
+    );
+  }
+
+  Widget _buildRole(ExperienceRole role, bool isMobile) {
     final header = isMobile
         ? Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Row(
-                children: [
-                  Text(
-                    organization,
-                    style: const TextStyle(
-                      fontSize: 16,
-                      fontWeight: FontWeight.bold,
-                      color: Colors.black,
-                    ),
-                  ),
-                  Text(
-                    title,
-                    style: const TextStyle(
-                      fontSize: 13,
-                      fontWeight: FontWeight.bold,
-                      color: Colors.black,
-                    ),
-                  ),
-                ],
+              Text(
+                role.title,
+                style: const TextStyle(
+                  fontSize: 13,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.black,
+                ),
               ),
               const SizedBox(height: 4.0),
               Text(
-                period,
+                role.period,
                 style: const TextStyle(
                   fontSize: 12,
                   color: Color(0xFF4A4A4A),
@@ -55,15 +75,7 @@ class ExperienceItem extends StatelessWidget {
         : Row(
             children: [
               Text(
-                organization,
-                style: const TextStyle(
-                  fontSize: 16,
-                  fontWeight: FontWeight.bold,
-                  color: Colors.black,
-                ),
-              ),
-              Text(
-                title,
+                role.title,
                 style: const TextStyle(
                   fontSize: 13,
                   fontWeight: FontWeight.bold,
@@ -72,7 +84,7 @@ class ExperienceItem extends StatelessWidget {
               ),
               const Spacer(),
               Text(
-                period,
+                role.period,
                 style: const TextStyle(
                   fontSize: 12,
                   color: Color(0xFF4A4A4A),
@@ -89,7 +101,7 @@ class ExperienceItem extends StatelessWidget {
         header,
         const SizedBox(height: 4.0),
         Text(
-          tasks,
+          role.tasks,
           style: const TextStyle(
             fontSize: 12,
             color: Colors.black,
