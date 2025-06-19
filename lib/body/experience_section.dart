@@ -28,7 +28,7 @@ class ExperienceSection extends StatelessWidget {
           title: 'Technical Lead',
           period: 'March 2023 - October 2023',
           tasks:
-              'Technical Lead of the Software Development area of the company. Team of 5 developers. Ref: Leonardo Ponti (+54 9 11 3114 6371)',
+              'Technical Lead of the Software Development area of the company. Team of 5 developers.',
         ),
         SizedBox(height: 8.0),
         ExperienceItem(
@@ -36,7 +36,7 @@ class ExperienceSection extends StatelessWidget {
           title: 'Technical Owner',
           period: 'May 2022 - March 2023',
           tasks:
-              'Technical Owner in Insurance Experience Integration product. Team of 6 members. Ref: Gustavo Acevedo (+54 9 11 6820 8000)',
+              'Technical Owner in Insurance Experience Integration product. Team of 6 members.',
         ),
         SizedBox(height: 8.0),
         ExperienceItem(
@@ -52,7 +52,7 @@ class ExperienceSection extends StatelessWidget {
           title: 'Software Architect',
           period: 'May 2020 - April 2021',
           tasks:
-              'Software Architect at OSDE. Ref: Hernán Mercado (+54 9 11 6865 1089)',
+              'Software Architect at OSDE.',
         ),
         SizedBox(height: 8.0),
         ExperienceItem(
@@ -60,7 +60,7 @@ class ExperienceSection extends StatelessWidget {
           title: 'Mobile App Developer',
           period: 'August 2018 - April 2020',
           tasks:
-              'Android and Flutter applications development. Firmware development for IoT devices. Ref: Juan Julio Corica (+54 9 11 3674 0225).',
+              'Android and Flutter applications development. Firmware development for IoT devices.',
         ),
         SizedBox(height: 8.0),
         ExperienceItem(
@@ -76,21 +76,21 @@ class ExperienceSection extends StatelessWidget {
           title: 'System Analyst Programmer / Technical Lead',
           period: 'April 2014 - July 2018',
           tasks:
-              'Java web systems development and deployment. Technical lead in management and billing system development. Team of 4 developers. Ref: Hernán Rinaldo (+54 9 11 5927 9460)',
+              'Java web systems development and deployment. Technical lead in management and billing system development. Team of 4 developers.',
         ),
         SizedBox(height: 8.0),
         ExperienceItem(
           organization: 'MBSoft S.A.',
           title: 'Full Stack Developer',
           period: 'March 2013 - March 2014',
-          tasks: 'Java web ERP system development. Ref: Hernán Rinaldo (+54 9 11 5927 9460)',
+          tasks: 'Java web ERP system development.',
         ),
         SizedBox(height: 8.0),
         ExperienceItem(
           organization: 'Mirgor S.A.',
           title: 'Full Stack Developer',
           period: 'January 2012 - February 2013',
-          tasks: 'Internal Java web applications development. Ref: Hernán Busto (+54 9 11 4023 6471)',
+          tasks: 'Internal Java web applications development.',
         ),
         SizedBox(height: 8.0),
         ExperienceItem(
