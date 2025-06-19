@@ -77,7 +77,7 @@ class ExperienceSection extends StatelessWidget {
         ),
         SizedBox(height: 8.0),
         ExperienceItem(
-          organization: 'BarloventoTech | ',
+          organization: 'BarloventoTech',
           title: '',
           period: '',
           tasks: '',
@@ -104,7 +104,7 @@ class ExperienceSection extends StatelessWidget {
         ),
         SizedBox(height: 8.0),
         ExperienceItem(
-          organization: 'Mirgor S.A. | ',
+          organization: 'Mirgor S.A.',
           title: '',
           period: '',
           tasks: '',
