@@ -7,25 +7,11 @@ build/
 flutter_*.png
 
 # Android related
-android/.gradle/
-android/app/build/
-android/local.properties
-android/.idea/
+android/
 *.iml
 
 # iOS related
-ios/Flutter/App.framework
-ios/Flutter/Flutter.framework
-ios/Flutter/Flutter.podspec
-ios/Flutter/Generated.xcconfig
-ios/Flutter/ephemeral/
-ios/Pods/
-ios/Runner.xcworkspace
-ios/build/
-ios/.symlinks/
-ios/.flutter-plugins
-ios/.flutter-plugins-dependencies
-ios/.generated/
+ios/
 *.xcuserstate
 *.xcworkspace
 
@@ -34,27 +20,13 @@ web/.dart_tool/
 web/build/
 
 # macOS related
-macos/Flutter/ephemeral/
-macos/Flutter/GeneratedPluginRegistrant.swift
-macos/build/
-macos/Pods/
-macos/.symlinks/
-macos/.flutter-plugins
-macos/.flutter-plugins-dependencies
+macos/
 
 # Windows related
-windows/Flutter/ephemeral/
-windows/build/
-windows/.symlinks/
-windows/.flutter-plugins
-windows/.flutter-plugins-dependencies
+windows/
 
 # Linux related
-linux/Flutter/ephemeral/
-linux/build/
-linux/.symlinks/
-linux/.flutter-plugins
-linux/.flutter-plugins-dependencies
+linux/
 
 # VS Code settings
 .vscode/
