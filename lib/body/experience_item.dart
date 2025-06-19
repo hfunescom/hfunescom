@@ -35,6 +35,7 @@ class ExperienceItem extends StatelessWidget {
                     title,
                     style: const TextStyle(
                       fontSize: 13,
+                      fontWeight: FontWeight.bold,
                       color: Colors.black,
                     ),
                   ),
@@ -65,6 +66,7 @@ class ExperienceItem extends StatelessWidget {
                 title,
                 style: const TextStyle(
                   fontSize: 13,
+                  fontWeight: FontWeight.bold,
                   color: Colors.black,
                 ),
               ),
