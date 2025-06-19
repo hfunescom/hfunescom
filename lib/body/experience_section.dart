@@ -40,7 +40,7 @@ class ExperienceSection extends StatelessWidget {
         ),
         SizedBox(height: 8.0),
         ExperienceItem(
-          organization: 'CDT Soluciones Tecnológicas',
+          organization: 'CDT Soluciones Tecnológicas / OSDE',
           title: 'Technical Owner',
           period: 'May 2021 - April 2022',
           tasks:
@@ -48,11 +48,11 @@ class ExperienceSection extends StatelessWidget {
         ),
         SizedBox(height: 8.0),
         ExperienceItem(
-          organization: 'CDT Soluciones Tecnológicas',
+          organization: 'CDT Soluciones Tecnológicas / OSDE',
           title: 'Software Architect',
           period: 'May 2020 - April 2021',
           tasks:
-              'Software Architect at OSDE.',
+              'Software Architect at OSDE. Ref: Hernán Mercado (+54 9 11 6865 1089)',
         ),
         SizedBox(height: 8.0),
         ExperienceItem(
@@ -73,10 +73,18 @@ class ExperienceSection extends StatelessWidget {
         SizedBox(height: 8.0),
         ExperienceItem(
           organization: 'BarloventoTech',
-          title: 'System Analyst Programmer / Technical Lead',
-          period: 'April 2014 - July 2018',
+          title: 'Technical Lead',
+          period: 'July 2017 - July 2018',
           tasks:
-              'Java web systems development and deployment. Technical lead in management and billing system development. Team of 4 developers.',
+              'Technical lead in management and billing system development. Team of 4 developers.',
+        ),
+        SizedBox(height: 8.0),
+        ExperienceItem(
+          organization: 'BarloventoTech',
+          title: 'System Analyst Programmer',
+          period: 'April 2014 - July 2017',
+          tasks:
+              'Java web systems development and deployment.',
         ),
         SizedBox(height: 8.0),
         ExperienceItem(
@@ -95,7 +103,7 @@ class ExperienceSection extends StatelessWidget {
         SizedBox(height: 8.0),
         ExperienceItem(
           organization: 'Mirgor S.A.',
-          title: 'Technical support & Help Desk',
+          title: 'Technical support',
           period: 'May 2006 - December 2011',
           tasks:
               'Technical support and help desk for local and remote users. Servers administration and configuration.',
