@@ -45,7 +45,7 @@ class MyHomePage extends StatelessWidget {
           padding: EdgeInsets.symmetric(vertical: 20.0, horizontal: 16.0),
           child: Center(
             child: Container(
-              width: 800, // Ancho de la hoja
+              width: 1024, // Ancho de la hoja
               decoration: BoxDecoration(
                 border:
                     Border.all(color: Colors.black, width: 2.0), // Borde negro
