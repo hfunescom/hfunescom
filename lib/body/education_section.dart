@@ -12,7 +12,7 @@ class EducationSection extends StatelessWidget {
           style: TextStyle(
             fontSize: 14,
             fontWeight: FontWeight.bold,
-            color: Color(0xFF003366),
+            color: Color(0xFF2079C7),
           ),
         ),
         SizedBox(height: 24.0),
