@@ -10,7 +10,7 @@ class Header extends StatelessWidget {
           'Hernán Javier Funes',
           textAlign: TextAlign.center,
           style: const TextStyle(
-            fontSize: 30,
+            fontSize: 40,
             fontWeight: FontWeight.bold,
             color: Color(0xFF2079C7),
           ),
@@ -20,7 +20,7 @@ class Header extends StatelessWidget {
           'Software Engineer | Software Architect | Tech Lead',
           textAlign: TextAlign.center,
           style: const TextStyle(
-            fontSize: 12,
+            fontSize: 16,
             fontWeight: FontWeight.bold,
             color: Color(0xFF4A4A4A),
           ),
