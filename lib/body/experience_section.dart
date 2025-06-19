@@ -51,8 +51,7 @@ class ExperienceSection extends StatelessWidget {
           organization: 'CDT Soluciones Tecnológicas / OSDE',
           title: 'Software Architect',
           period: 'May 2020 - April 2021',
-          tasks:
-              'Software Architect at OSDE. Ref: Hernán Mercado (+54 9 11 6865 1089)',
+          tasks: 'Software Architect at OSDE.',
         ),
         SizedBox(height: 8.0),
         ExperienceItem(
@@ -83,8 +82,7 @@ class ExperienceSection extends StatelessWidget {
           organization: 'BarloventoTech',
           title: 'System Analyst Programmer',
           period: 'April 2014 - July 2017',
-          tasks:
-              'Java web systems development and deployment.',
+          tasks: 'Java web systems development and deployment.',
         ),
         SizedBox(height: 8.0),
         ExperienceItem(
