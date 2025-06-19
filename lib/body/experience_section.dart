@@ -20,7 +20,7 @@ class ExperienceSection extends StatelessWidget {
           organization: 'ITTI Digital',
           title: 'Software Engineer',
           period: 'October 2023 - Present',
-          tasks: 'Full Stack Java/Flutter Development in Fraud Tribe.',
+          tasks: 'Backend Java/Kotlin Development in Fraud Tribe.',
         ),
         SizedBox(height: 8.0),
         ExperienceItem(
@@ -28,7 +28,7 @@ class ExperienceSection extends StatelessWidget {
           title: 'Technical Lead',
           period: 'March 2023 - October 2023',
           tasks:
-              'Technical Lead of the Software Development area of the company. Team of 5 developers.',
+              'Technical Lead of the Software Development area of the company. Team of 5 developers. Ref: Leonardo Ponti (+54 9 11 3114 6371)',
         ),
         SizedBox(height: 8.0),
         ExperienceItem(
@@ -36,7 +36,7 @@ class ExperienceSection extends StatelessWidget {
           title: 'Technical Owner',
           period: 'May 2022 - March 2023',
           tasks:
-              'Technical Owner in Insurance Experience Integration product. Team of 6 members.',
+              'Technical Owner in Insurance Experience Integration product. Team of 6 members. Ref: Gustavo Acevedo (+54 9 11 6820 8000)',
         ),
         SizedBox(height: 8.0),
         ExperienceItem(
@@ -52,15 +52,15 @@ class ExperienceSection extends StatelessWidget {
           title: 'Software Architect',
           period: 'May 2020 - April 2021',
           tasks:
-              'Software Architect it OSDE. Website and Credential Digital projects.',
+              'Software Architect at OSDE. Ref: Hernán Mercado (+54 9 11 6865 1089)',
         ),
         SizedBox(height: 8.0),
         ExperienceItem(
           organization: 'QMAX Energías renovables',
           title: 'Mobile App Developer',
-          period: 'May 2019 - April 2020',
+          period: 'August 2018 - April 2020',
           tasks:
-              'Android and Flutter applications development. Firmware development for IoT devices.',
+              'Android and Flutter applications development. Firmware development for IoT devices. Ref: Juan Julio Corica (+54 9 11 3674 0225).',
         ),
         SizedBox(height: 8.0),
         ExperienceItem(
@@ -76,21 +76,21 @@ class ExperienceSection extends StatelessWidget {
           title: 'System Analyst Programmer / Technical Lead',
           period: 'April 2014 - July 2018',
           tasks:
-              'Java web systems development. Linux server administration. Technical lead in management and billing system development. Team of 4 developers.',
+              'Java web systems development and deployment. Technical lead in management and billing system development. Team of 4 developers. Ref: Hernán Rinaldo (+54 9 11 5927 9460)',
         ),
         SizedBox(height: 8.0),
         ExperienceItem(
           organization: 'MBSoft S.A.',
           title: 'Full Stack Developer',
           period: 'March 2013 - March 2014',
-          tasks: 'Java web ERP system development.',
+          tasks: 'Java web ERP system development. Ref: Hernán Rinaldo (+54 9 11 5927 9460)',
         ),
         SizedBox(height: 8.0),
         ExperienceItem(
           organization: 'Mirgor S.A.',
           title: 'Full Stack Developer',
           period: 'January 2012 - February 2013',
-          tasks: 'Internal Java web applications development.',
+          tasks: 'Internal Java web applications development. Ref: Hernán Busto (+54 9 11 4023 6471)',
         ),
         SizedBox(height: 8.0),
         ExperienceItem(
@@ -99,14 +99,6 @@ class ExperienceSection extends StatelessWidget {
           period: 'May 2006 - December 2011',
           tasks:
               'Technical support and help desk for local and remote users. Servers administration and configuration.',
-        ),
-        SizedBox(height: 8.0),
-        ExperienceItem(
-          organization: 'Alcatel S.A.',
-          title: 'Voice Maintenance',
-          period: 'April 2005 - October 2005',
-          tasks:
-              'Technical support and maintenance of Alcatel telephone exchanges.',
         ),
       ],
     );
