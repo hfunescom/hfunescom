@@ -58535,7 +58535,7 @@ P(a){var s=null,r="Technical Owner",q="CDT Soluciones Tecnol\xf3gicas",p="Full S
 return A.ek(A.a([B.L6,A.b9(s,24,s),new A.dA("ITTI Digital","Software Engineer","October 2023 - Present","Backend Java/Kotlin Development in Fraud Tribe.",s),A.b9(s,8,s),new A.dA("Grupo Iraola","Technical Lead","March 2023 - October 2023","Technical Lead of the Software Development area of the company. Team of 5 developers.",s),A.b9(s,8,s),new A.dA("Galicia Seguros",r,"May 2022 - March 2023","Technical Owner in Insurance Experience Integration product. Team of 6 members.",s),A.b9(s,8,s),new A.dA(q,r,"May 2021 - April 2022","Technical Owner in OSDE (Private Health Insurance) Digital Credential evolution product. Team of 11 members.",s),A.b9(s,8,s),new A.dA(q,"Software Architect","May 2020 - April 2021","Software Architect at OSDE.",s),A.b9(s,8,s),new A.dA("QMAX Energ\xedas renovables","Mobile App Developer","August 2018 - April 2020","Android and Flutter applications development. Firmware development for IoT devices.",s),A.b9(s,8,s),new A.dA("hfunes.com","Freelance Consulting and Development","August 2018 - December 2019","Java web systems development. Android applications development. IoT systems development.",s),A.b9(s,8,s),new A.dA("BarloventoTech","System Analyst Programmer / Technical Lead","April 2014 - July 2018","Java web systems development and deployment. Technical lead in management and billing system development. Team of 4 developers.",s),A.b9(s,8,s),new A.dA("MBSoft S.A.",p,"March 2013 - March 2014","Java web ERP system development.",s),A.b9(s,8,s),new A.dA(o,p,"January 2012 - February 2013","Internal Java web applications development.",s),A.b9(s,8,s),new A.dA(o,"Technical support & Help Desk","May 2006 - December 2011","Technical support and help desk for local and remote users. Servers administration and configuration.",s)],t.p),B.a1)}}
 A.Co.prototype={
 P(a){var s=null
-return A.ek(A.a([A.cZ("SUMMARY",A.ng(s,s,new A.y(4280318407),s,s,s,s,s,s,s,s,12,s,s,B.a5,s,s,!0,s,s,s,s,s,s,s,s),s),A.b9(s,8,s),B.L9],t.p),B.a1)}}
+return A.ek(A.a([A.cZ("SUMMARY",A.ng(s,s,new A.y(4280318407),s,s,s,s,s,s,s,s,12,s,s,B.a5,s,s,!0,s,s,s,s,s,s,s,s),s),A.b9(s,8,s),B.L8],t.p),B.a1)}}
 A.zq.prototype={
 P(a){var s=null
 return A.ek(A.a([B.Ll,A.b9(s,24,s),A.cZ("\u2022 Native Spanish.",B.b8,s),A.cZ("\u2022 English B1+ (Learning)",B.b8,s)],t.p),B.a1)}}
@@ -58560,7 +58560,7 @@ return A.R(A.a40(q),$async$kz)
 case 5:case 3:return A.M(null,r)}})
 return A.N($async$kz,r)},
 P(a){var s=null,r=t.p
-return A.ek(A.a([B.Ld,B.an,A.Tg(A.a([B.L2,B.v4,A.a2n(!1,!0,B.L4,s,!0,s,s,s,s,s,s,s,s,s,new A.OH(this),s)],r),B.dH,B.cT),B.an,A.Tg(A.a([B.Lh,B.v4,A.a2n(!1,!0,B.L8,s,!0,s,s,s,s,s,s,s,s,s,new A.OI(this),s)],r),B.dH,B.cT),B.GS],r),B.a1)}}
+return A.ek(A.a([B.Ld,B.an,A.Tg(A.a([B.L2,B.v4,A.a2n(!1,!0,B.L4,s,!0,s,s,s,s,s,s,s,s,s,new A.OH(this),s)],r),B.dH,B.cT),B.an,A.Tg(A.a([B.Lh,B.v4,A.a2n(!1,!0,B.Lb,s,!0,s,s,s,s,s,s,s,s,s,new A.OI(this),s)],r),B.dH,B.cT),B.GS],r),B.a1)}}
 A.OH.prototype={
 $0(){return this.a.kz("https://github.com/hfunescom")},
 $S:0}
@@ -58572,7 +58572,7 @@ P(a){var s=A.am4().$0().d,r=A.a82(A.jE())
 return new A.qF(new A.zX(null),"Hern\xe1n Javier Funes",A.a7R(B.V,s,B.Dc,B.i,A.afX(B.KN),null,r),null)}}
 A.zX.prototype={
 P(a){var s=null,r=new A.c_(B.k,2,B.J,-1),q=A.a4V(8),p=t.p
-return new A.rM(new A.C6(A.a1P(s,A.a1F(A.a1P(s,A.Tg(A.a([A.a5Y(A.ek(A.a([new A.z0(s),A.b9(s,24,s),new A.Co(s),A.b9(s,24,s),new A.yA(s),A.b9(s,24,s)],p),B.a1),3),A.b9(s,s,24),A.a5Y(A.ek(A.a([new A.z1(s),A.b9(s,24,s),new A.C8(s),A.b9(s,24,s),new A.CH(s),A.b9(s,24,s),new A.zq(s),A.b9(s,24,s),new A.yn(s),A.b9(s,24,s)],p),B.a1),1)],p),B.a1,B.cT),s,new A.hh(B.i,s,new A.cI(r,r,r,r),q,s,s,B.cf),s,s,new A.bu(16,16,16,16),800),s,s),B.i,s,s,s,new A.bu(16,20,16,20),s),s),s)}}
+return new A.rM(new A.C6(A.a1P(s,A.a1F(A.a1P(s,A.Tg(A.a([A.a5Y(A.ek(A.a([new A.z0(s),A.b9(s,24,s),new A.Co(s),A.b9(s,24,s),new A.yA(s),A.b9(s,24,s)],p),B.a1),7),A.b9(s,s,24),A.a5Y(A.ek(A.a([new A.z1(s),A.b9(s,24,s),new A.C8(s),A.b9(s,24,s),new A.CH(s),A.b9(s,24,s),new A.zq(s),A.b9(s,24,s),new A.yn(s),A.b9(s,24,s)],p),B.a1),3)],p),B.a1,B.cT),s,new A.hh(B.i,s,new A.cI(r,r,r,r),q,s,s,B.cf),s,s,new A.bu(16,16,16,16),800),s,s),B.i,s,s,s,new A.bu(16,20,16,20),s),s),s)}}
 A.Km.prototype={
 py(a,b,c){return this.UY(a,b,c)},
 UY(a,b,c){var s=0,r=A.O(t.ey),q,p=this,o,n
@@ -61409,21 +61409,21 @@ B.m=new A.ja(1,"ltr")
 B.fX=A.a(s([B.I,B.m]),A.a2("r<ja>"))
 B.k6=A.a(s([0,0,32776,33792,1,10240,0,0]),t.t)
 B.ao=new A.j(!0,B.k,null,null,null,null,10,B.a5,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.La=new A.bI("\u2022 Programming languages",null,B.ao,null,null)
+B.L9=new A.bI("\u2022 Programming languages",null,B.ao,null,null)
 B.b8=new A.j(!0,B.k,null,null,null,null,10,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.L7=new A.bI("Java, Kotlin, JavaScript, HTML, Bootstrap, jQuery, Angular Js, Flutter, Android, Go.",null,B.b8,null,null)
 B.an=new A.j7(null,8,null,null)
 B.Lg=new A.bI("\u2022 Development Frameworks and Tools",null,B.ao,null,null)
 B.L0=new A.bI("Spring/SpringBoot, Apache Struts, Maven, Gradle, Hibernate, Ionic, Git, SVN.",null,B.b8,null,null)
 B.L_=new A.bI("\u2022 Databases",null,B.ao,null,null)
-B.Lb=new A.bI("MySQL, PostgreSQL, DynamoDB, SQLite, Redis.",null,B.b8,null,null)
+B.La=new A.bI("MySQL, PostgreSQL, DynamoDB, SQLite, Redis.",null,B.b8,null,null)
 B.Lc=new A.bI("\u2022 DevOps",null,B.ao,null,null)
 B.Lj=new A.bI("AWS, Docker, GitLab CI/CD, GitHub Actions, Jenkins, Apache Web Server, IIS, Apache Tomcat, Wildfly.",null,B.b8,null,null)
 B.Lk=new A.bI("\u2022 Monitoring",null,B.ao,null,null)
 B.Le=new A.bI("AWS Cloudwatch, New Relic.",null,B.b8,null,null)
 B.Li=new A.bI("\u2022 Operating Systems",null,B.ao,null,null)
 B.Lf=new A.bI("Linux / Linux server, Windows / Windows Server, MacOs, Bash, Windows PowerShell, Embedded Systems.",null,B.b8,null,null)
-B.AV=A.a(s([B.La,B.L7,B.an,B.Lg,B.L0,B.an,B.L_,B.Lb,B.an,B.Lc,B.Lj,B.an,B.Lk,B.Le,B.an,B.Li,B.Lf]),t.p)
+B.AV=A.a(s([B.L9,B.L7,B.an,B.Lg,B.L0,B.an,B.L_,B.La,B.an,B.Lc,B.Lj,B.an,B.Lk,B.Le,B.an,B.Li,B.Lf]),t.p)
 B.jL=new A.dj(0)
 B.jM=new A.dj(1)
 B.T=new A.dj(4)
@@ -63010,9 +63010,9 @@ B.vi=new A.j(!0,B.jt,null,null,null,null,12,null,null,null,null,null,null,null,n
 B.L4=new A.bI("github.com/hfunescom",null,B.vi,null,null)
 B.L5=new A.bI("TOOLS AND TECHNOLOGIES",null,B.df,null,null)
 B.L6=new A.bI("EXPERIENCE",null,B.df,null,null)
-B.L8=new A.bI("http://linkedin.com/in/hernan-javier-funes",null,B.vi,null,null)
 B.Je=new A.j(!0,null,null,null,null,null,12,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.L9=new A.bI("Experienced Senior Software Developer with more than 12 years of expertise in developing and implementing scalable solutions. Driven by a passion for innovative software design and architecture, I am seeking opportunities to apply my skills in Senior technical roles, contributing to the strategic and technical success of forward-thinking projects.",null,B.Je,null,null)
+B.L8=new A.bI("Experienced Senior Software Developer with more than 12 years of expertise in developing and implementing scalable solutions. Driven by a passion for innovative software design and architecture, I am seeking opportunities to apply my skills in Senior technical roles, contributing to the strategic and technical success of forward-thinking projects.",null,B.Je,null,null)
+B.Lb=new A.bI("linkedin.com/in/hernan-javier-funes",null,B.vi,null,null)
 B.Ld=new A.bI("\ud83c\udf0d Buenos Aires, Argentina",null,B.i6,null,null)
 B.Lh=new A.bI("\ud83d\udcbc",null,B.i6,null,null)
 B.Ll=new A.bI("LANGUAGES",null,B.df,null,null)
