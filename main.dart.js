@@ -2079,27 +2079,27 @@ s=b-p-1
 if(s<0)return!0
 o=$.wQ()
 n=A.wE(a,s)
-q=n==null?o.b:o.lp(n)}if(A.cG(q,B.ax,B.a4,j,j,j)&&A.cG(r,B.ax,B.a4,j,j,j))return!1
+q=n==null?o.b:o.lp(n)}if(A.cG(q,B.ax,B.a5,j,j,j)&&A.cG(r,B.ax,B.a5,j,j,j))return!1
 m=0
 do{++m
 l=$.wQ().qD(a,b+m)}while(A.cG(l,B.dl,B.dm,B.dk,j,j))
 do{++p
 k=$.wQ().qD(a,b-p-1)}while(A.cG(k,B.dl,B.dm,B.dk,j,j))
-if(A.cG(q,B.ax,B.a4,j,j,j)&&A.cG(r,B.ij,B.dj,B.c9,j,j)&&A.cG(l,B.ax,B.a4,j,j,j))return!1
-if(A.cG(k,B.ax,B.a4,j,j,j)&&A.cG(q,B.ij,B.dj,B.c9,j,j)&&A.cG(r,B.ax,B.a4,j,j,j))return!1
-s=q===B.a4
+if(A.cG(q,B.ax,B.a5,j,j,j)&&A.cG(r,B.ij,B.dj,B.c9,j,j)&&A.cG(l,B.ax,B.a5,j,j,j))return!1
+if(A.cG(k,B.ax,B.a5,j,j,j)&&A.cG(q,B.ij,B.dj,B.c9,j,j)&&A.cG(r,B.ax,B.a5,j,j,j))return!1
+s=q===B.a5
 if(s&&r===B.c9)return!1
-if(s&&r===B.ii&&l===B.a4)return!1
-if(k===B.a4&&q===B.ii&&r===B.a4)return!1
+if(s&&r===B.ii&&l===B.a5)return!1
+if(k===B.a5&&q===B.ii&&r===B.a5)return!1
 s=q===B.aT
 if(s&&r===B.aT)return!1
-if(A.cG(q,B.ax,B.a4,j,j,j)&&r===B.aT)return!1
-if(s&&A.cG(r,B.ax,B.a4,j,j,j))return!1
+if(A.cG(q,B.ax,B.a5,j,j,j)&&r===B.aT)return!1
+if(s&&A.cG(r,B.ax,B.a5,j,j,j))return!1
 if(k===B.aT&&A.cG(q,B.ik,B.dj,B.c9,j,j)&&r===B.aT)return!1
 if(s&&A.cG(r,B.ik,B.dj,B.c9,j,j)&&l===B.aT)return!1
 if(q===B.dn&&r===B.dn)return!1
-if(A.cG(q,B.ax,B.a4,B.aT,B.dn,B.eQ)&&r===B.eQ)return!1
-if(q===B.eQ&&A.cG(r,B.ax,B.a4,B.aT,B.dn,j))return!1
+if(A.cG(q,B.ax,B.a5,B.aT,B.dn,B.eQ)&&r===B.eQ)return!1
+if(q===B.eQ&&A.cG(r,B.ax,B.a5,B.aT,B.dn,j))return!1
 return!0},
 cG(a,b,c,d,e,f){if(a===b)return!0
 if(a===c)return!0
@@ -13789,19 +13789,19 @@ p.aR(B.FD,s)
 q.ga_c()
 p.aR(B.FF,q.ga_c())
 q.gxQ()
-p.rx=new A.c5(q.gxQ(),B.a3)
+p.rx=new A.c5(q.gxQ(),B.a4)
 p.e=!0
 q.gn()
-p.ry=new A.c5(q.gn(),B.a3)
+p.ry=new A.c5(q.gn(),B.a4)
 p.e=!0
 q.ga_i()
-p.to=new A.c5(q.ga_i(),B.a3)
+p.to=new A.c5(q.ga_i(),B.a4)
 p.e=!0
 q.gY1()
-p.x1=new A.c5(q.gY1(),B.a3)
+p.x1=new A.c5(q.gY1(),B.a4)
 p.e=!0
 q.ga_8()
-p.x2=new A.c5(q.ga_8(),B.a3)
+p.x2=new A.c5(q.ga_8(),B.a4)
 p.e=!0
 q.gbP()
 p.aj=q.gbP()
@@ -15416,15 +15416,15 @@ o.push(n)
 n=null}}B.b.f_(o)
 s=t.yC
 return A.Z(new A.eU(o,new A.a_X(),s),!0,s.h("u.E"))},
-j8(){return new A.j7(A.x(t.nS,t.mP),A.x(t.zN,t.O),new A.c5("",B.a3),new A.c5("",B.a3),new A.c5("",B.a3),new A.c5("",B.a3),new A.c5("",B.a3))},
+j8(){return new A.j7(A.x(t.nS,t.mP),A.x(t.zN,t.O),new A.c5("",B.a4),new A.c5("",B.a4),new A.c5("",B.a4),new A.c5("",B.a4),new A.c5("",B.a4))},
 a02(a,b,c,d){var s
 if(a.a.length===0)return c
-if(d!=b&&b!=null){switch(b.a){case 0:s=new A.c5("\u202b",B.a3)
+if(d!=b&&b!=null){switch(b.a){case 0:s=new A.c5("\u202b",B.a4)
 break
-case 1:s=new A.c5("\u202a",B.a3)
+case 1:s=new A.c5("\u202a",B.a4)
 break
-default:s=null}a=s.S(0,a).S(0,new A.c5("\u202c",B.a3))}if(c.a.length===0)return a
-return c.S(0,new A.c5("\n",B.a3)).S(0,a)},
+default:s=null}a=s.S(0,a).S(0,new A.c5("\u202c",B.a4))}if(c.a.length===0)return a
+return c.S(0,new A.c5("\n",B.a4)).S(0,a)},
 la:function la(a){this.a=a},
 c5:function c5(a,b){this.a=a
 this.b=b},
@@ -25604,7 +25604,7 @@ r=o.ghp()
 t.yq.a(a)
 q=a==null?null:a.k(0,"state")
 p=t.z
-s.eK("flutter/navigation",B.a5.f8(new A.ez("pushRouteInformation",A.as(["location",r,"state",q],p,p))),new A.QP())},
+s.eK("flutter/navigation",B.a6.f8(new A.ez("pushRouteInformation",A.as(["location",r,"state",q],p,p))),new A.QP())},
 h0(){var s=0,r=A.Q(t.H),q,p=this,o,n,m
 var $async$h0=A.J(function(a,b){if(a===1)return A.N(b,r)
 while(true)switch(s){case 0:p.l()
@@ -25641,10 +25641,10 @@ yj(a){var s,r=this,q="flutter/navigation"
 if(A.a7J(a)){s=r.d
 s.toString
 r.Vc(s)
-$.ad().eK(q,B.a5.f8(B.Ds),new A.UH())}else if(A.a38(a)){s=r.f
+$.ad().eK(q,B.a6.f8(B.Ds),new A.UH())}else if(A.a38(a)){s=r.f
 s.toString
 r.f=null
-$.ad().eK(q,B.a5.f8(new A.ez("pushRoute",s)),new A.UI())}else{r.f=r.ghp()
+$.ad().eK(q,B.a6.f8(new A.ez("pushRoute",s)),new A.UI())}else{r.f=r.ghp()
 r.d.ol(-1)}},
 vJ(a,b,c){var s
 if(b==null)b=this.ghp()
@@ -25806,13 +25806,13 @@ if(a==="dev.flutter/channel-buffers")try{s=$.JZ()
 b.toString
 s.Zm(b)}finally{c.$1(null)}else $.JZ().a0H(a,b,c)},
 V3(a,b,a0){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d=this,c=null
-switch(a){case"flutter/skia":s=B.a5.eB(b)
+switch(a){case"flutter/skia":s=B.a6.eB(b)
 switch(s.a){case"Skia.setResourceCacheMaxBytes":if($.ae() instanceof A.p0){r=A.cI(s.b)
 $.a1S.bs().d.zI(r)}d.cB(a0,B.G.aW([A.a([!0],t.sj)]))
 break}return
 case"flutter/assets":d.mo(B.K.e1(A.cY(b.buffer,0,c)),a0)
 return
-case"flutter/platform":s=B.a5.eB(b)
+case"flutter/platform":s=B.a6.eB(b)
 switch(s.a){case"SystemNavigator.pop":q=t.W
 if(q.a(d.gbE().b.k(0,0))!=null)q.a(d.gbE().b.k(0,0)).gpX().nl().b_(new A.N9(d,a0),t.P)
 else d.cB(a0,B.G.aW([!0]))
@@ -25853,7 +25853,7 @@ q.dispatchEvent(k)
 return
 case"flutter/textinput":$.wP().gn0().ZW(b,a0)
 return
-case"flutter/contextmenu":switch(B.a5.eB(b).a){case"enableContextMenu":t.W.a(d.gbE().b.k(0,0)).gG4().Ym()
+case"flutter/contextmenu":switch(B.a6.eB(b).a){case"enableContextMenu":t.W.a(d.gbE().b.k(0,0)).gG4().Ym()
 d.cB(a0,B.G.aW([!0]))
 return
 case"disableContextMenu":t.W.a(d.gbE().b.k(0,0)).gG4().e2()
@@ -25868,7 +25868,7 @@ q.x=new A.QF()}j=B.D6.k(0,A.bX(o.k(0,"kind")))
 if(j==null)j="default"
 if(j==="default")self.document.body.style.removeProperty("cursor")
 else A.i(self.document.body.style,"cursor",j)}break}return
-case"flutter/web_test_e2e":d.cB(a0,B.G.aW([A.aka(B.a5,b)]))
+case"flutter/web_test_e2e":d.cB(a0,B.G.aW([A.aka(B.a6,b)]))
 return
 case"flutter/platform_views":i=B.bK.eB(b)
 h=i.b
@@ -29773,7 +29773,7 @@ if(r.k(0,q)==null)throw A.e(A.aH("AutofillInfo must have a valid uniqueIdentifie
 else{r=r.k(0,q)
 r.toString
 s=A.a64(this.c)
-$.ad().eK("flutter/textinput",B.a5.f8(new A.ez("TextInputClient.updateEditingStateWithTag",[0,A.as([r.b,s.Jm()],t.dR,t.z)])),A.JE())}},
+$.ad().eK("flutter/textinput",B.a6.f8(new A.ez("TextInputClient.updateEditingStateWithTag",[0,A.as([r.b,s.Jm()],t.dR,t.z)])),A.JE())}},
 $S:1}
 A.x8.prototype={
 FE(a,b){var s,r,q="password",p=this.d,o=this.e,n=globalThis.HTMLInputElement
@@ -30280,7 +30280,7 @@ s=A.eO(new A.jl(b.getElementsByClassName("submitBtn"),s),s.h("u.E"),t.e)
 A.o(s).y[1].a(J.jL(s.a)).click()},
 $S:193}
 A.Vo.prototype={
-ZW(a,b){var s,r,q,p,o,n,m,l=B.a5.eB(a)
+ZW(a,b){var s,r,q,p,o,n,m,l=B.a6.eB(a)
 switch(l.a){case"TextInput.setClient":s=l.b
 r=J.aV(s)
 q=new A.VG(A.cI(r.k(s,0)),A.a6s(t.a.a(r.k(s,1))))
@@ -30346,22 +30346,22 @@ if(r.c){r.c=!1
 r.gdQ().e2()
 r.gn0()
 s=r.b
-$.ad().eK("flutter/textinput",B.a5.f8(new A.ez("TextInputClient.onConnectionClosed",[s])),A.JE())}}}
+$.ad().eK("flutter/textinput",B.a6.f8(new A.ez("TextInputClient.onConnectionClosed",[s])),A.JE())}}}
 A.P7.prototype={
 $2(a,b){var s,r,q="flutter/textinput",p=this.a
 if(p.d.f){p.gn0()
 p=p.b
 s=t.N
 r=t.z
-$.ad().eK(q,B.a5.f8(new A.ez("TextInputClient.updateEditingStateWithDeltas",[p,A.as(["deltas",A.a([A.as(["oldText",b.a,"deltaText",b.b,"deltaStart",b.c,"deltaEnd",b.d,"selectionBase",b.e,"selectionExtent",b.f,"composingBase",b.r,"composingExtent",b.w],s,r)],t.cs)],s,r)])),A.JE())}else{p.gn0()
+$.ad().eK(q,B.a6.f8(new A.ez("TextInputClient.updateEditingStateWithDeltas",[p,A.as(["deltas",A.a([A.as(["oldText",b.a,"deltaText",b.b,"deltaStart",b.c,"deltaEnd",b.d,"selectionBase",b.e,"selectionExtent",b.f,"composingBase",b.r,"composingExtent",b.w],s,r)],t.cs)],s,r)])),A.JE())}else{p.gn0()
 p=p.b
-$.ad().eK(q,B.a5.f8(new A.ez("TextInputClient.updateEditingState",[p,a.Jm()])),A.JE())}},
+$.ad().eK(q,B.a6.f8(new A.ez("TextInputClient.updateEditingState",[p,a.Jm()])),A.JE())}},
 $S:195}
 A.P6.prototype={
 $1(a){var s=this.a
 s.gn0()
 s=s.b
-$.ad().eK("flutter/textinput",B.a5.f8(new A.ez("TextInputClient.performAction",[s,a])),A.JE())},
+$.ad().eK("flutter/textinput",B.a6.f8(new A.ez("TextInputClient.performAction",[s,a])),A.JE())},
 $S:196}
 A.MP.prototype={
 cJ(a){var s=this,r=a.style
@@ -30861,7 +30861,7 @@ return A.P($async$xv,r)}}
 A.N2.prototype={
 $0(){var s=0,r=A.Q(t.y),q,p=this,o,n,m,l,k,j,i,h
 var $async$$0=A.J(function(a,b){if(a===1)return A.N(b,r)
-while(true)switch(s){case 0:i=B.a5.eB(p.b)
+while(true)switch(s){case 0:i=B.a6.eB(p.b)
 h=t.nV.a(i.b)
 case 3:switch(i.a){case"selectMultiEntryHistory":s=5
 break
@@ -46401,7 +46401,7 @@ sYD(a){return},
 sWV(a){return},
 EI(a){var s=this,r=a.id
 r=a.go
-r=r==null?null:new A.c5(r,B.a3)
+r=r==null?null:new A.c5(r,B.a4)
 s.bW=r
 s.eE=null
 s.fc=null
@@ -58695,7 +58695,7 @@ P(a){var s=null,r="Software Engineer",q="Technical Lead",p="Technical Owner",o="
 return A.dA(A.a([B.La,A.ca(s,24,s),new A.cK("ITTI Digital |",r,"October 2023 - Present","Backend Java/Kotlin Development in Fraud Tribe.",s),A.ca(s,8,s),new A.cK("Grupo Iraola |",q,"March 2023 - October 2023","Technical Lead of the Software Development area of the company. Team of 5 developers.",s),A.ca(s,8,s),new A.cK("Galicia Seguros |",p,"May 2022 - March 2023","Technical Owner in Insurance Experience Integration product. Team of 6 members.",s),A.ca(s,8,s),new A.cK("CDT Soluciones Tecnol\xf3gicas / OSDE","","","",s),new A.cK("",p,"May 2021 - April 2022","Technical Owner in OSDE (Private Health Insurance) Digital Credential evolution product. Team of 11 members. Software Architect - May 2020 - April 2021. Software Architect at OSDE.",s),new A.cK("","Software Architect","May 2020 - April 2021","Software Architect at OSDE.",s),A.ca(s,8,s),new A.cK("QMAX Energ\xedas renovables |","Mobile App Developer","August 2018 - April 2020","Android and Flutter applications development. Firmware development for IoT devices.",s),A.ca(s,8,s),new A.cK("hfunes.com |","Freelance developer","August 2018 - December 2019","Java web systems development. Android applications development. IoT systems development.",s),A.ca(s,8,s),new A.cK("BarloventoTech |","","","",s),new A.cK("",q,"July 2017 - July 2018","Technical lead in management and billing system development. Team of 4 developers.",s),new A.cK("",r,"April 2014 - July 2017","Java web systems development and deployment.",s),A.ca(s,8,s),new A.cK("MBSoft S.A. |",o,"March 2013 - March 2014","Java web ERP system development.",s),A.ca(s,8,s),new A.cK("Mirgor S.A. |","","","",s),new A.cK("",o,"January 2012 - February 2013","Internal Java web applications development. ",s),new A.cK("","Technical support & Help desk","May 2006 - December 2011","Technical support and help desk for local and remote users. Servers administration and configuration.",s)],t.p),B.T)}}
 A.tx.prototype={
 P(a){var s=null
-return A.dA(A.a([A.cu("SUMMARY",A.nj(s,s,new A.y(4280318407),s,s,s,s,s,s,s,s,12,s,s,B.a6,s,s,!0,s,s,s,s,s,s,s,s),s),A.ca(s,8,s),B.Ld],t.p),B.T)}}
+return A.dA(A.a([A.cu("SUMMARY",A.nj(s,s,new A.y(4280318407),s,s,s,s,s,s,s,s,12,s,s,B.a3,s,s,!0,s,s,s,s,s,s,s,s),s),A.ca(s,8,s),B.Ld],t.p),B.T)}}
 A.qw.prototype={
 P(a){var s=null
 return A.dA(A.a([B.Lp,A.ca(s,24,s),A.cu("\u2022 Native Spanish.",B.i7,s),A.cu("\u2022 English B1+ (Learning)",B.i7,s)],t.p),B.T)}}
@@ -61015,7 +61015,7 @@ B.NI=new A.zj()
 B.zt=new A.NG(1,"auto")
 B.wJ=new A.zq()
 B.G=new A.Py()
-B.a5=new A.PA()
+B.a6=new A.PA()
 B.j7=function getTagFallback(o) {
   var s = Object.prototype.toString.call(o);
   return s.substring(8, s.length - 1);
@@ -61425,7 +61425,7 @@ B.jL=new A.NX("focus")
 B.bf=new A.mh(0,"normal")
 B.bg=new A.mh(1,"italic")
 B.u=new A.dl(3)
-B.a6=new A.dl(6)
+B.a3=new A.dl(6)
 B.jQ=new A.hu("Invalid method call",null,null)
 B.zu=new A.hu("Invalid envelope",null,null)
 B.zv=new A.hu("Expected envelope, got nothing",null,null)
@@ -61445,8 +61445,8 @@ B.zx=new A.e2(B.dP,B.bf)
 B.zy=new A.e2(B.dP,B.bg)
 B.zz=new A.e2(B.u,B.bf)
 B.zA=new A.e2(B.u,B.bg)
-B.zB=new A.e2(B.a6,B.bf)
-B.zC=new A.e2(B.a6,B.bg)
+B.zB=new A.e2(B.a3,B.bf)
+B.zC=new A.e2(B.a3,B.bg)
 B.cx=new A.dl(8)
 B.zD=new A.e2(B.cx,B.bf)
 B.zE=new A.e2(B.cx,B.bg)
@@ -61581,7 +61581,7 @@ B.I=new A.jc(0,"rtl")
 B.m=new A.jc(1,"ltr")
 B.h_=A.a(s([B.I,B.m]),A.a2("r<jc>"))
 B.k8=A.a(s([0,0,32776,33792,1,10240,0,0]),t.t)
-B.ap=new A.j(!0,B.k,null,null,null,null,10,B.a6,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+B.ap=new A.j(!0,B.k,null,null,null,null,10,B.a3,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.Lf=new A.bS("\u2022 Programming languages",null,B.ap,null,null)
 B.c6=new A.j(!0,B.k,null,null,null,null,10,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.Lb=new A.bS("Java, Kotlin, JavaScript, HTML, Bootstrap, jQuery, Angular Js, Flutter, Android, Go.",null,B.c6,null,null)
@@ -61602,7 +61602,7 @@ B.jN=new A.dl(1)
 B.U=new A.dl(4)
 B.jO=new A.dl(5)
 B.jP=new A.dl(7)
-B.k9=A.a(s([B.jM,B.jN,B.dP,B.u,B.U,B.jO,B.a6,B.jP,B.cx]),A.a2("r<dl>"))
+B.k9=A.a(s([B.jM,B.jN,B.dP,B.u,B.U,B.jO,B.a3,B.jP,B.cx]),A.a2("r<dl>"))
 B.B3=A.a(s(["click","scroll"]),t.s)
 B.Bf=A.a(s([]),t.EQ)
 B.kd=A.a(s([]),A.a2("r<amX>"))
@@ -61615,7 +61615,7 @@ B.h0=A.a(s([]),t.f8)
 B.Be=A.a(s([]),t.E1)
 B.h1=A.a(s([]),t.Y)
 B.kb=A.a(s([]),t.s)
-B.a3=A.a(s([]),t.ve)
+B.a4=A.a(s([]),t.ve)
 B.Bl=A.a(s([]),t.px)
 B.NQ=A.a(s([]),t.p)
 B.kc=A.a(s([]),t.t)
@@ -61623,7 +61623,7 @@ B.ka=A.a(s([]),t.zz)
 B.Bk=A.a(s([]),t.yH)
 B.ii=new A.c1(0,"DoubleQuote")
 B.c9=new A.c1(1,"SingleQuote")
-B.a4=new A.c1(2,"HebrewLetter")
+B.a5=new A.c1(2,"HebrewLetter")
 B.eR=new A.c1(3,"CR")
 B.eS=new A.c1(4,"LF")
 B.im=new A.c1(5,"Newline")
@@ -61640,7 +61640,7 @@ B.eQ=new A.c1(15,"ExtendNumLet")
 B.dk=new A.c1(16,"ZWJ")
 B.il=new A.c1(17,"WSegSpace")
 B.vy=new A.c1(18,"Unknown")
-B.Bm=A.a(s([B.ii,B.c9,B.a4,B.eR,B.eS,B.im,B.dl,B.MC,B.dm,B.dn,B.ax,B.ij,B.ik,B.dj,B.aT,B.eQ,B.dk,B.il,B.vy]),A.a2("r<c1>"))
+B.Bm=A.a(s([B.ii,B.c9,B.a5,B.eR,B.eS,B.im,B.dl,B.MC,B.dm,B.dn,B.ax,B.ij,B.ik,B.dj,B.aT,B.eQ,B.dk,B.il,B.vy]),A.a2("r<c1>"))
 B.ke=A.a(s([B.fO,B.dY,B.cD,B.e0,B.e4,B.bR,B.k2,B.fZ,B.al,B.e5,B.bm,B.cA,B.cB,B.dZ,B.cC,B.fP,B.b5,B.fQ,B.fR,B.k0,B.ak,B.e_,B.cE,B.cF,B.fS,B.fT,B.fU,B.fV,B.k1,B.fW,B.fX,B.e1,B.cG,B.cH,B.fY,B.e2,B.e3]),A.a2("r<aU>"))
 B.vz=new A.nA(0,"topLeft")
 B.vC=new A.nA(3,"bottomRight")
@@ -62515,7 +62515,7 @@ B.uQ=new A.U(B.av,!0,!1,!1,!1,B.j)
 B.uR=new A.U(B.au,!0,!0,!1,!1,B.j)
 B.uS=new A.U(B.av,!0,!0,!1,!1,B.j)
 B.D8=new A.bP([B.hZ,B.r,B.hW,B.r,B.hX,B.r,B.hY,B.r,B.uX,B.r,B.uU,B.r,B.uV,B.r,B.uW,B.r,B.eG,B.r,B.eH,B.r,B.eI,B.r,B.eF,B.r,B.uP,B.r,B.uQ,B.r,B.uR,B.r,B.uS,B.r,B.eJ,B.r,B.eK,B.r],t.xM)
-B.D9=new A.bP([B.jM,"Thin",B.jN,"ExtraLight",B.dP,"Light",B.u,"Regular",B.U,"Medium",B.jO,"SemiBold",B.a6,"Bold",B.jP,"ExtraBold",B.cx,"Black"],A.a2("bP<dl,w>"))
+B.D9=new A.bP([B.jM,"Thin",B.jN,"ExtraLight",B.dP,"Light",B.u,"Regular",B.U,"Medium",B.jO,"SemiBold",B.a3,"Bold",B.jP,"ExtraBold",B.cx,"Black"],A.a2("bP<dl,w>"))
 B.pc=new A.b8(B.an,[],A.a2("b8<A,nN>"))
 B.Dc=new A.b8(B.an,[],A.a2("b8<ck,ck>"))
 B.eh=new A.b8(B.an,[],A.a2("b8<n4,am>"))
@@ -62945,12 +62945,12 @@ B.vh=new A.bL(-1,-1)
 B.vi=new A.CI(0,"left")
 B.vj=new A.CI(1,"right")
 B.Hz=new A.tL(null,null,null)
-B.HK=new A.j(!0,B.k,null,null,null,null,12,B.a6,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.vk=new A.j(!0,B.k,null,null,null,null,16,B.a6,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+B.HK=new A.j(!0,B.k,null,null,null,null,12,B.a3,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+B.vl=new A.j(!0,B.k,null,null,null,null,13,B.a3,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+B.vk=new A.j(!0,B.k,null,null,null,null,16,B.a3,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.I_=new A.j(!0,B.k,null,null,null,null,12,null,null,null,null,null,1.3,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.J7=new A.j(!0,null,null,null,null,null,null,B.a6,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+B.J7=new A.j(!0,null,null,null,null,null,null,B.a3,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.i7=new A.j(!0,B.k,null,null,null,null,12,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.vl=new A.j(!0,B.k,null,null,null,null,13,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.xP=new A.y(3506372608)
 B.vd=new A.lg(1)
 B.yG=new A.y(4294967040)
@@ -62960,8 +62960,8 @@ B.fx=new A.y(4283058762)
 B.JB=new A.j(!0,B.fx,null,null,null,null,11,null,B.bg,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.vm=new A.j(!0,B.fx,null,null,null,null,12,null,B.bg,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.jp=new A.y(4280318407)
-B.Km=new A.j(!0,B.jp,null,null,null,null,40,B.a6,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.KH=new A.j(!0,B.fx,null,null,null,null,16,B.a6,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+B.Km=new A.j(!0,B.jp,null,null,null,null,40,B.a3,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+B.KH=new A.j(!0,B.fx,null,null,null,null,16,B.a3,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.IZ=new A.j(!0,B.w,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"blackRedwoodCity displayLarge",null,null,null,null)
 B.Jl=new A.j(!0,B.w,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"blackRedwoodCity displayMedium",null,null,null,null)
 B.J_=new A.j(!0,B.w,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"blackRedwoodCity displaySmall",null,null,null,null)
@@ -62979,8 +62979,8 @@ B.HA=new A.j(!0,B.y,null,".AppleSystemUIFont",null,null,null,null,null,null,null
 B.JX=new A.j(!0,B.k,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"blackRedwoodCity labelMedium",null,null,null,null)
 B.HU=new A.j(!0,B.k,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"blackRedwoodCity labelSmall",null,null,null,null)
 B.KS=new A.cT(B.IZ,B.Jl,B.J_,B.KK,B.JJ,B.I3,B.KR,B.J2,B.J6,B.JR,B.Jx,B.Kp,B.HA,B.JX,B.HU)
-B.J8=new A.j(!0,null,null,null,null,null,24,B.a6,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.J9=new A.j(!0,null,null,null,null,null,20,B.a6,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+B.J8=new A.j(!0,null,null,null,null,null,24,B.a3,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+B.J9=new A.j(!0,null,null,null,null,null,20,B.a3,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.Jj=new A.j(!0,null,null,null,null,null,16,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.KT=new A.cT(null,null,null,B.J8,B.J9,null,null,null,null,B.Jj,null,null,null,null,null)
 B.KP=new A.j(!0,B.w,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"blackRedmond displayLarge",null,null,null,null)
@@ -63176,7 +63176,7 @@ B.Kf=new A.j(!0,B.y,null,"Roboto",B.z,null,null,null,null,null,null,null,null,nu
 B.JI=new A.j(!0,B.k,null,"Roboto",B.z,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"blackHelsinki labelMedium",null,null,null,null)
 B.JS=new A.j(!0,B.k,null,"Roboto",B.z,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"blackHelsinki labelSmall",null,null,null,null)
 B.L4=new A.cT(B.KA,B.Ib,B.IY,B.JH,B.JU,B.HH,B.IC,B.HM,B.Ju,B.K5,B.J3,B.K6,B.Kf,B.JI,B.JS)
-B.dh=new A.j(!0,B.jp,null,null,null,null,12,B.a6,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+B.dh=new A.j(!0,B.jp,null,null,null,null,12,B.a3,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.L7=new A.bS("CORE SKILLS",null,B.dh,null,null)
 B.L8=new A.bS("EDUCATION",null,B.dh,null,null)
 B.L9=new A.bS("TOOLS AND TECHNOLOGIES",null,B.dh,null,null)
