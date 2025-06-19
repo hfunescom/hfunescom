@@ -44,14 +44,8 @@ class ExperienceSection extends StatelessWidget {
           title: 'Technical Owner',
           period: 'May 2021 - April 2022',
           tasks:
-              'Technical Owner in OSDE (Private Health Insurance) Digital Credential evolution product. Team of 11 members.',
-        ),
-        SizedBox(height: 8.0),
-        ExperienceItem(
-          organization: 'CDT Soluciones Tecnológicas / OSDE',
-          title: 'Software Architect',
-          period: 'May 2020 - April 2021',
-          tasks: 'Software Architect at OSDE.',
+              'Technical Owner in OSDE (Private Health Insurance) Digital Credential evolution product. Team of 11 members. '
+              'Software Architect - May 2020 - April 2021. Software Architect at OSDE.',
         ),
         SizedBox(height: 8.0),
         ExperienceItem(
@@ -75,14 +69,8 @@ class ExperienceSection extends StatelessWidget {
           title: 'Technical Lead',
           period: 'July 2017 - July 2018',
           tasks:
-              'Technical lead in management and billing system development. Team of 4 developers.',
-        ),
-        SizedBox(height: 8.0),
-        ExperienceItem(
-          organization: 'BarloventoTech',
-          title: 'System Analyst Programmer',
-          period: 'April 2014 - July 2017',
-          tasks: 'Java web systems development and deployment.',
+              'Technical lead in management and billing system development. Team of 4 developers. '
+              'System Analyst Programmer - April 2014 - July 2017. Java web systems development and deployment.',
         ),
         SizedBox(height: 8.0),
         ExperienceItem(
@@ -96,14 +84,9 @@ class ExperienceSection extends StatelessWidget {
           organization: 'Mirgor S.A.',
           title: 'Full Stack Developer',
           period: 'January 2012 - February 2013',
-          tasks: 'Internal Java web applications development.',
-        ),
-        SizedBox(height: 8.0),
-        ExperienceItem(
-          organization: 'Mirgor S.A.',
-          title: 'Technical support',
-          period: 'May 2006 - December 2011',
           tasks:
+              'Internal Java web applications development. '
+              'Technical support - May 2006 - December 2011. '
               'Technical support and help desk for local and remote users. Servers administration and configuration.',
         ),
       ],
