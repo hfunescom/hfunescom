@@ -17,11 +17,11 @@ class LanguagesSection extends StatelessWidget {
         SizedBox(height: 24.0),
         Text(
           '• Native Spanish.',
-          style: const TextStyle(fontSize: 10, color: Colors.black),
+          style: const TextStyle(fontSize: 12, color: Colors.black),
         ),
         Text(
           '• English B1+ (Learning)',
-          style: const TextStyle(fontSize: 10, color: Colors.black),
+          style: const TextStyle(fontSize: 12, color: Colors.black),
         ),
         // Agrega más idiomas aquí...
       ],
