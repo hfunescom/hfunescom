@@ -17,14 +17,14 @@ class ExperienceSection extends StatelessWidget {
         ),
         SizedBox(height: 24.0),
         ExperienceItem(
-          organization: 'ITTI Digital',
+          organization: 'ITTI Digital |',
           title: 'Software Engineer',
           period: 'October 2023 - Present',
           tasks: 'Backend Java/Kotlin Development in Fraud Tribe.',
         ),
         SizedBox(height: 8.0),
         ExperienceItem(
-          organization: 'Grupo Iraola',
+          organization: 'Grupo Iraola |',
           title: 'Technical Lead',
           period: 'March 2023 - October 2023',
           tasks:
@@ -32,7 +32,7 @@ class ExperienceSection extends StatelessWidget {
         ),
         SizedBox(height: 8.0),
         ExperienceItem(
-          organization: 'Galicia Seguros',
+          organization: 'Galicia Seguros |',
           title: 'Technical Owner',
           period: 'May 2022 - March 2023',
           tasks:
@@ -41,15 +41,27 @@ class ExperienceSection extends StatelessWidget {
         SizedBox(height: 8.0),
         ExperienceItem(
           organization: 'CDT Soluciones Tecnológicas / OSDE',
+          title: '',
+          period: '',
+          tasks: '',
+        ),
+        ExperienceItem(
+          organization: '',
           title: 'Technical Owner',
           period: 'May 2021 - April 2022',
           tasks:
               'Technical Owner in OSDE (Private Health Insurance) Digital Credential evolution product. Team of 11 members. '
               'Software Architect - May 2020 - April 2021. Software Architect at OSDE.',
         ),
+        ExperienceItem(
+          organization: '',
+          title: 'Software Architect',
+          period: 'May 2020 - April 2021',
+          tasks: 'Software Architect at OSDE.',
+        ),
         SizedBox(height: 8.0),
         ExperienceItem(
-          organization: 'QMAX Energías renovables',
+          organization: 'QMAX Energías renovables |',
           title: 'Mobile App Developer',
           period: 'August 2018 - April 2020',
           tasks:
@@ -57,36 +69,57 @@ class ExperienceSection extends StatelessWidget {
         ),
         SizedBox(height: 8.0),
         ExperienceItem(
-          organization: 'hfunes.com',
-          title: 'Freelance Consulting and Development',
+          organization: 'hfunes.com |',
+          title: 'Freelance developer',
           period: 'August 2018 - December 2019',
           tasks:
               'Java web systems development. Android applications development. IoT systems development.',
         ),
         SizedBox(height: 8.0),
         ExperienceItem(
-          organization: 'BarloventoTech',
+          organization: 'BarloventoTech |',
+          title: '',
+          period: '',
+          tasks: '',
+        ),
+        ExperienceItem(
+          organization: '',
           title: 'Technical Lead',
           period: 'July 2017 - July 2018',
-          tasks:
-              'Technical lead in management and billing system development. Team of 4 developers. '
-              'System Analyst Programmer - April 2014 - July 2017. Java web systems development and deployment.',
+          tasks: 'Technical lead in management and billing system development. '
+              'Team of 4 developers.',
+        ),
+        ExperienceItem(
+          organization: '',
+          title: 'Software Engineer',
+          period: 'April 2014 - July 2017',
+          tasks: 'Java web systems development and deployment.',
         ),
         SizedBox(height: 8.0),
         ExperienceItem(
-          organization: 'MBSoft S.A.',
+          organization: 'MBSoft S.A. |',
           title: 'Full Stack Developer',
           period: 'March 2013 - March 2014',
           tasks: 'Java web ERP system development.',
         ),
         SizedBox(height: 8.0),
         ExperienceItem(
-          organization: 'Mirgor S.A.',
+          organization: 'Mirgor S.A. |',
+          title: '',
+          period: '',
+          tasks: '',
+        ),
+        ExperienceItem(
+          organization: '',
           title: 'Full Stack Developer',
           period: 'January 2012 - February 2013',
+          tasks: 'Internal Java web applications development. ',
+        ),
+        ExperienceItem(
+          organization: '',
+          title: 'Technical support & Help desk',
+          period: 'May 2006 - December 2011',
           tasks:
-              'Internal Java web applications development. '
-              'Technical support - May 2006 - December 2011. '
               'Technical support and help desk for local and remote users. Servers administration and configuration.',
         ),
       ],

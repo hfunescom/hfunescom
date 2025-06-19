@@ -31,13 +31,6 @@ class ExperienceItem extends StatelessWidget {
                       color: Colors.black,
                     ),
                   ),
-                  const Text(
-                    ' | ',
-                    style: TextStyle(
-                      fontSize: 13,
-                      color: Colors.black,
-                    ),
-                  ),
                   Text(
                     title,
                     style: const TextStyle(
@@ -65,13 +58,6 @@ class ExperienceItem extends StatelessWidget {
                 style: const TextStyle(
                   fontSize: 16,
                   fontWeight: FontWeight.bold,
-                  color: Colors.black,
-                ),
-              ),
-              const Text(
-                ' | ',
-                style: TextStyle(
-                  fontSize: 13,
                   color: Colors.black,
                 ),
               ),
