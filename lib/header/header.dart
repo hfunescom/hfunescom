@@ -17,7 +17,7 @@ class Header extends StatelessWidget {
         ),
         SizedBox(height: 8.0),
         Text(
-          'Software Engineer | Software Architect | Technical Lead',
+          'Software Engineer | Software Architect | Tech Lead',
           textAlign: TextAlign.center,
           style: const TextStyle(
             fontSize: 24,
