@@ -18,32 +18,43 @@ class ExperienceItem extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Text(
-          organization,
-          style: const TextStyle(
-            fontSize: 16,
-            fontWeight: FontWeight.bold,
-            color: Colors.black,
-          ),
+        Row(
+          children: [
+            Text(
+              organization,
+              style: const TextStyle(
+                fontSize: 16,
+                fontWeight: FontWeight.bold,
+                color: Colors.black,
+              ),
+            ),
+            const Text(
+              ' | ',
+              style: TextStyle(
+                fontSize: 13,
+                color: Colors.black,
+              ),
+            ),
+            Text(
+              title,
+              style: const TextStyle(
+                fontSize: 13,
+                color: Colors.black,
+              ),
+            ),
+            const Spacer(),
+            Text(
+              period,
+              style: const TextStyle(
+                fontSize: 12,
+                color: Color(0xFF4A4A4A),
+                fontStyle: FontStyle.italic,
+              ),
+              textAlign: TextAlign.right,
+            ),
+          ],
         ),
         SizedBox(height: 4.0),
-        Text(
-          title,
-          style: const TextStyle(
-            fontSize: 13,
-            color: Colors.black,
-          ),
-        ),
-        SizedBox(height: 2.0),
-        Text(
-          period,
-          style: const TextStyle(
-            fontSize: 12,
-            color: Color(0xFF4A4A4A),
-            fontStyle: FontStyle.italic,
-          ),
-        ),
-        SizedBox(height: 2.0),
         Text(
           tasks,
           style: const TextStyle(
