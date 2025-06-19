@@ -9,7 +9,7 @@ class ToolsSection extends StatelessWidget {
         const Text(
           'TOOLS AND TECHNOLOGIES',
           style: TextStyle(
-            fontSize: 14,
+            fontSize: 12,
             fontWeight: FontWeight.bold,
             color: Color(0xFF2079C7),
           ),

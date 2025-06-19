@@ -10,7 +10,7 @@ class ExperienceSection extends StatelessWidget {
         const Text(
           'EXPERIENCE',
           style: TextStyle(
-            fontSize: 14,
+            fontSize: 12,
             fontWeight: FontWeight.bold,
             color: Color(0xFF2079C7),
           ),
