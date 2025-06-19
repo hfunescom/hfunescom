@@ -10,7 +10,7 @@ class EducationSection extends StatelessWidget {
         const Text(
           'EDUCATION',
           style: TextStyle(
-            fontSize: 14,
+            fontSize: 12,
             fontWeight: FontWeight.bold,
             color: Color(0xFF2079C7),
           ),

@@ -9,7 +9,7 @@ class LanguagesSection extends StatelessWidget {
         const Text(
           'LANGUAGES',
           style: TextStyle(
-            fontSize: 14,
+            fontSize: 12,
             fontWeight: FontWeight.bold,
             color: Color(0xFF2079C7),
           ),
