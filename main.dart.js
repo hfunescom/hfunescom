@@ -58438,7 +58438,7 @@ P(a){var s=null,r="Technical Owner",q="CDT Soluciones Tecnol\xf3gicas",p="Full S
 return A.ek(A.a([B.KN,A.b9(s,24,s),new A.dz("ITTI Digital","Software Engineer","October 2023 - Present","Backend Java/Kotlin Development in Fraud Tribe.",s),A.b9(s,8,s),new A.dz("Grupo Iraola","Technical Lead","March 2023 - October 2023","Technical Lead of the Software Development area of the company. Team of 5 developers.",s),A.b9(s,8,s),new A.dz("Galicia Seguros",r,"May 2022 - March 2023","Technical Owner in Insurance Experience Integration product. Team of 6 members.",s),A.b9(s,8,s),new A.dz(q,r,"May 2021 - April 2022","Technical Owner in OSDE (Private Health Insurance) Digital Credential evolution product. Team of 11 members.",s),A.b9(s,8,s),new A.dz(q,"Software Architect","May 2020 - April 2021","Software Architect at OSDE.",s),A.b9(s,8,s),new A.dz("QMAX Energ\xedas renovables","Mobile App Developer","August 2018 - April 2020","Android and Flutter applications development. Firmware development for IoT devices.",s),A.b9(s,8,s),new A.dz("hfunes.com","Freelance Consulting and Development","August 2018 - December 2019","Java web systems development. Android applications development. IoT systems development.",s),A.b9(s,8,s),new A.dz("BarloventoTech","System Analyst Programmer / Technical Lead","April 2014 - July 2018","Java web systems development and deployment. Technical lead in management and billing system development. Team of 4 developers.",s),A.b9(s,8,s),new A.dz("MBSoft S.A.",p,"March 2013 - March 2014","Java web ERP system development.",s),A.b9(s,8,s),new A.dz(o,p,"January 2012 - February 2013","Internal Java web applications development.",s),A.b9(s,8,s),new A.dz(o,"Technical support & Help Desk","May 2006 - December 2011","Technical support and help desk for local and remote users. Servers administration and configuration.",s)],t.p),B.a1)}}
 A.Cj.prototype={
 P(a){var s=null
-return A.ek(A.a([A.cY("SUMMARY",A.nd(s,s,new A.y(4280318407),s,s,s,s,s,s,s,s,14,s,s,B.ad,s,s,!0,s,s,s,s,s,s,s,s),s),A.b9(s,8,s),B.KU],t.p),B.a1)}}
+return A.ek(A.a([A.cY("SUMMARY",A.nd(s,s,new A.y(4280318407),s,s,s,s,s,s,s,s,12,s,s,B.ad,s,s,!0,s,s,s,s,s,s,s,s),s),A.b9(s,8,s),B.KU],t.p),B.a1)}}
 A.zn.prototype={
 P(a){var s=null
 return A.ek(A.a([B.KV,A.b9(s,24,s),A.cY("\u2022 Native Spanish.",B.v8,s),A.cY("\u2022 English B1+ (Learning)",B.v8,s)],t.p),B.a1)}}
@@ -62798,7 +62798,7 @@ B.JT=new A.k(!0,B.y,null,"Roboto",B.z,null,null,null,null,null,null,null,null,nu
 B.Jl=new A.k(!0,B.k,null,"Roboto",B.z,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"blackHelsinki labelMedium",null,null,null,null)
 B.Jv=new A.k(!0,B.k,null,"Roboto",B.z,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"blackHelsinki labelSmall",null,null,null,null)
 B.KH=new A.cQ(B.Kc,B.HR,B.ID,B.Jk,B.Jx,B.Hn,B.Ih,B.Hr,B.J8,B.JJ,B.IJ,B.JK,B.JT,B.Jl,B.Jv)
-B.dc=new A.k(!0,B.jh,null,null,null,null,14,B.ad,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+B.dc=new A.k(!0,B.jh,null,null,null,null,12,B.ad,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.KJ=new A.cE("CORE SKILLS",null,B.dc,null,null)
 B.KK=new A.cE("EDUCATION",null,B.dc,null,null)
 B.KM=new A.cE("TOOLS AND TECHNOLOGIES",null,B.dc,null,null)
