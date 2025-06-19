@@ -57520,13 +57520,13 @@ dI(a,b){var s=this.a,r=J.bF(s)
 if(b?r.C(s,a):r.v(s,a))this.a9()}}
 A.lN.prototype={
 P(a){var s=null
-return A.eb(A.a([A.cU(this.c,B.uZ,s),A.b7(s,4,s),A.cU(this.d,B.v0,s),A.b7(s,4,s),A.cU(this.e,B.v2,s),A.b7(s,12,s)],t.p),B.a0)}}
+return A.eb(A.a([A.cU(this.c,B.uZ,s),A.b7(s,4,s),A.cU(this.d,B.v_,s),A.b7(s,4,s),A.cU(this.e,B.v2,s),A.b7(s,12,s)],t.p),B.a0)}}
 A.xR.prototype={
 P(a){var s=null,r="National University of La Matanza"
 return A.eb(A.a([B.Kx,A.b7(s,24,s),new A.lN(r,"Bachelor of Computer Engineering","2009 - 2021",s),A.b7(s,12,s),new A.lN(r,"University Technician in Software Development","2009 - 2019",s),A.b7(s,12,s),new A.lN("Technical Education School N\xba2 - Republic of Peru","Electronics Technician","1999 - 2003",s)],t.p),B.a0)}}
 A.ds.prototype={
 P(a){var s=this,r=null
-return A.eb(A.a([A.cU(s.c,B.uZ,r),A.b7(r,4,r),A.cU(s.d,B.v0,r),A.b7(r,2,r),A.cU(s.e,B.v2,r),A.b7(r,2,r),A.cU(s.f,B.Hs,r),A.b7(r,16,r)],t.p),B.a0)}}
+return A.eb(A.a([A.cU(s.c,B.uZ,r),A.b7(r,4,r),A.cU(s.d,B.v_,r),A.b7(r,2,r),A.cU(s.e,B.v2,r),A.b7(r,2,r),A.cU(s.f,B.Hs,r),A.b7(r,16,r)],t.p),B.a0)}}
 A.y4.prototype={
 P(a){var s=null,r="Technical Owner",q="CDT Soluciones Tecnol\xf3gicas",p="Full Stack Developer",o="Mirgor S.A."
 return A.eb(A.a([B.KE,A.b7(s,24,s),new A.ds("ITTI Digital","Software Engineer","October 2023 - Present","Backend Java/Kotlin Development in Fraud Tribe.",s),A.b7(s,8,s),new A.ds("Grupo Iraola","Technical Lead","March 2023 - October 2023","Technical Lead of the Software Development area of the company. Team of 5 developers.",s),A.b7(s,8,s),new A.ds("Galicia Seguros",r,"May 2022 - March 2023","Technical Owner in Insurance Experience Integration product. Team of 6 members.",s),A.b7(s,8,s),new A.ds(q,r,"May 2021 - April 2022","Technical Owner in OSDE (Private Health Insurance) Digital Credential evolution product. Team of 11 members.",s),A.b7(s,8,s),new A.ds(q,"Software Architect","May 2020 - April 2021","Software Architect at OSDE.",s),A.b7(s,8,s),new A.ds("QMAX Energ\xedas renovables","Mobile App Developer","August 2018 - April 2020","Android and Flutter applications development. Firmware development for IoT devices.",s),A.b7(s,8,s),new A.ds("hfunes.com","Freelance Consulting and Development","August 2018 - December 2019","Java web systems development. Android applications development. IoT systems development.",s),A.b7(s,8,s),new A.ds("BarloventoTech","System Analyst Programmer / Technical Lead","April 2014 - July 2018","Java web systems development and deployment. Technical lead in management and billing system development. Team of 4 developers.",s),A.b7(s,8,s),new A.ds("MBSoft S.A.",p,"March 2013 - March 2014","Java web ERP system development.",s),A.b7(s,8,s),new A.ds(o,p,"January 2012 - February 2013","Internal Java web applications development.",s),A.b7(s,8,s),new A.ds(o,"Technical support & Help Desk","May 2006 - December 2011","Technical support and help desk for local and remote users. Servers administration and configuration.",s)],t.p),B.a0)}}
@@ -57535,7 +57535,7 @@ P(a){var s=null
 return A.eb(A.a([A.cU("SUMMARY",A.mX(s,s,new A.y(4278203238),s,s,s,s,s,s,s,s,14,s,s,B.ax,s,s,!0,s,s,s,s,s,s,s,s),s),A.b7(s,8,s),B.KH],t.p),B.a0)}}
 A.yV.prototype={
 P(a){var s=null
-return A.eb(A.a([B.KA,A.b7(s,24,s),A.cU("\u2022 Native Spanish.",B.v_,s),A.cU("\u2022 English B1+ (Learning)",B.v_,s)],t.p),B.a0)}}
+return A.eb(A.a([B.KA,A.b7(s,24,s),A.cU("\u2022 Native Spanish.",B.v0,s),A.cU("\u2022 English B1+ (Learning)",B.v0,s)],t.p),B.a0)}}
 A.Bz.prototype={
 P(a){var s=null
 return A.eb(A.a([B.KB,A.b7(s,24,s),A.cU("\u2022 Monolithic and Microservices Design and Implementation.",B.al,s),A.cU("\u2022 Development Design Patterns.",B.al,s),A.cU("\u2022 Scalable Architecture Patterns.",B.al,s),A.cU("\u2022 Cloud Computing (AWS, Serverless, Docker).",B.al,s),A.cU("\u2022 System Integration (REST, SOAP, API Gateways).",B.al,s),A.cU("\u2022 Database Design and Optimization (Relational & NoSQL)",B.al,s)],t.p),B.a0)}}
@@ -57549,7 +57549,7 @@ A.zp.prototype={
 P(a){return new A.qh(new A.zq(null),"Hern\xe1n Javier Funes",A.a6b(B.U,"Segoe UI",B.CS,B.i,B.Ki,null,A.a6n(A.jp())),null)}}
 A.zq.prototype={
 P(a){var s=null,r=new A.bU(B.k,2,B.I,-1),q=A.a3d(8),p=t.p
-return new A.rp(new A.Bx(A.a0e(s,A.a04(A.a0e(s,A.a5I(A.a([A.a4f(A.eb(A.a([new A.yw(s),A.b7(s,24,s),new A.BO(s),A.b7(s,24,s),new A.y4(s),A.b7(s,24,s),new A.xR(s),A.b7(s,24,s)],p),B.a0),3),A.b7(s,s,24),A.a4f(A.eb(A.a([new A.yx(s),A.b7(s,24,s),new A.Bz(s),A.b7(s,24,s),new A.C7(s),A.b7(s,24,s),new A.yV(s),A.b7(s,24,s)],p),B.a0),1)],p),B.a0,B.h7),s,new A.h1(B.i,s,new A.cD(r,r,r,r),q,s,s,B.cb),s,s,new A.bs(16,16,16,16),800),s,s),B.i,s,s,s,new A.bs(16,20,16,20),s),s),s)}}
+return new A.rp(new A.Bx(A.a0e(s,A.a04(A.a0e(s,A.a5I(A.a([A.a4f(A.eb(A.a([new A.yw(s),A.b7(s,24,s),new A.BO(s),A.b7(s,24,s),new A.y4(s),A.b7(s,24,s)],p),B.a0),3),A.b7(s,s,24),A.a4f(A.eb(A.a([new A.yx(s),A.b7(s,24,s),new A.Bz(s),A.b7(s,24,s),new A.C7(s),A.b7(s,24,s),new A.yV(s),A.b7(s,24,s),new A.xR(s),A.b7(s,24,s)],p),B.a0),1)],p),B.a0,B.h7),s,new A.h1(B.i,s,new A.cD(r,r,r,r),q,s,s,B.cb),s,s,new A.bs(16,16,16,16),800),s,s),B.i,s,s,s,new A.bs(16,20,16,20),s),s),s)}}
 A.b0.prototype={
 aw(a){var s=a.a,r=this.a
 r[15]=s[15]
@@ -61442,8 +61442,8 @@ B.Hs=new A.m(!0,B.k,null,null,null,null,11,null,null,null,null,null,1.3,null,nul
 B.j9=new A.y(4278203238)
 B.HA=new A.m(!0,B.j9,null,null,null,null,39,B.ax,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.IB=new A.m(!0,null,null,null,null,null,null,B.ax,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.v_=new A.m(!0,B.k,null,null,null,null,10,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.v0=new A.m(!0,B.k,null,null,null,null,11,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+B.v0=new A.m(!0,B.k,null,null,null,null,10,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+B.v_=new A.m(!0,B.k,null,null,null,null,11,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.xt=new A.y(3506372608)
 B.GY=new A.t6(1)
 B.yk=new A.y(4294967040)
