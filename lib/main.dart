@@ -56,6 +56,7 @@ class MyHomePage extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Expanded(
+                    flex: 3,
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
@@ -71,18 +72,21 @@ class MyHomePage extends StatelessWidget {
                     ),
                   ),
                   SizedBox(width: 24.0),
-                  Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      HeaderColumn(),
-                      SizedBox(height: 24.0),
-                      SkillsSection(),
-                      SizedBox(height: 24.0),
-                      ToolsSection(),
-                      SizedBox(height: 24.0),
-                      LanguagesSection(),
-                      SizedBox(height: 24.0),
-                    ],
+                  Expanded(
+                    flex: 1,
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        HeaderColumn(),
+                        SizedBox(height: 24.0),
+                        SkillsSection(),
+                        SizedBox(height: 24.0),
+                        ToolsSection(),
+                        SizedBox(height: 24.0),
+                        LanguagesSection(),
+                        SizedBox(height: 24.0),
+                      ],
+                    ),
                   ),
                 ],
               ),
