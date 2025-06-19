@@ -60,7 +60,7 @@ class HeaderColumn extends StatelessWidget {
             InkWell(
               onTap: () => _launch('https://linkedin.com/in/hernan-javier-funes'),
               child: const Text(
-                'http://linkedin.com/in/hernan-javier-funes',
+                'linkedin.com/in/hernan-javier-funes',
                 style: TextStyle(
                   fontSize: 12,
                   color: Color(0xFF6A6A6A),
