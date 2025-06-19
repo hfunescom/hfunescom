@@ -28,7 +28,7 @@ class EducationItem extends StatelessWidget {
         Text(
           title,
           style: const TextStyle(
-            fontSize: 11,
+            fontSize: 12,
             color: Colors.black,
           ),
         ),
@@ -36,7 +36,7 @@ class EducationItem extends StatelessWidget {
         Text(
           period,
           style: const TextStyle(
-            fontSize: 10,
+            fontSize: 11,
             color: Color(0xFF4A4A4A),
             fontStyle: FontStyle.italic,
           ),
