@@ -21,6 +21,14 @@ class HeaderColumn extends StatelessWidget {
             color: Color(0xFF6A6A6A),
           ),
         ),
+        SizedBox(height: 8),
+        Text(
+          'http://linkedin.com/in/hernan-javier-funes',
+          style: TextStyle(
+            fontSize: 12,
+            color: Color(0xFF6A6A6A),
+          ),
+        ),
         SizedBox(height: 16),
       ],
     );
