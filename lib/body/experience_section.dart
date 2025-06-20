@@ -34,7 +34,7 @@ class ExperienceSection extends StatelessWidget {
               title: 'Technical Lead',
               period: 'March 2023 - October 2023',
               tasks:
-                  'Technical Lead of the Software Development area of the company. Team of 5 developers.',
+                  'Technical Lead of the Software Development area of the company.\nTeam of 5 developers.',
             ),
           ],
         ),
@@ -46,7 +46,7 @@ class ExperienceSection extends StatelessWidget {
               title: 'Technical Owner',
               period: 'May 2022 - March 2023',
               tasks:
-                  'Technical Owner in Insurance Experience Integration product. Team of 6 members.',
+                  'Technical Owner in Insurance Experience Integration product.\nTeam of 6 members.',
             ),
           ],
         ),
@@ -58,7 +58,7 @@ class ExperienceSection extends StatelessWidget {
               title: 'Technical Owner',
               period: 'May 2021 - April 2022',
               tasks:
-                  'Technical Owner in OSDE (Private Health Insurance) Digital Credential evolution product. Team of 11 members.',
+                  'Technical Owner in OSDE (Private Health Insurance) Digital Credential evolution product.\nTeam of 11 members.',
             ),
             ExperienceRole(
               title: 'Software Architect',
@@ -99,7 +99,7 @@ class ExperienceSection extends StatelessWidget {
               title: 'Technical Lead',
               period: 'July 2017 - July 2018',
               tasks:
-                  'Technical lead in management and billing system development. Team of 4 developers.',
+                  'Technical lead in management and billing system development.\nTeam of 4 developers.',
             ),
             ExperienceRole(
               title: 'Software Engineer',
