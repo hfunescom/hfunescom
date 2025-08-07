@@ -101,12 +101,13 @@ class ExperienceSection extends StatelessWidget {
               title: 'Technical Lead',
               period: 'July 2017 - July 2018',
               tasks:
-                  'Technical lead in management and billing system development.\nTeam of 4 developers.',
+                  '- Led a team of 4 developers in the design and implementation of management and billing systems using Java and web technologies.\n- Defined technical scope and oversaw solution delivery, ensuring code quality and adherence to business requirements.',
             ),
             ExperienceRole(
-              title: 'Software Engineer',
+              title: 'Fullstack Developer',
               period: 'April 2014 - July 2017',
-              tasks: 'Java web systems development and deployment.',
+              tasks:
+                  '- Developed and deployed Java based web applications, contributing across the stack from backend logic to frontend interfaces.\n- Participated in continuous delivery efforts, bug fixing, and performance tuning of production systems.',
             ),
           ],
         ),
