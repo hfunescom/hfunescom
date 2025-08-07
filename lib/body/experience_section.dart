@@ -88,7 +88,7 @@ class ExperienceSection extends StatelessWidget {
               title: 'Freelance developer',
               period: 'August 2018 - December 2019',
               tasks:
-                  'Java web systems development. Android applications development. IoT systems development.',
+                  '- Delivered custom web, Android, and IoT solutions using Java, Flutter, and embedded systems technologies.\n- Managed end to end development lifecycle, gathering client requirements, defining architectures, and deploying solutions.',
             ),
           ],
         ),
