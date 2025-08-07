@@ -35,7 +35,7 @@ class ExperienceSection extends StatelessWidget {
               title: 'Technical Lead',
               period: 'March 2023 - October 2023',
               tasks:
-                  'Technical Lead of the Software Development area of the company.\nTeam of 5 developers.',
+                  '- Led a cross functional team of 5 developers (2 Backend, 1 Frontend, 1 Fullstack) working on Java Spring Boot and React based applications.\n- Defined technical requirements and solution scope in collaboration with Functional Analysts across multiple business domains.',
             ),
           ],
         ),
