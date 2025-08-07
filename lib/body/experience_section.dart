@@ -117,7 +117,7 @@ class ExperienceSection extends StatelessWidget {
             ExperienceRole(
               title: 'Full Stack Developer',
               period: 'March 2013 - March 2014',
-              tasks: 'Java web ERP system development.',
+              tasks: '- Developed and deployed Java based web applications, contributing across the stack from backend logic to frontend interfaces.\n- Participated in continuous delivery efforts, bug fixing, and performance tuning of production systems.',
             ),
           ],
         ),
