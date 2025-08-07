@@ -76,7 +76,7 @@ class ExperienceSection extends StatelessWidget {
               title: 'Mobile App Developer',
               period: 'August 2018 - April 2020',
               tasks:
-                  'Android and Flutter applications development. Firmware development for IoT devices.',
+                  '-Developed Android and Flutter applications to monitor and control renewable energy systems.\n-Built firmware and backend integrations for IoT devices, enabling real time data processing and device management.',
             ),
           ],
         ),
