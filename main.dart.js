@@ -58700,7 +58700,7 @@ P(a){var s=null
 return A.di(A.a([B.Lv,A.ca(s,24,s),new A.er("ITTI Digital",B.B7,s),A.ca(s,8,s),new A.er("Grupo Iraola",B.AY,s),A.ca(s,8,s),new A.er("Galicia Seguros",B.B0,s),A.ca(s,8,s),new A.er("CDT Soluciones Tecnol\xf3gicas / OSDE",B.BN,s),A.ca(s,8,s),new A.er("QMAX Energ\xedas renovables",B.BI,s),A.ca(s,8,s),new A.er("hfunes.com",B.Bh,s),A.ca(s,8,s),new A.er("BarloventoTech",B.B1,s),A.ca(s,8,s),new A.er("MBSoft S.A.",B.Bd,s),A.ca(s,8,s),new A.er("Mirgor S.A.",B.Bg,s)],t.p),B.S)}}
 A.tx.prototype={
 P(a){var s=null
-return A.di(A.a([A.cF("SUMMARY",A.nk(s,s,new A.y(4280318407),s,s,s,s,s,s,s,s,12,s,s,B.a3,s,s,!0,s,s,s,s,s,s,s,s),s),A.ca(s,8,s),B.Ly],t.p),B.S)}}
+return A.di(A.a([A.cF("SUMMARY",A.nk(s,s,new A.y(4280318407),s,s,s,s,s,s,s,s,12,s,s,B.a3,s,s,!0,s,s,s,s,s,s,s,s),s),A.ca(s,8,s),B.Lw],t.p),B.S)}}
 A.qx.prototype={
 P(a){var s=null
 return A.di(A.a([B.LK,A.ca(s,24,s),A.cF("\u2022 Native Spanish.",B.i8,s),A.cF("\u2022 English B1+ (Learning)",B.i8,s)],t.p),B.S)}}
@@ -58725,7 +58725,7 @@ return A.T(A.a4f(q),$async$kB)
 case 5:case 3:return A.O(null,r)}})
 return A.P($async$kB,r)},
 P(a){var s=null,r=t.p
-return A.di(A.a([B.LD,B.ao,A.BQ(A.a([A.a2C(!1,!0,B.Lz,s,!0,s,s,s,s,s,s,s,s,s,new A.OS(this),s)],r),B.cu,B.bR),B.ao,A.BQ(A.a([A.a2C(!1,!0,B.Lx,s,!0,s,s,s,s,s,s,s,s,s,new A.OT(this),s)],r),B.cu,B.bR),B.v6],r),B.S)}}
+return A.di(A.a([B.LD,B.ao,A.BQ(A.a([A.a2C(!1,!0,B.Lz,s,!0,s,s,s,s,s,s,s,s,s,new A.OS(this),s)],r),B.cu,B.bR),B.ao,A.BQ(A.a([A.a2C(!1,!0,B.Ly,s,!0,s,s,s,s,s,s,s,s,s,new A.OT(this),s)],r),B.cu,B.bR),B.v6],r),B.S)}}
 A.OS.prototype={
 $0(){return this.a.kB("https://github.com/hfunescom")},
 $S:0}
@@ -61605,7 +61605,7 @@ B.Bh=A.a(s([B.zo]),t.c)
 B.ap=new A.j(!0,B.k,null,null,null,null,10,B.a3,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.LA=new A.bS("\u2022 Programming languages",null,B.ap,null,null)
 B.c5=new A.j(!0,B.k,null,null,null,null,10,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.Lw=new A.bS("Java, Kotlin, JavaScript, HTML, Bootstrap, jQuery, Angular Js, Flutter, Android, Go.",null,B.c5,null,null)
+B.Lx=new A.bS("Java, Kotlin, JavaScript, HTML, Bootstrap, jQuery, Angular Js, Flutter, Android, Go.",null,B.c5,null,null)
 B.ao=new A.fY(null,8,null,null)
 B.LG=new A.bS("\u2022 Development Frameworks and Tools",null,B.ap,null,null)
 B.Lr=new A.bS("Spring/SpringBoot, Apache Struts, Maven, Gradle, Hibernate, Ionic, Git, SVN.",null,B.c5,null,null)
@@ -61617,7 +61617,7 @@ B.LJ=new A.bS("\u2022 Monitoring",null,B.ap,null,null)
 B.LE=new A.bS("AWS Cloudwatch, New Relic.",null,B.c5,null,null)
 B.LH=new A.bS("\u2022 Operating Systems",null,B.ap,null,null)
 B.LF=new A.bS("Linux / Linux server, Windows / Windows Server, MacOs, Bash, Windows PowerShell, Embedded Systems.",null,B.c5,null,null)
-B.Bk=A.a(s([B.LA,B.Lw,B.ao,B.LG,B.Lr,B.ao,B.Lq,B.LB,B.ao,B.LC,B.LI,B.ao,B.LJ,B.LE,B.ao,B.LH,B.LF]),t.p)
+B.Bk=A.a(s([B.LA,B.Lx,B.ao,B.LG,B.Lr,B.ao,B.Lq,B.LB,B.ao,B.LC,B.LI,B.ao,B.LJ,B.LE,B.ao,B.LH,B.LF]),t.p)
 B.jN=new A.dm(0)
 B.jO=new A.dm(1)
 B.U=new A.dm(4)
@@ -63207,10 +63207,10 @@ B.Ls=new A.bS("CORE SKILLS",null,B.dh,null,null)
 B.Lt=new A.bS("EDUCATION",null,B.dh,null,null)
 B.Lu=new A.bS("TOOLS AND TECHNOLOGIES",null,B.dh,null,null)
 B.Lv=new A.bS("EXPERIENCE",null,B.dh,null,null)
-B.vm=new A.j(!0,B.hj,null,null,null,null,12,null,null,null,null,null,null,null,null,null,null,B.vd,null,null,null,null,null,null,null,null)
-B.Lx=new A.bS("linkedin.com/in/hernan-javier-funes",null,B.vm,null,null)
 B.JF=new A.j(!0,null,null,null,null,null,12,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.Ly=new A.bS("Experienced Senior Software Developer with more than 12 years of expertise in developing and implementing scalable solutions. Driven by a passion for innovative software design and architecture, I am seeking opportunities to apply my skills in Senior technical roles, contributing to the strategic and technical success of forward-thinking projects.",null,B.JF,null,null)
+B.Lw=new A.bS("Experienced Software Developer with more than 12 years of expertise in developing and implementing scalable solutions. Currently training in AI Chatbots and AI Agents, with a strong interest in applying intelligent automation to real-world problems. Driven by a passion for innovative software design and architecture, I\u2019m seeking opportunities to contribute in Senior technical roles, whether as Developer, Tech Lead, or Software Architect, while also being open to projects involving AI technologies. My goal is to bring strategic and technical value to forward-thinking teams and organizations.",null,B.JF,null,null)
+B.vm=new A.j(!0,B.hj,null,null,null,null,12,null,null,null,null,null,null,null,null,null,null,B.vd,null,null,null,null,null,null,null,null)
+B.Ly=new A.bS("linkedin.com/in/hernan-javier-funes",null,B.vm,null,null)
 B.Lz=new A.bS("github.com/hfunescom",null,B.vm,null,null)
 B.yi=new A.y(4285164138)
 B.KM=new A.j(!0,B.yi,null,null,null,null,12,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
