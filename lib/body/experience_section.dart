@@ -46,7 +46,7 @@ class ExperienceSection extends StatelessWidget {
               title: 'Technical Owner',
               period: 'May 2022 - March 2023',
               tasks:
-                  'Technical Owner in Insurance Experience Integration product.\nTeam of 6 members.',
+                  '- Oversaw a team of 6 developers in the Insurance Experience Integration product, managing timelines, priorities, and team deliverables.\n- Collaborated with architects and stakeholders to align technical solutions with business goals, contributing to high level design decisions.',
             ),
           ],
         ),
