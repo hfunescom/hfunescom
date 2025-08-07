@@ -16,7 +16,7 @@ class SummarySection extends StatelessWidget {
         ),
         SizedBox(height: 8.0),
         const Text(
-          'Experienced Senior Software Developer with more than 12 years of expertise in developing and implementing scalable solutions. Driven by a passion for innovative software design and architecture, I am seeking opportunities to apply my skills in Senior technical roles, contributing to the strategic and technical success of forward-thinking projects.',
+          'Experienced Software Developer with more than 12 years of expertise in developing and implementing scalable solutions. Currently training in AI Chatbots and AI Agents, with a strong interest in applying intelligent automation to real-world problems. Driven by a passion for innovative software design and architecture, I’m seeking opportunities to contribute in Senior technical roles, whether as Developer, Tech Lead, or Software Architect, while also being open to projects involving AI technologies. My goal is to bring strategic and technical value to forward-thinking teams and organizations.',
           style: TextStyle(fontSize: 12),
         ),
       ],
