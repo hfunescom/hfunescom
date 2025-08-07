@@ -129,13 +129,14 @@ class ExperienceSection extends StatelessWidget {
             ExperienceRole(
               title: 'Full Stack Developer',
               period: 'January 2012 - February 2013',
-              tasks: 'Internal Java web applications development. ',
+              tasks:
+                  '- Built and maintained internal Java web applications to support business operations and reporting needs.\\n- Collaborated with end users to gather requirements and deliver tailored software solutions.',
             ),
             ExperienceRole(
               title: 'Technical support & Help desk',
               period: 'May 2006 - December 2011',
               tasks:
-                  'Technical support and help desk for local and remote users. Servers administration and configuration.',
+                  '- Provided help desk and on site support for local and remote users, managing servers and IT infrastructure.\\n- Developed strong communication and negotiation skills while resolving technical issues.',
             ),
           ],
         ),
