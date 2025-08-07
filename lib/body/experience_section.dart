@@ -22,7 +22,8 @@ class ExperienceSection extends StatelessWidget {
             ExperienceRole(
               title: 'Software Engineer',
               period: 'October 2023 - Present',
-              tasks: 'Backend Java/Kotlin Development in Fraud Tribe.',
+              tasks:
+                  '- Backend development with Kotlin (Fraud Squad) and Go (Security Squad), designing and implementing scalable microservices using AWS.\n- Collaborated closely with stakeholders to gather requirements, analyze business problems, and design technical solutions aligned with strategic goals.',
             ),
           ],
         ),
