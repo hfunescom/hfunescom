@@ -59,12 +59,13 @@ class ExperienceSection extends StatelessWidget {
               title: 'Technical Owner',
               period: 'May 2021 - April 2022',
               tasks:
-                  'Technical Owner in OSDE (Private Health Insurance) Digital Credential evolution product.\nTeam of 11 members.',
+                  '- Led a cross functional team of 11 members (Developers, UX designers, Functional analysts) in the evolution of OSDE’s Digital Credential product.\n- Drove technical planning and requirement definition, bridging product, design, and engineering teams to ensure delivery of scalable solutions.',
             ),
             ExperienceRole(
               title: 'Software Architect',
               period: 'May 2020 - April 2021',
-              tasks: 'Software Architect at OSDE.',
+              tasks:
+                  '- Designed and guided the implementation of scalable, maintainable solutions for Digital Credential product, using microservices and GCP cloud native patterns.\n- Defined architectural standards and collaborated with technical leads to ensure consistency across development teams and alignment with enterprise goals.',
             ),
           ],
         ),
