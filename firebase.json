@@ -7,14 +7,17 @@
       "**/node_modules/**"
     ],
     "rewrites": [
-      { "source": "/la-raspando/**", "destination": "/la-raspando/index.html" }
+      { "source": "/la-raspando/**", "destination": "/la-raspando/index.html" },
+      { "source": "**", "destination": "/index.html" }
     ],
     "headers": [
       {
         "source": "/la-raspando/**",
-        "headers": [
-          { "key": "Cache-Control", "value": "public, max-age=300" }
-        ]
+        "headers": [{ "key": "Cache-Control", "value": "public, max-age=300" }]
+      },
+      {
+        "source": "/**",
+        "headers": [{ "key": "Cache-Control", "value": "public, max-age=300" }]
       }
     ]
   }
