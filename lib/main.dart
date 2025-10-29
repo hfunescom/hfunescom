@@ -48,89 +48,93 @@ class MyHomePage extends StatelessWidget {
               color: Colors.white,
               padding: const EdgeInsets.symmetric(vertical: 20.0, horizontal: 16.0),
               child: Center(
-                child: Container(
-                  width: isMobile ? double.infinity : 1024,
-                  decoration: BoxDecoration(
-                    border: Border.all(color: Colors.black, width: 2.0),
-                    borderRadius: BorderRadius.circular(8.0),
-                    color: Colors.white,
-                  ),
-                  padding: const EdgeInsets.all(16.0),
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.stretch,
-                    children: [
-                      if (isMobile)
-                        Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            Header(),
-                            const SizedBox(height: 24.0),
-                            const HeaderColumn(),
-                            const SizedBox(height: 24.0),
-                            SummarySection(),
-                            const SizedBox(height: 24.0),
-                            ExperienceSection(),
-                            const SizedBox(height: 24.0),
-                            SkillsSection(),
-                            const SizedBox(height: 24.0),
-                            ToolsSection(),
-                            const SizedBox(height: 24.0),
-                            LanguagesSection(),
-                            const SizedBox(height: 24.0),
-                            EducationSection(),
-                          ],
-                        )
-                      else
-                        Row(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            Expanded(
-                              flex: 7,
-                              child: Column(
-                                crossAxisAlignment: CrossAxisAlignment.start,
-                                children: [
-                                  Header(),
-                                  const SizedBox(height: 24.0),
-                                  SummarySection(),
-                                  const SizedBox(height: 24.0),
-                                  ExperienceSection(),
-                                ],
-                              ),
-                            ),
-                            const SizedBox(width: 24.0),
-                            Expanded(
-                              flex: 3,
-                              child: Column(
-                                crossAxisAlignment: CrossAxisAlignment.start,
-                                children: [
-                                  const HeaderColumn(),
-                                  const SizedBox(height: 24.0),
-                                  SkillsSection(),
-                                  const SizedBox(height: 24.0),
-                                  ToolsSection(),
-                                  const SizedBox(height: 24.0),
-                                  LanguagesSection(),
-                                  const SizedBox(height: 24.0),
-                                  EducationSection(),
-                                ],
-                              ),
-                            ),
-                          ],
-                        ),
-                      const SizedBox(height: 32.0),
-                      FooterWidget(),
-                      const SizedBox(height: 16.0),
-                      const Center(
-                        child: Text(
-                          'Copyrigth 2025',
-                          style: TextStyle(
-                            color: Color(0xFF4A4A4A),
-                            fontSize: 14.0,
-                          ),
-                        ),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  children: [
+                    Container(
+                      width: isMobile ? double.infinity : 1024,
+                      decoration: BoxDecoration(
+                        border: Border.all(color: Colors.black, width: 2.0),
+                        borderRadius: BorderRadius.circular(8.0),
+                        color: Colors.white,
                       ),
-                    ],
-                  ),
+                      padding: const EdgeInsets.all(16.0),
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.stretch,
+                        children: [
+                          if (isMobile)
+                            Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Header(),
+                                const SizedBox(height: 24.0),
+                                const HeaderColumn(),
+                                const SizedBox(height: 24.0),
+                                SummarySection(),
+                                const SizedBox(height: 24.0),
+                                ExperienceSection(),
+                                const SizedBox(height: 24.0),
+                                SkillsSection(),
+                                const SizedBox(height: 24.0),
+                                ToolsSection(),
+                                const SizedBox(height: 24.0),
+                                LanguagesSection(),
+                                const SizedBox(height: 24.0),
+                                EducationSection(),
+                              ],
+                            )
+                          else
+                            Row(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Expanded(
+                                  flex: 7,
+                                  child: Column(
+                                    crossAxisAlignment: CrossAxisAlignment.start,
+                                    children: [
+                                      Header(),
+                                      const SizedBox(height: 24.0),
+                                      SummarySection(),
+                                      const SizedBox(height: 24.0),
+                                      ExperienceSection(),
+                                    ],
+                                  ),
+                                ),
+                                const SizedBox(width: 24.0),
+                                Expanded(
+                                  flex: 3,
+                                  child: Column(
+                                    crossAxisAlignment: CrossAxisAlignment.start,
+                                    children: [
+                                      const HeaderColumn(),
+                                      const SizedBox(height: 24.0),
+                                      SkillsSection(),
+                                      const SizedBox(height: 24.0),
+                                      ToolsSection(),
+                                      const SizedBox(height: 24.0),
+                                      LanguagesSection(),
+                                      const SizedBox(height: 24.0),
+                                      EducationSection(),
+                                    ],
+                                  ),
+                                ),
+                              ],
+                            ),
+                        ],
+                      ),
+                    ),
+                    const SizedBox(height: 32.0),
+                    FooterWidget(),
+                    const SizedBox(height: 16.0),
+                    const Text(
+                      'Copyright 2025',
+                      textAlign: TextAlign.center,
+                      style: TextStyle(
+                        color: Color(0xFF4A4A4A),
+                        fontSize: 14.0,
+                      ),
+                    ),
+                  ],
                 ),
               ),
             ),
