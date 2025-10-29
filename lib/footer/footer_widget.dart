@@ -20,19 +20,38 @@ class FooterWidget extends StatelessWidget {
     }
 
     ui.platformViewRegistry.registerViewFactory('bmc-widget', (int viewId) {
-      final container = html.DivElement();
-      final script = html.ScriptElement()
-        ..setAttribute('data-name', 'BMC-Widget')
-        ..setAttribute('data-cfasync', 'false')
-        ..src = 'https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js'
-        ..setAttribute('data-id', 'lNSP2t9')
-        ..setAttribute('data-description', 'Support me on Buy me a coffee!')
-        ..setAttribute('data-message', '')
-        ..setAttribute('data-color', '#5F7FFF')
-        ..setAttribute('data-position', 'Right')
-        ..setAttribute('data-x_margin', '18')
-        ..setAttribute('data-y_margin', '18');
-      container.children.add(script);
+      final container = html.DivElement()
+        ..style.display = 'flex'
+        ..style.justifyContent = 'center';
+
+      final anchor = html.AnchorElement(href: 'https://www.buymeacoffee.com/lNSP2t9')
+        ..rel = 'noopener'
+        ..target = '_blank';
+      final image = html.ImageElement()
+        ..src = 'https://cdn.buymeacoffee.com/buttons/v2/default-blue.png'
+        ..alt = 'Buy me a coffee'
+        ..style.height = '60px'
+        ..style.width = '217px';
+      anchor.children.add(image);
+      container.children.add(anchor);
+
+      final existingWidgetScript = html.document.querySelector(
+          'script[data-name="BMC-Widget"][data-id="lNSP2t9"]');
+      if (existingWidgetScript == null) {
+        final script = html.ScriptElement()
+          ..setAttribute('data-name', 'BMC-Widget')
+          ..setAttribute('data-cfasync', 'false')
+          ..src = 'https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js'
+          ..setAttribute('data-id', 'lNSP2t9')
+          ..setAttribute('data-description', 'Support me on Buy me a coffee!')
+          ..setAttribute('data-message', '')
+          ..setAttribute('data-color', '#5F7FFF')
+          ..setAttribute('data-position', 'Right')
+          ..setAttribute('data-x_margin', '18')
+          ..setAttribute('data-y_margin', '18');
+        html.document.body?.append(script);
+      }
+
       return container;
     });
 
@@ -75,7 +94,7 @@ class FooterWidget extends StatelessWidget {
                 width: widgetWidth,
                 height: 80,
                 child: kIsWeb
-                    ? const HtmlElementView(viewType: 'bmc-widget')
+                    ? const HtmlElementView(viewType: 'cafecito-widget')
                     : const SizedBox.shrink(),
               ),
               SizedBox(width: spacerWidth),
@@ -83,7 +102,7 @@ class FooterWidget extends StatelessWidget {
                 width: widgetWidth,
                 height: 80,
                 child: kIsWeb
-                    ? const HtmlElementView(viewType: 'cafecito-widget')
+                    ? const HtmlElementView(viewType: 'bmc-widget')
                     : const SizedBox.shrink(),
               ),
             ],
