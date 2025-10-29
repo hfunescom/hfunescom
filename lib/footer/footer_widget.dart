@@ -13,6 +13,8 @@ class FooterWidget extends StatelessWidget {
   }
 
   static bool _factoriesRegistered = false;
+  static const double _maxFooterWidth = 1024.0;
+  static const String _donationButtonHeight = '60px';
 
   void _registerFactories() {
     if (_factoriesRegistered) {
@@ -30,7 +32,7 @@ class FooterWidget extends StatelessWidget {
       final image = html.ImageElement()
         ..src = 'https://cdn.buymeacoffee.com/buttons/v2/default-blue.png'
         ..alt = 'Buy me a coffee'
-        ..style.height = '60px'
+        ..style.height = _donationButtonHeight
         ..style.width = '217px';
       anchor.children.add(image);
       container.children.add(anchor);
@@ -65,7 +67,8 @@ class FooterWidget extends StatelessWidget {
         ..src = 'https://cdn.cafecito.app/imgs/buttons/button_6.png'
         ..srcset =
             'https://cdn.cafecito.app/imgs/buttons/button_6.png 1x, https://cdn.cafecito.app/imgs/buttons/button_6_2x.png 2x, https://cdn.cafecito.app/imgs/buttons/button_6_3.75x.png 3.75x'
-        ..alt = 'Invitame un café en cafecito.app';
+        ..alt = 'Invitame un café en cafecito.app'
+        ..style.height = _donationButtonHeight;
       anchor.children.add(image);
       container.children.add(anchor);
       return container;
@@ -76,39 +79,54 @@ class FooterWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      padding: const EdgeInsets.symmetric(vertical: 24.0, horizontal: 16.0),
-      decoration: BoxDecoration(
-        color: const Color(0xFFD7ECFF),
-        borderRadius: BorderRadius.circular(12.0),
-      ),
-      child: LayoutBuilder(
-        builder: (context, constraints) {
-          final widgetWidth = constraints.maxWidth * 0.4;
-          final spacerWidth = constraints.maxWidth * 0.05;
+    return LayoutBuilder(
+      builder: (context, constraints) {
+        final availableWidth = constraints.maxWidth.isFinite
+            ? constraints.maxWidth
+            : MediaQuery.of(context).size.width;
+        final maxContentWidth =
+            availableWidth > _maxFooterWidth ? _maxFooterWidth : availableWidth;
 
-          return Row(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              SizedBox(
-                width: widgetWidth,
-                height: 80,
-                child: kIsWeb
-                    ? const HtmlElementView(viewType: 'cafecito-widget')
-                    : const SizedBox.shrink(),
-              ),
-              SizedBox(width: spacerWidth),
-              SizedBox(
-                width: widgetWidth,
-                height: 80,
-                child: kIsWeb
-                    ? const HtmlElementView(viewType: 'bmc-widget')
-                    : const SizedBox.shrink(),
-              ),
-            ],
-          );
-        },
-      ),
+        return Align(
+          alignment: Alignment.center,
+          child: Container(
+            width: maxContentWidth,
+            padding:
+                const EdgeInsets.symmetric(vertical: 24.0, horizontal: 16.0),
+            decoration: BoxDecoration(
+              color: const Color(0xFFD7ECFF),
+              borderRadius: BorderRadius.circular(12.0),
+            ),
+            child: LayoutBuilder(
+              builder: (context, innerConstraints) {
+                final widgetWidth = innerConstraints.maxWidth * 0.4;
+                final spacerWidth = innerConstraints.maxWidth * 0.05;
+
+                return Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    SizedBox(
+                      width: widgetWidth,
+                      height: 80,
+                      child: kIsWeb
+                          ? const HtmlElementView(viewType: 'cafecito-widget')
+                          : const SizedBox.shrink(),
+                    ),
+                    SizedBox(width: spacerWidth),
+                    SizedBox(
+                      width: widgetWidth,
+                      height: 80,
+                      child: kIsWeb
+                          ? const HtmlElementView(viewType: 'bmc-widget')
+                          : const SizedBox.shrink(),
+                    ),
+                  ],
+                );
+              },
+            ),
+          ),
+        );
+      },
     );
   }
 }
