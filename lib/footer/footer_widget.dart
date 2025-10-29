@@ -14,7 +14,14 @@ class FooterWidget extends StatelessWidget {
 
   static bool _factoriesRegistered = false;
   static const double _maxFooterWidth = 1024.0;
-  static const String _donationButtonHeight = '60px';
+  static const double _widgetScale = 0.7;
+  static final String _donationButtonHeight =
+      '${(60 * _widgetScale).round()}px';
+  static final String _donationButtonWidth =
+      '${(217 * _widgetScale).round()}px';
+  static const double _widgetWidthFactor = 0.4 * _widgetScale;
+  static const double _spacerWidthFactor = 0.05 * _widgetScale;
+  static const double _widgetHeight = 80 * _widgetScale;
 
   void _registerFactories() {
     if (_factoriesRegistered) {
@@ -33,7 +40,7 @@ class FooterWidget extends StatelessWidget {
         ..src = 'https://cdn.buymeacoffee.com/buttons/v2/default-blue.png'
         ..alt = 'Buy me a coffee'
         ..style.height = _donationButtonHeight
-        ..style.width = '217px';
+        ..style.width = _donationButtonWidth;
       anchor.children.add(image);
       container.children.add(anchor);
 
@@ -99,15 +106,17 @@ class FooterWidget extends StatelessWidget {
             ),
             child: LayoutBuilder(
               builder: (context, innerConstraints) {
-                final widgetWidth = innerConstraints.maxWidth * 0.4;
-                final spacerWidth = innerConstraints.maxWidth * 0.05;
+                final widgetWidth =
+                    innerConstraints.maxWidth * _widgetWidthFactor;
+                final spacerWidth =
+                    innerConstraints.maxWidth * _spacerWidthFactor;
 
                 return Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     SizedBox(
                       width: widgetWidth,
-                      height: 80,
+                      height: _widgetHeight,
                       child: kIsWeb
                           ? const HtmlElementView(viewType: 'cafecito-widget')
                           : const SizedBox.shrink(),
@@ -115,7 +124,7 @@ class FooterWidget extends StatelessWidget {
                     SizedBox(width: spacerWidth),
                     SizedBox(
                       width: widgetWidth,
-                      height: 80,
+                      height: _widgetHeight,
                       child: kIsWeb
                           ? const HtmlElementView(viewType: 'bmc-widget')
                           : const SizedBox.shrink(),
