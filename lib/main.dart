@@ -8,6 +8,7 @@ import 'body/education_section.dart';
 import 'body_column/skills_section.dart'; // Importar el componente SkillsSection
 import 'body_column/tools_section.dart'; // Importar el componente ToolsSection
 import 'body_column/languages_section.dart'; // Importar el componente LanguagesSection
+import 'footer/footer_widget.dart';
 
 void main() {
   runApp(MyApp());
@@ -55,8 +56,11 @@ class MyHomePage extends StatelessWidget {
                     color: Colors.white,
                   ),
                   padding: const EdgeInsets.all(16.0),
-                  child: isMobile
-                      ? Column(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.stretch,
+                    children: [
+                      if (isMobile)
+                        Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Header(),
@@ -74,10 +78,10 @@ class MyHomePage extends StatelessWidget {
                             LanguagesSection(),
                             const SizedBox(height: 24.0),
                             EducationSection(),
-                            const SizedBox(height: 24.0),
                           ],
                         )
-                      : Row(
+                      else
+                        Row(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Expanded(
@@ -90,7 +94,6 @@ class MyHomePage extends StatelessWidget {
                                   SummarySection(),
                                   const SizedBox(height: 24.0),
                                   ExperienceSection(),
-                                  const SizedBox(height: 24.0),
                                 ],
                               ),
                             ),
@@ -109,12 +112,25 @@ class MyHomePage extends StatelessWidget {
                                   LanguagesSection(),
                                   const SizedBox(height: 24.0),
                                   EducationSection(),
-                                  const SizedBox(height: 24.0),
                                 ],
                               ),
                             ),
                           ],
                         ),
+                      const SizedBox(height: 32.0),
+                      FooterWidget(),
+                      const SizedBox(height: 16.0),
+                      const Center(
+                        child: Text(
+                          'Copyrigth 2025',
+                          style: TextStyle(
+                            color: Color(0xFF4A4A4A),
+                            fontSize: 14.0,
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
                 ),
               ),
             ),
