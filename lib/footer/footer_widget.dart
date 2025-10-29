@@ -94,7 +94,7 @@ class FooterWidget extends StatelessWidget {
             padding:
                 const EdgeInsets.symmetric(vertical: 24.0, horizontal: 16.0),
             decoration: BoxDecoration(
-              color: const Color(0xFFD7ECFF),
+              color: Colors.white,
               borderRadius: BorderRadius.circular(12.0),
             ),
             child: LayoutBuilder(
